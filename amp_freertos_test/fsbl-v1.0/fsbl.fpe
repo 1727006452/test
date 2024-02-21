@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project Version="1.02" Minor="0" Name="fsbl">
+    <Configuration>
+        <Option Name="Stage" Value="HDL Design loaded"/>
+        <Option Name="Description" Value=""/>
+        <Option Name="Family" Value="fmql"/>
+        <Option Name="Device" Value="fmql20s400"/>
+        <Option Name="Package" Value="wbfbga400"/>
+        <Option Name="Speed" Value="-2"/>
+    </Configuration>
+    <FileSets Version="1" Minor="0">
+        <FileSet Name="sources_1" Type="DesignSrcs" RelSrcDir="sources">
+            <File Path="bd/fsbl/hdl/fsbl.v">
+                <FileInfo Type="Verilog" Library="work"/>
+            </File>
+            <Config>
+                <Option Name="TopModule" Value="fsbl"/>
+                <Option Name="TopInstPath" Value="fsbl"/>
+            </Config>
+        </FileSet>
+        <FileSet Name="sources_1" Type="BlockSrcs" RelSrcDir="sources_1/BD">
+            <File Path="bd/fsbl/fsbl.bd">
+                <FileInfo Type="BD"/>
+            </File>
+        </FileSet>
+    </FileSets>
+    <DesignHierarchy>
+        <Module Name="fsbl_i" File="fsbl.bd" LineNum="0">
+            <Instance Name="fsbl" Module="fsbl" File="fsbl.v" LineNum="1">
+                <Instance Name="processing_system7_0" Module="fsbl_processing_system7_0" File="fsbl_processing_system7_0.fmi" LineNum="521"/>
+            </Instance>
+        </Module>
+        <Automatic_includes/>
+    </DesignHierarchy>
+    <BspRepositories>
+        <Local folder="F:/sw_install/Fudan Micro/Procise_2022/Procise/data/devicetree_rep"/>
+    </BspRepositories>
+</Project>

@@ -1,0 +1,205 @@
+Procise 2022.1
+SVN Version : 26989
+Build  time : 2022/06/24 09:06:18
+Start  time : 2022-12-08 16:06:31
+>>set_device fmql20s400
+  set_device elapsed_time 3.46 seconds, cpu_time 3.11 seconds
+  set_device used memory 555MB, procise used peak memory 629MB, current used memory 502MB
+>>load_design -stage_elaborate -no_hier
+  load block design C:/Users/Administrator/Desktop/MY7020/fsbl_7020-test/fsbl/bd/fsbl/fsbl.bd
+  load ip C:/Users/Administrator/Desktop/MY7020/fsbl_7020-test/fsbl/bd/fsbl/ip/fsbl_processing_system7_0/fsbl_processing_system7_0.fmi
+  -- Analyzing Verilog file 'C:/Users/Administrator/Desktop/MY7020/fsbl_7020-test/fsbl/bd/fsbl/hdl/fsbl.v' (VERI-1482)
+  load_design elapsed_time 0.27 seconds, cpu_time 0.31 seconds
+  load_design used memory 8MB, procise used peak memory 629MB, current used memory 503MB
+There is no avaible top module in current design!
+>>load_design -stage_elaborate -no_hier
+  load block design C:/Users/Administrator/Desktop/MY7020/fsbl_7020-test/fsbl/bd/fsbl/fsbl.bd
+  load ip C:/Users/Administrator/Desktop/MY7020/fsbl_7020-test/fsbl/bd/fsbl/ip/fsbl_processing_system7_0/fsbl_processing_system7_0.fmi
+  There is no avaible top module in current design!
+  load_design used memory 0MB, procise used peak memory 934MB, current used memory 933MB
+Begin to run IP fsbl_processing_system7_0 coregen
+Coregen finished
+WARNING: The following pins are not connected!
+/fsbl/processing_system7_0/PJTAG_TD_T
+/fsbl/processing_system7_0/TTC0_WAVE0_OUT
+/fsbl/processing_system7_0/TTC0_WAVE1_OUT
+/fsbl/processing_system7_0/TTC0_WAVE2_OUT
+/fsbl/processing_system7_0/TTC1_WAVE0_OUT
+....
+
+Block Design generate files successfully.
+>>load_design -stage_elaborate -no_hier
+  load block design C:/Users/Administrator/Desktop/MY7020/fsbl_7020-test/fsbl/bd/fsbl/fsbl.bd
+  load ip C:/Users/Administrator/Desktop/MY7020/fsbl_7020-test/fsbl/bd/fsbl/ip/fsbl_processing_system7_0/fsbl_processing_system7_0.fmi
+  -- Analyzing Verilog file 'C:/Users/Administrator/Desktop/MY7020/fsbl_7020-test/fsbl/bd/fsbl/hdl/fsbl.v' (VERI-1482)
+  load_design elapsed_time 0.26 seconds, cpu_time 0.30 seconds
+  load_design used memory 1MB, procise used peak memory 956MB, current used memory 941MB
+generate IAR example designes successfully.
+>>>Launching IAR...
+>>create_boot_image C:/Users/Administrator/Desktop/MY7020/output.bif C:/Users/Administrator/Desktop/MY7020/BOOT.bin
+  create_boot_image elapsed_time 0.13 seconds, cpu_time 0.06 seconds
+  create_boot_image used memory 0MB, procise used peak memory 985MB, current used memory 976MB
+There is no avaible top module in current design!
+>>load_design -stage_elaborate -no_hier
+  load block design C:/Users/Administrator/Desktop/MY7020/fsbl_7020-test/fsbl/bd/fsbl/fsbl.bd
+  load ip C:/Users/Administrator/Desktop/MY7020/fsbl_7020-test/fsbl/bd/fsbl/ip/fsbl_processing_system7_0/fsbl_processing_system7_0.fmi
+  There is no avaible top module in current design!
+  load_design used memory 0MB, procise used peak memory 985MB, current used memory 966MB
+Begin to run IP fsbl_processing_system7_0 coregen
+Coregen finished
+WARNING: The following pins are not connected!
+/fsbl/processing_system7_0/PJTAG_TD_T
+/fsbl/processing_system7_0/TTC0_WAVE0_OUT
+/fsbl/processing_system7_0/TTC0_WAVE1_OUT
+/fsbl/processing_system7_0/TTC0_WAVE2_OUT
+/fsbl/processing_system7_0/TTC1_WAVE0_OUT
+....
+
+Block Design generate files successfully.
+>>load_design -stage_elaborate -no_hier
+  load block design C:/Users/Administrator/Desktop/MY7020/fsbl_7020-test/fsbl/bd/fsbl/fsbl.bd
+  load ip C:/Users/Administrator/Desktop/MY7020/fsbl_7020-test/fsbl/bd/fsbl/ip/fsbl_processing_system7_0/fsbl_processing_system7_0.fmi
+  -- Analyzing Verilog file 'C:/Users/Administrator/Desktop/MY7020/fsbl_7020-test/fsbl/bd/fsbl/hdl/fsbl.v' (VERI-1482)
+  load_design elapsed_time 0.27 seconds, cpu_time 0.30 seconds
+  load_design used memory 2MB, procise used peak memory 989MB, current used memory 981MB
+>>>IAR closed.
+generate IAR example designes successfully.
+>>>Launching IAR...
+>>create_boot_image C:/Users/Administrator/Desktop/MY7020/output.bif C:/Users/Administrator/Desktop/MY7020/BOOT.bin
+  create_boot_image elapsed_time 0.06 seconds, cpu_time 0.05 seconds
+  create_boot_image used memory 0MB, procise used peak memory 1014MB, current used memory 991MB
+>>>IAR closed.
+There is no avaible top module in current design!
+>>load_design -stage_elaborate -no_hier
+  load block design C:/Users/Administrator/Desktop/MY7020/fsbl_7020-test/fsbl/bd/fsbl/fsbl.bd
+  load ip C:/Users/Administrator/Desktop/MY7020/fsbl_7020-test/fsbl/bd/fsbl/ip/fsbl_processing_system7_0/fsbl_processing_system7_0.fmi
+  There is no avaible top module in current design!
+  load_design used memory 0MB, procise used peak memory 1014MB, current used memory 1001MB
+Begin to run IP fsbl_processing_system7_0 coregen
+Coregen finished
+WARNING: The following pins are not connected!
+/fsbl/processing_system7_0/PJTAG_TD_T
+/fsbl/processing_system7_0/TTC0_WAVE0_OUT
+/fsbl/processing_system7_0/TTC0_WAVE1_OUT
+/fsbl/processing_system7_0/TTC0_WAVE2_OUT
+/fsbl/processing_system7_0/TTC1_WAVE0_OUT
+....
+
+Block Design generate files successfully.
+>>load_design -stage_elaborate -no_hier
+  load block design C:/Users/Administrator/Desktop/MY7020/fsbl_7020-test/fsbl/bd/fsbl/fsbl.bd
+  load ip C:/Users/Administrator/Desktop/MY7020/fsbl_7020-test/fsbl/bd/fsbl/ip/fsbl_processing_system7_0/fsbl_processing_system7_0.fmi
+  -- Analyzing Verilog file 'C:/Users/Administrator/Desktop/MY7020/fsbl_7020-test/fsbl/bd/fsbl/hdl/fsbl.v' (VERI-1482)
+  load_design elapsed_time 0.27 seconds, cpu_time 0.30 seconds
+  load_design used memory 3MB, procise used peak memory 1026MB, current used memory 1007MB
+There is no avaible top module in current design!
+>>load_design -stage_elaborate -no_hier
+  load block design C:/Users/Administrator/Desktop/MY7020/fsbl_7020-test/fsbl/bd/fsbl/fsbl.bd
+  load ip C:/Users/Administrator/Desktop/MY7020/fsbl_7020-test/fsbl/bd/fsbl/ip/fsbl_processing_system7_0/fsbl_processing_system7_0.fmi
+  There is no avaible top module in current design!
+  load_design used memory 0MB, procise used peak memory 1026MB, current used memory 999MB
+Begin to run IP fsbl_processing_system7_0 coregen
+Coregen finished
+WARNING: The following pins are not connected!
+/fsbl/processing_system7_0/PJTAG_TD_T
+/fsbl/processing_system7_0/TTC0_WAVE0_OUT
+/fsbl/processing_system7_0/TTC0_WAVE1_OUT
+/fsbl/processing_system7_0/TTC0_WAVE2_OUT
+/fsbl/processing_system7_0/TTC1_WAVE0_OUT
+....
+
+Block Design generate files successfully.
+>>load_design -stage_elaborate -no_hier
+  load block design C:/Users/Administrator/Desktop/MY7020/fsbl_7020-test/fsbl/bd/fsbl/fsbl.bd
+  load ip C:/Users/Administrator/Desktop/MY7020/fsbl_7020-test/fsbl/bd/fsbl/ip/fsbl_processing_system7_0/fsbl_processing_system7_0.fmi
+  -- Analyzing Verilog file 'C:/Users/Administrator/Desktop/MY7020/fsbl_7020-test/fsbl/bd/fsbl/hdl/fsbl.v' (VERI-1482)
+  load_design elapsed_time 0.28 seconds, cpu_time 0.28 seconds
+  load_design used memory 4MB, procise used peak memory 1034MB, current used memory 1002MB
+generate IAR example designes successfully.
+>>>Launching IAR...
+>>create_boot_image C:/Users/Administrator/Desktop/MY7020/output.bif C:/Users/Administrator/Desktop/MY7020/BOOT.bin
+  create_boot_image elapsed_time 0.06 seconds, cpu_time 0.08 seconds
+  create_boot_image used memory 0MB, procise used peak memory 1054MB, current used memory 1020MB
+>>>IAR closed.
+There is no avaible top module in current design!
+>>load_design -stage_elaborate -no_hier
+  load block design C:/Users/Administrator/Desktop/MY7020/fsbl_7020-test/fsbl/bd/fsbl/fsbl.bd
+  load ip C:/Users/Administrator/Desktop/MY7020/fsbl_7020-test/fsbl/bd/fsbl/ip/fsbl_processing_system7_0/fsbl_processing_system7_0.fmi
+  There is no avaible top module in current design!
+  load_design used memory 0MB, procise used peak memory 1054MB, current used memory 1021MB
+Begin to run IP fsbl_processing_system7_0 coregen
+Coregen finished
+WARNING: The following pins are not connected!
+/fsbl/processing_system7_0/PJTAG_TD_T
+/fsbl/processing_system7_0/TTC0_WAVE0_OUT
+/fsbl/processing_system7_0/TTC0_WAVE1_OUT
+/fsbl/processing_system7_0/TTC0_WAVE2_OUT
+/fsbl/processing_system7_0/TTC1_WAVE0_OUT
+....
+
+Block Design generate files successfully.
+>>load_design -stage_elaborate -no_hier
+  load block design C:/Users/Administrator/Desktop/MY7020/fsbl_7020-test/fsbl/bd/fsbl/fsbl.bd
+  load ip C:/Users/Administrator/Desktop/MY7020/fsbl_7020-test/fsbl/bd/fsbl/ip/fsbl_processing_system7_0/fsbl_processing_system7_0.fmi
+  -- Analyzing Verilog file 'C:/Users/Administrator/Desktop/MY7020/fsbl_7020-test/fsbl/bd/fsbl/hdl/fsbl.v' (VERI-1482)
+  load_design elapsed_time 0.27 seconds, cpu_time 0.30 seconds
+  load_design used memory 7MB, procise used peak memory 1054MB, current used memory 1035MB
+generate IAR example designes successfully.
+>>>Launching IAR...
+>>create_boot_image C:/Users/Administrator/Desktop/MY7020/output.bif C:/Users/Administrator/Desktop/MY7020/BOOT.bin
+  create_boot_image elapsed_time 0.06 seconds, cpu_time 0.08 seconds
+  create_boot_image used memory 2MB, procise used peak memory 1071MB, current used memory 1047MB
+>>>IAR closed.
+There is no avaible top module in current design!
+>>load_design -stage_elaborate -no_hier
+  load block design C:/Users/Administrator/Desktop/MY7020/fsbl_7020-test/fsbl/bd/fsbl/fsbl.bd
+  load ip C:/Users/Administrator/Desktop/MY7020/fsbl_7020-test/fsbl/bd/fsbl/ip/fsbl_processing_system7_0/fsbl_processing_system7_0.fmi
+  There is no avaible top module in current design!
+  load_design used memory 0MB, procise used peak memory 1071MB, current used memory 1039MB
+Begin to run IP fsbl_processing_system7_0 coregen
+Coregen finished
+WARNING: The following pins are not connected!
+/fsbl/processing_system7_0/PJTAG_TD_T
+/fsbl/processing_system7_0/TTC0_WAVE0_OUT
+/fsbl/processing_system7_0/TTC0_WAVE1_OUT
+/fsbl/processing_system7_0/TTC0_WAVE2_OUT
+/fsbl/processing_system7_0/TTC1_WAVE0_OUT
+....
+
+Block Design generate files successfully.
+>>load_design -stage_elaborate -no_hier
+  load block design C:/Users/Administrator/Desktop/MY7020/fsbl_7020-test/fsbl/bd/fsbl/fsbl.bd
+  load ip C:/Users/Administrator/Desktop/MY7020/fsbl_7020-test/fsbl/bd/fsbl/ip/fsbl_processing_system7_0/fsbl_processing_system7_0.fmi
+  -- Analyzing Verilog file 'C:/Users/Administrator/Desktop/MY7020/fsbl_7020-test/fsbl/bd/fsbl/hdl/fsbl.v' (VERI-1482)
+  load_design elapsed_time 0.29 seconds, cpu_time 0.31 seconds
+  load_design used memory 2MB, procise used peak memory 1071MB, current used memory 1057MB
+ERROR:psoc\soc.cc:1458:nimbus::BlockDesignWidget::Scene::moveItem
+"move_item_ != NULL"
+There is no avaible top module in current design!
+>>load_design -stage_elaborate -no_hier
+  load block design C:/Users/Administrator/Desktop/MY7020/fsbl_7020-test/fsbl/bd/fsbl/fsbl.bd
+  load ip C:/Users/Administrator/Desktop/MY7020/fsbl_7020-test/fsbl/bd/fsbl/ip/fsbl_processing_system7_0/fsbl_processing_system7_0.fmi
+  There is no avaible top module in current design!
+  load_design used memory 0MB, procise used peak memory 1071MB, current used memory 1039MB
+Begin to run IP fsbl_processing_system7_0 coregen
+Coregen finished
+WARNING: The following pins are not connected!
+/fsbl/processing_system7_0/PJTAG_TD_T
+/fsbl/processing_system7_0/TTC0_WAVE0_OUT
+/fsbl/processing_system7_0/TTC0_WAVE1_OUT
+/fsbl/processing_system7_0/TTC0_WAVE2_OUT
+/fsbl/processing_system7_0/TTC1_WAVE0_OUT
+....
+
+Block Design generate files successfully.
+>>load_design -stage_elaborate -no_hier
+  load block design C:/Users/Administrator/Desktop/MY7020/fsbl_7020-test/fsbl/bd/fsbl/fsbl.bd
+  load ip C:/Users/Administrator/Desktop/MY7020/fsbl_7020-test/fsbl/bd/fsbl/ip/fsbl_processing_system7_0/fsbl_processing_system7_0.fmi
+  -- Analyzing Verilog file 'C:/Users/Administrator/Desktop/MY7020/fsbl_7020-test/fsbl/bd/fsbl/hdl/fsbl.v' (VERI-1482)
+  load_design elapsed_time 0.29 seconds, cpu_time 0.34 seconds
+  load_design used memory 0MB, procise used peak memory 1071MB, current used memory 1040MB
+generate IAR example designes successfully.
+>>>Launching IAR...
+>>create_boot_image C:/Users/Administrator/Desktop/MY7020/output.bif C:/Users/Administrator/Desktop/MY7020/BOOT.bin
+  create_boot_image elapsed_time 0.06 seconds, cpu_time 0.06 seconds
+  create_boot_image used memory 1MB, procise used peak memory 1089MB, current used memory 1051MB

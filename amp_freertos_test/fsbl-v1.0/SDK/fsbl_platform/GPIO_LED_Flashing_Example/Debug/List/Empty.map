@@ -1,0 +1,718 @@
+###############################################################################
+#
+# IAR ELF Linker V8.11.2.13589/W32 for ARM                31/Aug/2023  15:07:26
+# Copyright 2007-2017 IAR Systems AB.
+#
+#    Output file  =  
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Exe\Empty.out
+#    Map file     =  
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\List\Empty.map
+#    Command line =  
+#        -f C:\Users\ADMINI~1\AppData\Local\Temp\EWCAA3.tmp
+#        (D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\cache.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\cstartup.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\empty.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\exception_handler.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_can.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_can_g.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_can_sinit.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_common.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_devc.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_devc_g.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_devc_sinit.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_dmac.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_dmac_g.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_dmac_sinit.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_gic.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_gic_intr.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_gic_sinit.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_gmac_g.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_gmac_hw.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_gmac_lib.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_gmac_sinit.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_gpio.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_gpio_g.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_gpio_sinit.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_gtc.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_gtc_g.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_gtc_sinit.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_i2c.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_i2c_g.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_i2c_sinit.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_mdio.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_nfcps.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_nfcps_bbm.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_nfcps_flash.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_nfcps_g.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_nfcps_hw.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_nfcps_model.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_nfcps_sinit.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_nfcps_skipblock.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_nfcps_sw.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_print.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_qspips.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_qspips_g.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_qspips_hw.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_qspips_nand.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_qspips_nor.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_qspips_sinit.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_qspips_sw.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_sdmmc.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_sdmmc_g.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_sdmmc_protocol.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_sdmmc_sinit.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_slcr.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_smc.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_smc_amd.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_smc_api.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_smc_cfi.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_smc_common.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_smc_intel.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_spips.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_spips_g.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_spips_hw.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_spips_sinit.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_spips_sw.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_testmem.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_ttc.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_ttc_g.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_ttc_sinit.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_uart.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_uart_g.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_uart_sinit.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_wdt.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_wdt_g.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_wdt_sinit.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\marvell_88e1116r.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\microchip_ksz9031RNX.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\mmu_table.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\platform.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\ps_init.o
+#        -o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Exe\Empty.out
+#        --map
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\List\Empty.map
+#        --log modules --log_file
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\List\Empty.log
+#        --config
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\a7_ahbsram.icf
+#        --semihosting=iar_breakpoint --entry resetHandler --redirect
+#        __write=__write_buffered --vfe --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__Heap_Handler  = DLMalloc
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The advanced heap was selected because the application calls memory
+allocation functions outside of system library functions, and there
+are calls to deallocation functions in the application.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"P1":  place in [from 0xe1fe0000 to 0xe1fe00ff] { section .vectors };
+"P2":  place in [from 0xe1fe0100 to 0xe1ffffff] { ro };
+"P3":  place in [from 0xe1fe0100 to 0xe1ffffff] { section .cstartup };
+define block IRQ_STACK with size = 512, alignment = 8 { };
+define block FIQ_STACK with size = 512, alignment = 8 { };
+define block ABT_STACK with size = 96, alignment = 8 { };
+define block UND_STACK with size = 64, alignment = 8 { };
+define block CSTACK with size = 16K, alignment = 8 { };
+define block HEAP with size = 768, alignment = 8 { };
+"P4":  place in [from 0xe1fe0100 to 0xe1ffffff] {
+          rw, block IRQ_STACK, block FIQ_STACK, block ABT_STACK,
+          block UND_STACK, block CSTACK, block HEAP };
+initialize by copy with packing = copy, complex ranges { rw };
+
+  Section            Kind        Address    Size  Object
+  -------            ----        -------    ----  ------
+"P1":                                       0xe0
+  .vectors           ro code  0xe1fe0000    0xe0  cstartup.o [1]
+                            - 0xe1fe00e0    0xe0
+
+"P2-P4", part 1 of 3:                     0x78d4
+  .text              ro code  0xe1fe0100  0x151c  dlmalloc.o [3]
+  .text              ro code  0xe1fe161c     0x6  abort.o [3]
+  .text              ro code  0xe1fe1622    0x30  xgetmemchunk.o [3]
+  .text              ro code  0xe1fe1652    0x16  exit.o [6]
+  .text              ro code  0xe1fe1668    0x76  iarttio.o [6]
+  .text              ro code  0xe1fe16de     0x2  iar_semihosting.o [6]
+  .text              ro code  0xe1fe16e0     0xa  XShttio.o [3]
+  .text              ro code  0xe1fe16ea   0xf7c  xprintffuller_nomb.o [3]
+  .text              ro code  0xe1fe2666    0x1a  xsnprout.o [3]
+  .text              ro code  0xe1fe2680    0x20  strchr.o [5]
+  .text              ro code  0xe1fe26a0    0x2e  xfail_s.o [3]
+  .text              ro code  0xe1fe26ce    0x12  xencoding_8859_1.o [3]
+  .text              ro code  0xe1fe26e0    0x54  strlen.o [5]
+  .text              ro code  0xe1fe2734    0x94  memchr.o [5]
+  .text              ro code  0xe1fe27c8     0xa  xmbcurmax.o [3]
+  .text              ro code  0xe1fe27d2    0x22  xlocale_c.o [3]
+  .text              ro code  0xe1fe27f4    0xd4  ABImemcpy.o [5]
+  .text              ro code  0xe1fe28c8   0x130  I64DivMod.o [5]
+  .text              ro code  0xe1fe29f8    0x12  DblMul.o [4]
+  .rodata            const    0xe1fe2a0a     0x2  xprintffuller_nomb.o [3]
+  .text              ro code  0xe1fe2a0c    0x70  frexp.o [4]
+  .text              ro code  0xe1fe2a7c    0x2e  DblCmpLe.o [4]
+  .rodata            const    0xe1fe2aaa     0x2  xlocale_c.o [3]
+  .text              ro code  0xe1fe2aac    0x2e  DblCmpGe.o [4]
+  .rodata            const    0xe1fe2ada     0x2  xlocale_c.o [3]
+  .text              ro code  0xe1fe2adc   0x104  ldexp.o [4]
+  .text              ro code  0xe1fe2be0     0xe  DblToS32.o [4]
+  .text              ro code  0xe1fe2bee     0xe  S32ToDbl.o [4]
+  .text              ro code  0xe1fe2bfc    0x12  DblSub.o [4]
+  .text              ro code  0xe1fe2c0e    0x12  DblDiv.o [4]
+  .text              ro code  0xe1fe2c20     0xe  DblToU32.o [4]
+  .text              ro code  0xe1fe2c2e     0xe  U32ToDbl.o [4]
+  .text              ro code  0xe1fe2c3c   0x1a8  I32DivMod.o [5]
+  .text              ro code  0xe1fe2de4     0x4  I64DivZer.o [5]
+  .text              ro code  0xe1fe2de8     0x4  IntDivZer.o [5]
+  .text              ro code  0xe1fe2dec   0x7c0  fmsh_uart.o [1]
+  .text              ro code  0xe1fe35ac    0xcc  fmsh_common.o [1]
+  .text              ro code  0xe1fe3678    0x62  round.o [4]
+  .text              ro code  0xe1fe36da    0x2a  printf.o [3]
+  .text              ro code  0xe1fe3704    0x52  DblToU64.o [4]
+  .rodata            const    0xe1fe3756     0x1  xlocale_c.o [3]
+  .text              ro code  0xe1fe3758   0x1f4  ps_init.o [1]
+  .text              ro code  0xe1fe394c   0x1ec  fmsh_gpio.o [1]
+  .text              ro code  0xe1fe3b38   0x158  exception_handler.o [1]
+  .cstartup          ro code  0xe1fe3c90   0x144  cstartup.o [1]
+  .text              ro code  0xe1fe3dd4    0xd8  xfspos.o [3]
+  .text              ro code  0xe1fe3eac    0xae  fflush.o [3]
+  .text              ro code  0xe1fe3f5a     0xc  xfgpos.o [3]
+  .text              ro code  0xe1fe3f66    0x4e  lseek.o [6]
+  .text              ro code  0xe1fe3fb4    0xca  xxwritebuffered.o [3]
+  .text              ro code  0xe1fe407e    0x84  XShHandles.o [3]
+  .text              ro code  0xe1fe4102    0x14  dwrite.o [6]
+  .text              ro code  0xe1fe4116    0x22  iarwstd.o [6]
+  .text              ro code  0xe1fe4138    0x24  iarwrite.o [6]
+  .text              ro code  0xe1fe415c    0xb4  platform.o [1]
+  .text              ro code  0xe1fe4210    0x4c  fmsh_uart_sinit.o [1]
+  .text              ro code  0xe1fe425c    0x94  fmsh_print.o [1]
+  .text              ro code  0xe1fe42f0    0x3e  vsnprint.o [3]
+  .text              ro code  0xe1fe432e    0xb4  xfwprep.o [3]
+  .text              ro code  0xe1fe43e2    0x24  fseek.o [3]
+  .text              ro code  0xe1fe4408    0x98  empty.o [1]
+  .text              ro code  0xe1fe44a0    0x4c  fmsh_gpio_sinit.o [1]
+  .text              ro code  0xe1fe44ec    0x7e  fclose.o [3]
+  .text              ro code  0xe1fe456a    0x7e  xfofind.o [3]
+  .text              ro code  0xe1fe45e8     0x4  heaptramp0.o [3]
+  .text              ro code  0xe1fe45ec    0x1a  close.o [6]
+  .text              ro code  0xe1fe4606    0x18  remove.o [6]
+  .rodata            const    0xe1fe4620    0x68  xprintffuller_nomb.o [3]
+  .rodata            const    0xe1fe4688    0x58  fmsh_gpio.o [1]
+  .rodata            const    0xe1fe46e0    0x58  fmsh_uart.o [1]
+  .text              ro code  0xe1fe4738    0x56  fputc.o [3]
+  .rodata            const    0xe1fe4790    0x4c  exception_handler.o [1]
+  .text              ro code  0xe1fe47dc    0x40  zero_init3.o [5]
+  .rodata            const    0xe1fe481c    0x3c  exception_handler.o [1]
+  .rodata            const    0xe1fe4858    0x3c  exception_handler.o [1]
+  .text              ro code  0xe1fe4894    0x3c  xcloseall.o [3]
+  .rodata            const    0xe1fe48d0    0x34  exception_handler.o [1]
+  .text              ro code  0xe1fe4904    0x30  data_init.o [5]
+  .rodata            const    0xe1fe4934    0x2c  exception_handler.o [1]
+  .rodata            const    0xe1fe4960    0x2c  exception_handler.o [1]
+  .rodata            const    0xe1fe498c    0x2c  exception_handler.o [1]
+  .rodata            const    0xe1fe49b8    0x2c  exception_handler.o [1]
+  .rodata            const    0xe1fe49e4    0x2c  exception_handler.o [1]
+  .text              ro code  0xe1fe4a10    0x2c  cmain.o [5]
+  .text              ro code  0xe1fe4a3c     0x4  low_level_init.o [3]
+  Veneer             ro code  0xe1fe4a40     0x8  - Linker created -
+  .text              ro code  0xe1fe4a48     0x4  exit.o [3]
+  .text              ro code  0xe1fe4a4c    0x14  cexit.o [5]
+  .text              ro code  0xe1fe4a60    0x2c  copy_init3.o [5]
+  .text              ro code  0xe1fe4a8c    0x28  fpinit.o [4]
+  .rodata            const    0xe1fe4ab4    0x24  exception_handler.o [1]
+  .rodata            const    0xe1fe4ad8    0x24  exception_handler.o [1]
+  .rodata            const    0xe1fe4afc    0x24  fmsh_common.o [1]
+  .iar.init_table    const    0xe1fe4b20    0x24  - Linker created -
+  .rodata            const    0xe1fe4b44    0x20  exception_handler.o [1]
+  .rodata            const    0xe1fe4b64    0x20  xfail_s.o [3]
+  .rodata            const    0xe1fe4b84    0x1c  empty.o [1]
+  .rodata            const    0xe1fe4ba0    0x1c  exception_handler.o [1]
+  .rodata            const    0xe1fe4bbc    0x1c  exception_handler.o [1]
+  .rodata            const    0xe1fe4bd8    0x1c  exception_handler.o [1]
+  .rodata            const    0xe1fe4bf4    0x1c  exception_handler.o [1]
+  .rodata            const    0xe1fe4c10    0x1c  exception_handler.o [1]
+  .rodata            const    0xe1fe4c2c    0x18  exception_handler.o [1]
+  .rodata            const    0xe1fe4c44    0x18  exception_handler.o [1]
+  .rodata            const    0xe1fe4c5c    0x18  exception_handler.o [1]
+  .rodata            const    0xe1fe4c74    0x18  exception_handler.o [1]
+  .text              ro code  0xe1fe4c8c    0x16  xprout.o [3]
+  .text              ro code  0xe1fe4ca2     0xc  putchar.o [3]
+  .rodata            const    0xe1fe4cb0    0x14  exception_handler.o [1]
+  .rodata            const    0xe1fe4cc4    0x14  exception_handler.o [1]
+  .rodata            const    0xe1fe4cd8    0x14  exception_handler.o [1]
+  .rodata            const    0xe1fe4cec    0x14  exception_handler.o [1]
+  .rodata            const    0xe1fe4d00    0x14  platform.o [1]
+  .rodata            const    0xe1fe4d14    0x10  exception_handler.o [1]
+  .rodata            const    0xe1fe4d24    0x10  xprintffuller_nomb.o [3]
+  .rodata            const    0xe1fe4d34     0xc  exception_handler.o [1]
+  .rodata            const    0xe1fe4d40     0x8  xprintffuller_nomb.o [3]
+  .rodata            const    0xe1fe4d48     0x8  xprintffuller_nomb.o [3]
+  .rodata            const    0xe1fe4d50     0x4  iarttio.o [6]
+  .text              ro code  0xe1fe4d54     0x0  cstart_closeall.o [5]
+  .rodata            const    0xe1fe4d54     0x0  zero_init3.o [5]
+  .rodata            const    0xe1fe4d54     0x0  copy_init3.o [5]
+  P2-P4 s0                    0xe1fe4d54  0x1640  <Init block>
+    .data            inited   0xe1fe4d54   0x814  ps_init.o [1]
+    .data            inited   0xe1fe5568   0x49c  ps_init.o [1]
+    .data            inited   0xe1fe5a04   0x3bc  ps_init.o [1]
+    .data            inited   0xe1fe5dc0   0x304  ps_init.o [1]
+    .data            inited   0xe1fe60c4    0xb8  exception_handler.o [1]
+    .data            inited   0xe1fe617c    0x48  xfiles.o [3]
+    .data            inited   0xe1fe61c4    0x48  xfiles.o [3]
+    .data            inited   0xe1fe620c    0x48  xfiles.o [3]
+    .data            inited   0xe1fe6254    0x48  xlocale_c.o [3]
+    .data            inited   0xe1fe629c    0x38  exception_handler.o [1]
+    .data            inited   0xe1fe62d4    0x38  xlocale_c.o [3]
+    .data            inited   0xe1fe630c    0x20  fmsh_gpio_g.o [1]
+    .data            inited   0xe1fe632c    0x20  fmsh_uart_g.o [1]
+    .data            inited   0xe1fe634c    0x20  xfiles.o [3]
+    .data            inited   0xe1fe636c    0x1c  ps_init.o [1]
+    .data            inited   0xe1fe6388     0x8  XShttio.o [3]
+    .data            inited   0xe1fe6390     0x4  empty.o [1]
+  Initializer bytes  const    0xe1fe6394  0x1640  <for P2-P4 s0>
+                            - 0xe1fe79d4  0x78d4
+
+"P2-P4", part 2 of 3:                      0x3e0
+  .bss               zero     0xe1fe79d4   0x1d8  dlmalloc.o [3]
+  .bss               zero     0xe1fe7bac    0x80  XShHandles.o [3]
+  .bss               zero     0xe1fe7c2c    0x74  fmsh_print.o [1]
+  .bss               zero     0xe1fe7ca0    0x54  xxwritebuffered.o [3]
+  .bss               zero     0xe1fe7cf4    0x50  xfiles.o [3]
+  .bss               zero     0xe1fe7d44    0x50  xfiles.o [3]
+  .bss               zero     0xe1fe7d94    0x18  dlmalloc.o [3]
+  .bss               zero     0xe1fe7dac     0x4  xgetmemchunk.o [3]
+  .bss               zero     0xe1fe7db0     0x4  xfail_s.o [3]
+                            - 0xe1fe7db4   0x3e0
+
+"P2-P4", part 3 of 3:                     0x47a0
+  IRQ_STACK                   0xe1fe7db8   0x200  <Block>
+    IRQ_STACK        uninit   0xe1fe7db8   0x200  <Block tail>
+  FIQ_STACK                   0xe1fe7fb8   0x200  <Block>
+    FIQ_STACK        uninit   0xe1fe7fb8   0x200  <Block tail>
+  ABT_STACK                   0xe1fe81b8    0x60  <Block>
+    ABT_STACK        uninit   0xe1fe81b8    0x60  <Block tail>
+  UND_STACK                   0xe1fe8218    0x40  <Block>
+    UND_STACK        uninit   0xe1fe8218    0x40  <Block tail>
+  CSTACK                      0xe1fe8258  0x4000  <Block>
+    CSTACK           uninit   0xe1fe8258  0x4000  <Block tail>
+  HEAP                        0xe1fec258   0x300  <Block>
+    HEAP             uninit   0xe1fec258   0x300  <Block tail>
+                            - 0xe1fec558  0x47a0
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x3e0:
+          0xe1fe79d4   0x3e0
+
+Copy (__iar_copy_init3)
+    1 source range, total size 0x1640:
+          0xe1fe6394  0x1640
+    1 destination range, total size 0x1640:
+          0xe1fe4d54  0x1640
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                ro code  ro data  rw data
+    ------                -------  -------  -------
+D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj: [1]
+    cstartup.o                548
+    empty.o                   152       32        4
+    exception_handler.o       344    1 156      240
+    fmsh_common.o             204       36
+    fmsh_gpio.o               492       88
+    fmsh_gpio_g.o                       32       32
+    fmsh_gpio_sinit.o          76
+    fmsh_print.o              148               116
+    fmsh_uart.o             1 984       88
+    fmsh_uart_g.o                       32       32
+    fmsh_uart_sinit.o          76
+    platform.o                180       20
+    ps_init.o                 500    5 004    5 004
+    -----------------------------------------------
+    Total:                  4 704    6 488    5 428
+
+command line: [2]
+    -----------------------------------------------
+    Total:
+
+dl7Sx_tlf.a: [3]
+    XShHandles.o              132               128
+    XShttio.o                  10        8        8
+    abort.o                     6
+    dlmalloc.o              5 404               496
+    exit.o                      4
+    fclose.o                  126
+    fflush.o                  174
+    fputc.o                    86
+    fseek.o                    36
+    heaptramp0.o                4
+    low_level_init.o            4
+    printf.o                   42
+    putchar.o                  12
+    vsnprint.o                 62
+    xcloseall.o                60
+    xencoding_8859_1.o         18
+    xfail_s.o                  46       32        4
+    xfgpos.o                   12
+    xfiles.o                           248      408
+    xfofind.o                 126
+    xfspos.o                  216
+    xfwprep.o                 180
+    xgetmemchunk.o             48                 4
+    xlocale_c.o                34      133      128
+    xmbcurmax.o                10
+    xprintffuller_nomb.o    3 964      138
+    xprout.o                   22
+    xsnprout.o                 26
+    xxwritebuffered.o         202                84
+    -----------------------------------------------
+    Total:                 11 066      559    1 260
+
+m7Sx_tlv.a: [4]
+    DblCmpGe.o                 46
+    DblCmpLe.o                 46
+    DblDiv.o                   18
+    DblMul.o                   18
+    DblSub.o                   18
+    DblToS32.o                 14
+    DblToU32.o                 14
+    DblToU64.o                 82
+    S32ToDbl.o                 14
+    U32ToDbl.o                 14
+    fpinit.o                   40
+    frexp.o                   112
+    ldexp.o                   260
+    round.o                    98
+    -----------------------------------------------
+    Total:                    794
+
+rt7Sx_tl.a: [5]
+    ABImemcpy.o               212
+    I32DivMod.o               424
+    I64DivMod.o               304
+    I64DivZer.o                 4
+    IntDivZer.o                 4
+    cexit.o                    20
+    cmain.o                    44
+    copy_init3.o               44
+    cstart_closeall.o
+    data_init.o                48
+    memchr.o                  148
+    strchr.o                   32
+    strlen.o                   84
+    zero_init3.o               64
+    -----------------------------------------------
+    Total:                  1 432
+
+sh7Sxi_l.a: [6]
+    close.o                    26
+    dwrite.o                   20
+    exit.o                     22
+    iar_semihosting.o           2
+    iarttio.o                 118        4
+    iarwrite.o                 36
+    iarwstd.o                  34
+    lseek.o                    78
+    remove.o                   24
+    -----------------------------------------------
+    Total:                    360        4
+
+    Gaps                        3        6
+    Linker created              8       36   18 336
+---------------------------------------------------
+    Grand Total:           18 367    7 093   25 024
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address   Size  Type      Object
+-----                      -------   ----  ----      ------
+.iar.init_table$$Base   0xe1fe4b20          --   Gb  - Linker created -
+.iar.init_table$$Limit  0xe1fe4b44          --   Gb  - Linker created -
+?main                   0xe1fe4a10         Code  Gb  cmain.o [5]
+ABT_STACK$$Base         0xe1fe81b8          --   Gb  - Linker created -
+ABT_STACK$$Limit        0xe1fe8218          --   Gb  - Linker created -
+Abort_C_Handler         0xe1fe3b3c   0x70  Code  Gb  exception_handler.o [1]
+CSTACK$$Base            0xe1fe8258          --   Gb  - Linker created -
+CSTACK$$Limit           0xe1fec258          --   Gb  - Linker created -
+FGpioPs_ConfigTable     0xe1fe630c   0x20  Data  Gb  fmsh_gpio_g.o [1]
+FGpioPs_LookupConfig    0xe1fe44a0   0x4c  Code  Gb  fmsh_gpio_sinit.o [1]
+FGpioPs_getIdCode       0xe1fe3af0   0x44  Code  Gb  fmsh_gpio.o [1]
+FGpioPs_getVerIdCode    0xe1fe3ab0   0x40  Code  Gb  fmsh_gpio.o [1]
+FGpioPs_init            0xe1fe394c   0x30  Code  Gb  fmsh_gpio.o [1]
+FGpioPs_output_example  0xe1fe4408   0x6c  Code  Gb  empty.o [1]
+FGpioPs_setBitDirection
+                        0xe1fe3a18   0x98  Code  Gb  fmsh_gpio.o [1]
+FGpioPs_writeBit        0xe1fe397c   0x9c  Code  Gb  fmsh_gpio.o [1]
+FIQInterrupt            0xe1fe3c44   0x1c  Code  Gb  exception_handler.o [1]
+FIQ_Handler             0xe1fe0078         Code  Gb  cstartup.o [1]
+FIQ_STACK$$Base         0xe1fe7fb8          --   Gb  - Linker created -
+FIQ_STACK$$Limit        0xe1fe81b8          --   Gb  - Linker created -
+FMSH_ExceptionNullHandler
+                        0xe1fe3b38    0x4  Code  Lc  exception_handler.o [1]
+FUartPs_ConfigTable     0xe1fe632c   0x20  Data  Gb  fmsh_uart_g.o [1]
+FUartPs_LookupConfig    0xe1fe4210   0x4c  Code  Gb  fmsh_uart_sinit.o [1]
+FUartPs_areFifosEnabled
+                        0xe1fe31c4   0x74  Code  Gb  fmsh_uart.o [1]
+FUartPs_autoCompParams  0xe1fe34f4   0xb0  Code  Gb  fmsh_uart.o [1]
+FUartPs_disableIrq      0xe1fe3314   0x70  Code  Gb  fmsh_uart.o [1]
+FUartPs_enableFifos     0xe1fe3148   0x7c  Code  Gb  fmsh_uart.o [1]
+FUartPs_getLineStatus   0xe1fe3240   0x70  Code  Gb  fmsh_uart.o [1]
+FUartPs_getTxTrigger    0xe1fe3384   0x64  Code  Gb  fmsh_uart.o [1]
+FUartPs_init            0xe1fe2dec   0x58  Code  Gb  fmsh_uart.o [1]
+FUartPs_isBusy          0xe1fe2e44   0x70  Code  Gb  fmsh_uart.o [1]
+FUartPs_resetInstance   0xe1fe33f0  0x104  Code  Gb  fmsh_uart.o [1]
+FUartPs_resetRxFifo     0xe1fe2f18   0x64  Code  Gb  fmsh_uart.o [1]
+FUartPs_resetTxFifo     0xe1fe2eb4   0x64  Code  Gb  fmsh_uart.o [1]
+FUartPs_setBaudRate     0xe1fe3030   0x74  Code  Gb  fmsh_uart.o [1]
+FUartPs_setClockDivisor
+                        0xe1fe2f7c   0xb4  Code  Gb  fmsh_uart.o [1]
+FUartPs_setLineControl  0xe1fe30a4   0xa4  Code  Gb  fmsh_uart.o [1]
+FUartPs_write           0xe1fe32b0   0x64  Code  Gb  fmsh_uart.o [1]
+HEAP$$Base              0xe1fec258          --   Gb  - Linker created -
+HEAP$$Limit             0xe1fec558          --   Gb  - Linker created -
+IRQInterrupt            0xe1fe3c28   0x1c  Code  Gb  exception_handler.o [1]
+IRQ_Handler             0xe1fe0038         Code  Gb  cstartup.o [1]
+IRQ_STACK$$Base         0xe1fe7db8          --   Gb  - Linker created -
+IRQ_STACK$$Limit        0xe1fe7fb8          --   Gb  - Linker created -
+Led_Pin                 0xe1fe6390    0x4  Data  Lc  empty.o [1]
+LoadInt                 0xe1fe1889   0x7a  Code  Lc  xprintffuller_nomb.o [3]
+Prefetch_C_Handler      0xe1fe3bac   0x5c  Code  Gb  exception_handler.o [1]
+Region$$Table$$Base     0xe1fe4b20          --   Gb  - Linker created -
+Region$$Table$$Limit    0xe1fe4b44          --   Gb  - Linker created -
+SVCHandler              0xe1fe00b8         Code  Gb  cstartup.o [1]
+SWInterrupt             0xe1fe3c08   0x10  Code  Gb  exception_handler.o [1]
+SendData                0xe1fe42a0   0x50  Code  Lc  fmsh_print.o [1]
+UND_STACK$$Base         0xe1fe8218          --   Gb  - Linker created -
+UND_STACK$$Limit        0xe1fe8258          --   Gb  - Linker created -
+Undefined_C_Handler     0xe1fe3c18   0x10  Code  Gb  exception_handler.o [1]
+XExc_VectorTable        0xe1fe629c   0x38  Data  Gb  exception_handler.o [1]
+_Close_all              0xe1fe4895   0x3c  Code  Gb  xcloseall.o [3]
+_Encoding_8859_1_Wctomb
+                        0xe1fe26cf   0x12  Code  Gb  xencoding_8859_1.o [3]
+_Files                  0xe1fe634c   0x20  Data  Gb  xfiles.o [3]
+_Fofree                 0xe1fe456b   0x7e  Code  Gb  xfofind.o [3]
+_Fspos                  0xe1fe3dd5   0xd8  Code  Gb  xfspos.o [3]
+_Fwprep                 0xe1fe432f   0xb4  Code  Gb  xfwprep.o [3]
+_GenldFullerNoMb        0xe1fe23b9  0x280  Code  Lc  xprintffuller_nomb.o [3]
+_LdtobFullerNoMb        0xe1fe1f6b  0x448  Code  Lc  xprintffuller_nomb.o [3]
+_LitobFullerNoMb        0xe1fe1e0b  0x116  Code  Lc  xprintffuller_nomb.o [3]
+_Locale_lconv           0xe1fe62d4   0x38  Data  Lc  xlocale_c.o [3]
+_Nnl                    0xe1fe3f5b    0xc  Code  Gb  xfgpos.o [3]
+_PrintfFullerNoMb       0xe1fe16eb  0x198  Code  Gb  xprintffuller_nomb.o [3]
+_Prout                  0xe1fe4c8d   0x16  Code  Gb  xprout.o [3]
+_PutcharsFullerNoMb     0xe1fe2639   0x2e  Code  Lc  xprintffuller_nomb.o [3]
+_PutfldFullerNoMb       0xe1fe1903  0x332  Code  Lc  xprintffuller_nomb.o [3]
+_PutstrFullerNoMb       0xe1fe1d43   0xc8  Code  Lc  xprintffuller_nomb.o [3]
+_PuttxtFullerNoMb       0xe1fe1c35  0x10e  Code  Lc  xprintffuller_nomb.o [3]
+_SNProut                0xe1fe2667   0x1a  Code  Gb  xsnprout.o [3]
+__ICFEDIT_region_RAM_end__ {Abs}
+                        0xe1ffffff         Data  Gb  command line/config [2]
+__ICFEDIT_region_RAM_start__ {Abs}
+                        0xe1fe0000         Data  Gb  command line/config [2]
+__ICFEDIT_size_cstack__ {Abs}
+                        0x00004000         Data  Gb  command line/config [2]
+__ICFEDIT_size_fiqstack__ {Abs}
+                        0x00000200         Data  Gb  command line/config [2]
+__ICFEDIT_size_heap__ {Abs}
+                        0x00000300         Data  Gb  command line/config [2]
+__ICFEDIT_size_irqstack__ {Abs}
+                        0x00000200         Data  Gb  command line/config [2]
+__ICFEDIT_size_vectors__ {Abs}
+                        0x00000100         Data  Gb  command line/config [2]
+__aeabi_cdcmple         0xe1fe2a7d         Code  Gb  DblCmpLe.o [4]
+__aeabi_cdrcmple        0xe1fe2aad         Code  Gb  DblCmpGe.o [4]
+__aeabi_d2iz            0xe1fe2be1    0xe  Code  Gb  DblToS32.o [4]
+__aeabi_d2uiz           0xe1fe2c21    0xe  Code  Gb  DblToU32.o [4]
+__aeabi_d2ulz           0xe1fe3705         Code  Gb  DblToU64.o [4]
+__aeabi_ddiv            0xe1fe2c0f   0x12  Code  Gb  DblDiv.o [4]
+__aeabi_dmul            0xe1fe29f9   0x12  Code  Gb  DblMul.o [4]
+__aeabi_dsub            0xe1fe2bfd   0x12  Code  Gb  DblSub.o [4]
+__aeabi_i2d             0xe1fe2bef    0xe  Code  Gb  S32ToDbl.o [4]
+__aeabi_idiv            0xe1fe2c3c         Code  Gb  I32DivMod.o [5]
+__aeabi_idiv0           0xe1fe2de8         Code  Gb  IntDivZer.o [5]
+__aeabi_idivmod         0xe1fe2c3c         Code  Gb  I32DivMod.o [5]
+__aeabi_ldiv0           0xe1fe2de4         Code  Gb  I64DivZer.o [5]
+__aeabi_memcpy          0xe1fe27f4         Code  Gb  ABImemcpy.o [5]
+__aeabi_memcpy4         0xe1fe2818         Code  Gb  ABImemcpy.o [5]
+__aeabi_memcpy8         0xe1fe2818         Code  Gb  ABImemcpy.o [5]
+__aeabi_ui2d            0xe1fe2c2f    0xe  Code  Gb  U32ToDbl.o [4]
+__aeabi_uidiv           0xe1fe2c68         Code  Gb  I32DivMod.o [5]
+__aeabi_uidivmod        0xe1fe2c68         Code  Gb  I32DivMod.o [5]
+__aeabi_uldivmod        0xe1fe28c8         Code  Gb  I64DivMod.o [5]
+__cexit_closeall        0xe1fe4a50         Code  Gb  cexit.o [5]
+__close                 0xe1fe45ed   0x1a  Code  Gb  close.o [6]
+__cmain                 0xe1fe4a10         Code  Gb  cmain.o [5]
+__cstart_closeall       0xe1fe4d54         Data  Gb  cstart_closeall.o [5]
+__data_GetMemChunk      0xe1fe1623   0x30  Code  Gb  xgetmemchunk.o [3]
+__data_GetMemChunk::start
+                        0xe1fe7dac    0x4  Data  Lc  xgetmemchunk.o [3]
+__dwrite                0xe1fe4103   0x14  Code  Gb  dwrite.o [6]
+__exit                  0xe1fe1653   0x16  Code  Gb  exit.o [6]
+__iar_Fail_s            0xe1fe26a1   0x2e  Code  Gb  xfail_s.o [3]
+__iar_Mbcurmax          0xe1fe27c9    0xa  Code  Gb  xmbcurmax.o [3]
+__iar_Memchr            0xe1fe2734         Code  Gb  memchr.o [5]
+__iar_Stderr            0xe1fe620c   0x48  Data  Gb  xfiles.o [3]
+__iar_Stdin             0xe1fe617c   0x48  Data  Gb  xfiles.o [3]
+__iar_Stdout            0xe1fe61c4   0x48  Data  Gb  xfiles.o [3]
+__iar_Strchr            0xe1fe2680         Code  Gb  strchr.o [5]
+__iar_close_ttio        0xe1fe1669   0x32  Code  Gb  iarttio.o [6]
+__iar_copy_init3        0xe1fe4a61   0x2c  Code  Gb  copy_init3.o [5]
+__iar_data_init3        0xe1fe4905   0x30  Code  Gb  data_init.o [5]
+__iar_dlfree            0xe1fe1129  0x4f4  Code  Gb  dlmalloc.o [3]
+__iar_dlmalloc          0xe1fe0e6d  0x2bc  Code  Gb  dlmalloc.o [3]
+__iar_frexp             0xe1fe2a19         Code  Gb  frexp.o [4]
+__iar_frexpl            0xe1fe2a19         Code  Gb  frexp.o [4]
+__iar_get_ttio          0xe1fe169b   0x44  Code  Gb  iarttio.o [6]
+__iar_globLocale        0xe1fe6254   0x48  Data  Lc  xlocale_c.o [3]
+__iar_global_Locale     0xe1fe27d3    0xa  Code  Gb  xlocale_c.o [3]
+__iar_init_vfp          0xe1fe4aa0         Code  Gb  fpinit.o [4]
+__iar_init_vfp_v6       0xe1fe4a8c         Code  Gb  fpinit.o [4]
+__iar_ldexp64           0xe1fe2af1         Code  Gb  ldexp.o [4]
+__iar_lookup_ttioh      0xe1fe16e1    0xa  Code  Gb  XShttio.o [3]
+__iar_round64           0xe1fe3689         Code  Gb  round.o [4]
+__iar_scalbln64         0xe1fe2af1         Code  Gb  ldexp.o [4]
+__iar_scalbn64          0xe1fe2af1         Code  Gb  ldexp.o [4]
+__iar_semihosting       0xe1fe16df    0x2  Code  Gb  iar_semihosting.o [6]
+__iar_sh_Discard        0xe1fe407f   0x2a  Code  Gb  XShHandles.o [3]
+__iar_sh_Move           0xe1fe40a9   0x34  Code  Gb  XShHandles.o [3]
+__iar_sh_Pos            0xe1fe40dd   0x26  Code  Gb  XShHandles.o [3]
+__iar_sh_stdout         0xe1fe4117   0x22  Code  Gb  iarwstd.o [6]
+__iar_sh_write          0xe1fe4139   0x24  Code  Gb  iarwrite.o [6]
+__iar_softfp___iar_frexp64
+                        0xe1fe2a0d         Code  Gb  frexp.o [4]
+__iar_softfp___iar_ldexp64
+                        0xe1fe2add         Code  Gb  ldexp.o [4]
+__iar_softfp___iar_scalbln64
+                        0xe1fe2add         Code  Gb  ldexp.o [4]
+__iar_softfp___iar_scalbn64
+                        0xe1fe2add         Code  Gb  ldexp.o [4]
+__iar_softfp_frexp      0xe1fe2a0d         Code  Gb  frexp.o [4]
+__iar_softfp_frexpl     0xe1fe2a0d         Code  Gb  frexp.o [4]
+__iar_softfp_ldexp      0xe1fe2add         Code  Gb  ldexp.o [4]
+__iar_softfp_ldexpl     0xe1fe2add         Code  Gb  ldexp.o [4]
+__iar_softfp_scalbln    0xe1fe2add         Code  Gb  ldexp.o [4]
+__iar_softfp_scalblnl   0xe1fe2add         Code  Gb  ldexp.o [4]
+__iar_softfp_scalbn     0xe1fe2add         Code  Gb  ldexp.o [4]
+__iar_softfp_scalbnl    0xe1fe2add         Code  Gb  ldexp.o [4]
+__iar_systems$$module {Abs}
+                        0x00000001         Data  Gb  command line/config [2]
+__iar_ttio_handles      0xe1fe6388    0x8  Data  Lc  XShttio.o [3]
+__iar_vfp___iar_round64
+                        0xe1fe3679         Code  Gb  round.o [4]
+__iar_vfp_round         0xe1fe3679         Code  Gb  round.o [4]
+__iar_vfp_roundl        0xe1fe3679         Code  Gb  round.o [4]
+__iar_zero_init3        0xe1fe47dd   0x40  Code  Gb  zero_init3.o [5]
+__low_level_init        0xe1fe4a3d    0x4  Code  Gb  low_level_init.o [3]
+__lseek                 0xe1fe3f67   0x4e  Code  Gb  lseek.o [6]
+__write_buffered        0xe1fe3fb5   0xca  Code  Gb  xxwritebuffered.o [3]
+_call_main              0xe1fe4a24         Code  Gb  cmain.o [5]
+_exit                   0xe1fe4a4c         Code  Gb  cexit.o [5]
+_gLocale_wctomb         0xe1fe27e1    0xa  Code  Gb  xlocale_c.o [3]
+_gLocale_wctombInt      0xe1fe27dd    0x4  Code  Gb  xlocale_c.o [3]
+_gm_                    0xe1fe79d4  0x1d8  Data  Lc  dlmalloc.o [3]
+_main                   0xe1fe4a2c         Code  Gb  cmain.o [5]
+abort                   0xe1fe161d    0x6  Code  Gb  abort.o [3]
+abort_status            0xe1fe60c4   0xb8  Data  Lc  exception_handler.o [1]
+add_segment             0xe1fe04dd  0x202  Code  Lc  dlmalloc.o [3]
+delay_ms                0xe1fe360c   0x60  Code  Gb  fmsh_common.o [1]
+ebuf                    0xe1fe7cf4   0x50  Data  Lc  xfiles.o [3]
+exit                    0xe1fe4a49    0x4  Code  Gb  exit.o [3]
+fclose                  0xe1fe44ed   0x7e  Code  Gb  fclose.o [3]
+fflush                  0xe1fe3f21   0x3a  Code  Gb  fflush.o [3]
+fflushOne               0xe1fe3ead   0x74  Code  Lc  fflush.o [3]
+fmsh_print              0xe1fe425c   0x40  Code  Gb  fmsh_print.o [1]
+fputc                   0xe1fe4739   0x56  Code  Gb  fputc.o [3]
+free                    0xe1fe45e9    0x4  Code  Gb  heaptramp0.o [3]
+fseek                   0xe1fe43e3   0x24  Code  Gb  fseek.o [3]
+g_UART                  0xe1fe7c2c   0x74  Data  Gb  fmsh_print.o [1]
+get_current_time        0xe1fe35dc   0x30  Code  Gb  fmsh_common.o [1]
+global_timer_enable     0xe1fe35c8   0x14  Code  Gb  fmsh_common.o [1]
+init_mparams            0xe1fe011f   0x3e  Code  Lc  dlmalloc.o [3]
+init_platform           0xe1fe41dc   0x2c  Code  Gb  platform.o [1]
+init_top                0xe1fe015d   0x36  Code  Lc  dlmalloc.o [3]
+init_uart               0xe1fe415c   0x80  Code  Gb  platform.o [1]
+ldexp                   0xe1fe2af1         Code  Gb  ldexp.o [4]
+ldexpl                  0xe1fe2af1         Code  Gb  ldexp.o [4]
+localeconv              0xe1fe27eb    0xa  Code  Gb  xlocale_c.o [3]
+main                    0xe1fe4474   0x1c  Code  Gb  empty.o [1]
+memchr                  0xe1fe2734         Code  Gb  memchr.o [5]
+mparams                 0xe1fe7d94   0x18  Data  Lc  dlmalloc.o [3]
+obuf                    0xe1fe7d44   0x50  Data  Lc  xfiles.o [3]
+onAssert__              0xe1fe35ac   0x1c  Code  Gb  fmsh_common.o [1]
+prepend_alloc           0xe1fe0193  0x34a  Code  Lc  dlmalloc.o [3]
+printf                  0xe1fe36db   0x2a  Code  Gb  printf.o [3]
+ps_clock_init_data      0xe1fe5568  0x49c  Data  Gb  ps_init.o [1]
+ps_config               0xe1fe3758  0x180  Code  Gb  ps_init.o [1]
+ps_ddr_init_data        0xe1fe4d54  0x814  Data  Gb  ps_init.o [1]
+ps_init                 0xe1fe38d8   0x5c  Code  Gb  ps_init.o [1]
+ps_mio_init_data        0xe1fe5a04  0x3bc  Data  Gb  ps_init.o [1]
+ps_peripherals_init_data
+                        0xe1fe636c   0x1c  Data  Gb  ps_init.o [1]
+ps_pll_init_data        0xe1fe5dc0  0x304  Data  Gb  ps_init.o [1]
+putchar                 0xe1fe4ca3    0xc  Code  Gb  putchar.o [3]
+remove                  0xe1fe4607   0x18  Code  Gb  remove.o [6]
+resetHandler            0xe1fe3c90         Code  Gb  cstartup.o [1]
+resetVector             0xe1fe0000         Code  Gb  cstartup.o [1]
+round                   0xe1fe3689         Code  Gb  round.o [4]
+roundl                  0xe1fe3689         Code  Gb  round.o [4]
+sFileInfo               0xe1fe7bac   0x80  Data  Lc  XShHandles.o [3]
+scalbln                 0xe1fe2af1         Code  Gb  ldexp.o [4]
+scalblnl                0xe1fe2af1         Code  Gb  ldexp.o [4]
+scalbn                  0xe1fe2af1         Code  Gb  ldexp.o [4]
+scalbnl                 0xe1fe2af1         Code  Gb  ldexp.o [4]
+scale                   0xe1fe1f21   0x4a  Code  Lc  xprintffuller_nomb.o [3]
+sec_hand                0xe1fe7db0    0x4  Data  Lc  xfail_s.o [3]
+segment_holding         0xe1fe0101   0x1e  Code  Lc  dlmalloc.o [3]
+store                   0xe1fe7ca0   0x50  Data  Lc  xxwritebuffered.o [3]
+storeLen                0xe1fe7cf0    0x4  Data  Lc  xxwritebuffered.o [3]
+strchr                  0xe1fe2680         Code  Gb  strchr.o [5]
+strlen                  0xe1fe26e0         Code  Gb  strlen.o [5]
+sys_alloc               0xe1fe06e5  0x16e  Code  Lc  dlmalloc.o [3]
+sys_trim                0xe1fe0853   0x78  Code  Lc  dlmalloc.o [3]
+tmalloc_large           0xe1fe08cb  0x394  Code  Lc  dlmalloc.o [3]
+tmalloc_small           0xe1fe0c5f  0x208  Code  Lc  dlmalloc.o [3]
+vsnprintf               0xe1fe42f1   0x3e  Code  Gb  vsnprint.o [3]
+
+
+[1] = D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj
+[2] = command line
+[3] = dl7Sx_tlf.a
+[4] = m7Sx_tlv.a
+[5] = rt7Sx_tl.a
+[6] = sh7Sxi_l.a
+
+  18 367 bytes of readonly  code memory
+   7 093 bytes of readonly  data memory
+  25 024 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

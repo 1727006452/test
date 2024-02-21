@@ -1,0 +1,22 @@
+{
+    "all": {
+        "error": [
+        ]
+    },
+    "last_cmd": "load_design",
+    "last_cmd_stage": 2,
+    "load_design": {
+        "error": [
+        ],
+        "log": ">>load_design -stage_elaborate -no_hier\n  load block design C:/Users/Administrator/Desktop/amp_freertos_test/fsbl-v1.0/bd/fsbl/fsbl.bd\n  load ip C:/Users/Administrator/Desktop/amp_freertos_test/fsbl-v1.0/bd/fsbl/ip/fsbl_processing_system7_0/fsbl_processing_system7_0.fmi\n  -- Analyzing Verilog file 'C:/Users/Administrator/Desktop/amp_freertos_test/fsbl-v1.0/bd/fsbl/hdl/fsbl.v' (VERI-1482)\n  load_design elapsed_time 0.22 seconds, cpu_time 0.22 seconds\n  load_design used memory 7MB, procise used peak memory 636MB, current used memory 518MB\n"
+    },
+    "out_of_date": {
+    },
+    "set_device": {
+        "error": [
+        ],
+        "log": ">>set_device fmql20s400\n  set_device elapsed_time 2.48 seconds, cpu_time 2.47 seconds\n  set_device used memory 558MB, procise used peak memory 636MB, current used memory 516MB\n\n"
+    },
+    "timer": {
+    }
+}

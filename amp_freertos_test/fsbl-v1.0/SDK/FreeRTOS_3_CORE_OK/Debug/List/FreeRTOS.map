@@ -1,0 +1,941 @@
+###############################################################################
+#
+# IAR ELF Linker V8.11.2.13589/W32 for ARM                15/Sep/2023  17:07:18
+# Copyright 2007-2017 IAR Systems AB.
+#
+#    Output file  =  
+#        C:\Users\Administrator\Desktop\amp_freertos_test\fsbl-v1.0\SDK\fsbl_platform\FreeRTOS\Debug\Exe\FreeRTOS.out
+#    Map file     =  
+#        C:\Users\Administrator\Desktop\amp_freertos_test\fsbl-v1.0\SDK\fsbl_platform\FreeRTOS\Debug\List\FreeRTOS.map
+#    Command line =  
+#        -f C:\Users\ADMINI~1\AppData\Local\Temp\EW84A2.tmp
+#        (C:\Users\Administrator\Desktop\amp_freertos_test\fsbl-v1.0\SDK\fsbl_platform\FreeRTOS\Debug\Obj\cache.o
+#        C:\Users\Administrator\Desktop\amp_freertos_test\fsbl-v1.0\SDK\fsbl_platform\FreeRTOS\Debug\Obj\croutine.o
+#        C:\Users\Administrator\Desktop\amp_freertos_test\fsbl-v1.0\SDK\fsbl_platform\FreeRTOS\Debug\Obj\cstartup.o
+#        C:\Users\Administrator\Desktop\amp_freertos_test\fsbl-v1.0\SDK\fsbl_platform\FreeRTOS\Debug\Obj\event_groups.o
+#        C:\Users\Administrator\Desktop\amp_freertos_test\fsbl-v1.0\SDK\fsbl_platform\FreeRTOS\Debug\Obj\exception_handler.o
+#        C:\Users\Administrator\Desktop\amp_freertos_test\fsbl-v1.0\SDK\fsbl_platform\FreeRTOS\Debug\Obj\fmsh_common.o
+#        C:\Users\Administrator\Desktop\amp_freertos_test\fsbl-v1.0\SDK\fsbl_platform\FreeRTOS\Debug\Obj\fmsh_gic.o
+#        C:\Users\Administrator\Desktop\amp_freertos_test\fsbl-v1.0\SDK\fsbl_platform\FreeRTOS\Debug\Obj\fmsh_gic_intr.o
+#        C:\Users\Administrator\Desktop\amp_freertos_test\fsbl-v1.0\SDK\fsbl_platform\FreeRTOS\Debug\Obj\fmsh_gic_sinit.o
+#        C:\Users\Administrator\Desktop\amp_freertos_test\fsbl-v1.0\SDK\fsbl_platform\FreeRTOS\Debug\Obj\fmsh_gpio.o
+#        C:\Users\Administrator\Desktop\amp_freertos_test\fsbl-v1.0\SDK\fsbl_platform\FreeRTOS\Debug\Obj\fmsh_gpio_g.o
+#        C:\Users\Administrator\Desktop\amp_freertos_test\fsbl-v1.0\SDK\fsbl_platform\FreeRTOS\Debug\Obj\fmsh_gpio_sinit.o
+#        C:\Users\Administrator\Desktop\amp_freertos_test\fsbl-v1.0\SDK\fsbl_platform\FreeRTOS\Debug\Obj\fmsh_gtc.o
+#        C:\Users\Administrator\Desktop\amp_freertos_test\fsbl-v1.0\SDK\fsbl_platform\FreeRTOS\Debug\Obj\fmsh_gtc_g.o
+#        C:\Users\Administrator\Desktop\amp_freertos_test\fsbl-v1.0\SDK\fsbl_platform\FreeRTOS\Debug\Obj\fmsh_gtc_sinit.o
+#        C:\Users\Administrator\Desktop\amp_freertos_test\fsbl-v1.0\SDK\fsbl_platform\FreeRTOS\Debug\Obj\fmsh_print.o
+#        C:\Users\Administrator\Desktop\amp_freertos_test\fsbl-v1.0\SDK\fsbl_platform\FreeRTOS\Debug\Obj\fmsh_ttc.o
+#        C:\Users\Administrator\Desktop\amp_freertos_test\fsbl-v1.0\SDK\fsbl_platform\FreeRTOS\Debug\Obj\fmsh_ttc_g.o
+#        C:\Users\Administrator\Desktop\amp_freertos_test\fsbl-v1.0\SDK\fsbl_platform\FreeRTOS\Debug\Obj\fmsh_ttc_sinit.o
+#        C:\Users\Administrator\Desktop\amp_freertos_test\fsbl-v1.0\SDK\fsbl_platform\FreeRTOS\Debug\Obj\fmsh_uart.o
+#        C:\Users\Administrator\Desktop\amp_freertos_test\fsbl-v1.0\SDK\fsbl_platform\FreeRTOS\Debug\Obj\fmsh_uart_example.o
+#        C:\Users\Administrator\Desktop\amp_freertos_test\fsbl-v1.0\SDK\fsbl_platform\FreeRTOS\Debug\Obj\fmsh_uart_g.o
+#        C:\Users\Administrator\Desktop\amp_freertos_test\fsbl-v1.0\SDK\fsbl_platform\FreeRTOS\Debug\Obj\fmsh_uart_sinit.o
+#        C:\Users\Administrator\Desktop\amp_freertos_test\fsbl-v1.0\SDK\fsbl_platform\FreeRTOS\Debug\Obj\FreeRTOS_asm_vectors.o
+#        C:\Users\Administrator\Desktop\amp_freertos_test\fsbl-v1.0\SDK\fsbl_platform\FreeRTOS\Debug\Obj\FreeRTOS_tick_config.o
+#        C:\Users\Administrator\Desktop\amp_freertos_test\fsbl-v1.0\SDK\fsbl_platform\FreeRTOS\Debug\Obj\heap_4.o
+#        C:\Users\Administrator\Desktop\amp_freertos_test\fsbl-v1.0\SDK\fsbl_platform\FreeRTOS\Debug\Obj\led_flash.o
+#        C:\Users\Administrator\Desktop\amp_freertos_test\fsbl-v1.0\SDK\fsbl_platform\FreeRTOS\Debug\Obj\list.o
+#        C:\Users\Administrator\Desktop\amp_freertos_test\fsbl-v1.0\SDK\fsbl_platform\FreeRTOS\Debug\Obj\main.o
+#        C:\Users\Administrator\Desktop\amp_freertos_test\fsbl-v1.0\SDK\fsbl_platform\FreeRTOS\Debug\Obj\main_blinky.o
+#        C:\Users\Administrator\Desktop\amp_freertos_test\fsbl-v1.0\SDK\fsbl_platform\FreeRTOS\Debug\Obj\mmu_table.o
+#        C:\Users\Administrator\Desktop\amp_freertos_test\fsbl-v1.0\SDK\fsbl_platform\FreeRTOS\Debug\Obj\ParTest.o
+#        C:\Users\Administrator\Desktop\amp_freertos_test\fsbl-v1.0\SDK\fsbl_platform\FreeRTOS\Debug\Obj\platform.o
+#        C:\Users\Administrator\Desktop\amp_freertos_test\fsbl-v1.0\SDK\fsbl_platform\FreeRTOS\Debug\Obj\port.o
+#        C:\Users\Administrator\Desktop\amp_freertos_test\fsbl-v1.0\SDK\fsbl_platform\FreeRTOS\Debug\Obj\portASM.o
+#        C:\Users\Administrator\Desktop\amp_freertos_test\fsbl-v1.0\SDK\fsbl_platform\FreeRTOS\Debug\Obj\ps_init.o
+#        C:\Users\Administrator\Desktop\amp_freertos_test\fsbl-v1.0\SDK\fsbl_platform\FreeRTOS\Debug\Obj\queue.o
+#        C:\Users\Administrator\Desktop\amp_freertos_test\fsbl-v1.0\SDK\fsbl_platform\FreeRTOS\Debug\Obj\stream_buffer.o
+#        C:\Users\Administrator\Desktop\amp_freertos_test\fsbl-v1.0\SDK\fsbl_platform\FreeRTOS\Debug\Obj\tasks.o
+#        C:\Users\Administrator\Desktop\amp_freertos_test\fsbl-v1.0\SDK\fsbl_platform\FreeRTOS\Debug\Obj\timers.o
+#        --redirect _Printf=_PrintfFullNoMb --redirect _Scanf=_ScanfFullNoMb -o
+#        C:\Users\Administrator\Desktop\amp_freertos_test\fsbl-v1.0\SDK\fsbl_platform\FreeRTOS\Debug\Exe\FreeRTOS.out
+#        --map
+#        C:\Users\Administrator\Desktop\amp_freertos_test\fsbl-v1.0\SDK\fsbl_platform\FreeRTOS\Debug\List\FreeRTOS.map
+#        --config
+#        C:\Users\Administrator\Desktop\amp_freertos_test\fsbl-v1.0\SDK\fsbl_platform\FreeRTOS\a7_sram.icf
+#        --semihosting=iar_breakpoint --entry resetHandler --vfe --text_out
+#        locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because no calls to memory allocation
+functions were found in the application outside of system library
+functions, and there are calls to deallocation functions in the
+application.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"P1":  place in [from 0x30004000 to 0x300040ff] { section .vectors };
+"P2":  place in [from 0x30004100 to 0x300041ff] { section .freertos_vectors };
+"P3":  place in [from 0x30000000 to 0x30003fff] { section .mmu_tbl };
+"P4":  place in [from 0x30004200 to 0x3fffffff] { ro };
+"P5":  place in [from 0x30004200 to 0x3fffffff] { section .cstartup };
+define block IRQ_STACK with size = 512, alignment = 8 { };
+define block FIQ_STACK with size = 512, alignment = 8 { };
+define block ABT_STACK with size = 512, alignment = 8 { };
+define block UND_STACK with size = 512, alignment = 8 { };
+define block CSTACK with size = 16K, alignment = 8 { };
+define block HEAP with size = 1K, alignment = 8 { };
+"P6":  place in [from 0x30004200 to 0x3fffffff] {
+          rw, block IRQ_STACK, block FIQ_STACK, block ABT_STACK,
+          block UND_STACK, block CSTACK, block HEAP };
+initialize by copy with packing = copy, complex ranges { rw };
+
+  Section            Kind        Address     Size  Object
+  -------            ----        -------     ----  ------
+"P3":                                      0x4000
+  .mmu_tbl           ro code  0x30000000   0x4000  mmu_table.o [1]
+                            - 0x30004000   0x4000
+
+"P1":                                        0xe0
+  .vectors           ro code  0x30004000     0xe0  cstartup.o [1]
+                            - 0x300040e0     0xe0
+
+"P2":                                        0x74
+  .freertos_vectors  ro code  0x30004100     0x74  FreeRTOS_asm_vectors.o [1]
+                            - 0x30004174     0x74
+
+"P4-P6", part 1 of 3:                      0x8f64
+  .text              ro code  0x30004200   0x1680  fmsh_uart.o [1]
+  .text              ro code  0x30005880     0xe8  fmsh_common.o [1]
+  .text              ro code  0x30005968     0x62  round.o [4]
+  .text              ro code  0x300059ca     0x2a  printf.o [3]
+  .text              ro code  0x300059f4      0x6  abort.o [3]
+  .text              ro code  0x300059fa     0x1a  xsnprout.o [3]
+  .text              ro code  0x30005a14     0x52  DblToU64.o [4]
+  .text              ro code  0x30005a66    0xe20  xprintffull_nomb.o [3]
+  .text              ro code  0x30006886     0x16  exit.o [6]
+  .text              ro code  0x3000689c     0x20  strchr.o [5]
+  .text              ro code  0x300068bc     0x2e  xfail_s.o [3]
+  .rodata            const    0x300068ea      0x2  xprintffull_nomb.o [3]
+  .text              ro code  0x300068ec     0x54  strlen.o [5]
+  .text              ro code  0x30006940     0x94  memchr.o [5]
+  .text              ro code  0x300069d4    0x130  I64DivMod.o [5]
+  .text              ro code  0x30006b04     0x12  DblMul.o [4]
+  .text              ro code  0x30006b18     0xd4  ABImemcpy.o [5]
+  .text              ro code  0x30006bec     0x70  frexp.o [4]
+  .text              ro code  0x30006c5c     0x2e  DblCmpLe.o [4]
+  .text              ro code  0x30006c8c     0x2e  DblCmpGe.o [4]
+  .text              ro code  0x30006cbc    0x104  ldexp.o [4]
+  .text              ro code  0x30006dc0      0xe  DblToS32.o [4]
+  .text              ro code  0x30006dce      0xe  S32ToDbl.o [4]
+  .text              ro code  0x30006ddc     0x12  DblSub.o [4]
+  .text              ro code  0x30006dee     0x12  DblDiv.o [4]
+  .text              ro code  0x30006e00      0xe  DblToU32.o [4]
+  .text              ro code  0x30006e0e      0xe  U32ToDbl.o [4]
+  .text              ro code  0x30006e1c    0x1a8  I32DivMod.o [5]
+  .text              ro code  0x30006fc4     0x76  iarttio.o [6]
+  .text              ro code  0x3000703a      0x2  iar_semihosting.o [6]
+  .text              ro code  0x3000703c      0x4  I64DivZer.o [5]
+  .text              ro code  0x30007040      0x4  IntDivZer.o [5]
+  .text              ro code  0x30007044      0xa  XShttio.o [3]
+  .text              ro code  0x30007050   0x1178  tasks.o [1]
+  .text              ro code  0x300081c8    0x1b4  main.o [1]
+  .text              ro code  0x3000837c    0x424  heap_4.o [1]
+  .text              ro code  0x300087a0     0x74  ABImemset.o [5]
+  .text              ro code  0x30008814    0x114  list.o [1]
+  .text              ro code  0x30008928    0x390  port.o [1]
+  .text              ro code  0x30008cb8    0x77c  timers.o [1]
+  .text              ro code  0x30009434     0x44  fmsh_gtc.o [1]
+  .text              ro code  0x30009478    0x298  cache.o [1]
+  .text              ro code  0x30009710     0x94  platform.o [1]
+  .text              ro code  0x300097a4    0x230  led_flash.o [1]
+  .text              ro code  0x300099d4     0x3c  fmsh_gic_sinit.o [1]
+  .text              ro code  0x30009a10    0x528  fmsh_gic.o [1]
+  .text              ro code  0x30009f38     0x60  ParTest.o [1]
+  .text              ro code  0x30009f98     0x54  fmsh_gtc_sinit.o [1]
+  .text              ro code  0x30009fec    0x13c  FreeRTOS_tick_config.o [1]
+  .text              ro code  0x3000a128    0x2a8  portASM.o [1]
+  .text              ro code  0x3000a3d0    0xc54  queue.o [1]
+  .text              ro code  0x3000b024     0x54  fmsh_uart_sinit.o [1]
+  .text              ro code  0x3000b078     0x54  fmsh_gpio_sinit.o [1]
+  .text              ro code  0x3000b0cc    0x210  fmsh_gpio.o [1]
+  .text              ro code  0x3000b2dc     0xa0  fmsh_print.o [1]
+  .text              ro code  0x3000b37c    0x178  exception_handler.o [1]
+  .text              ro code  0x3000b4f4    0x144  fmsh_uart_example.o [1]
+  .text              ro code  0x3000b638     0x54  fmsh_ttc_sinit.o [1]
+  .text              ro code  0x3000b68c    0x354  fmsh_ttc.o [1]
+  .text              ro code  0x3000b9e0     0x3e  vsnprint.o [3]
+  .cstartup          ro code  0x3000ba20    0x134  cstartup.o [1]
+  .text              ro code  0x3000bb54     0x84  fmsh_gic_intr.o [1]
+  .rodata            const    0x3000bbd8     0x7c  fmsh_gic_intr.o [1]
+  .rodata            const    0x3000bc54     0x7c  FreeRTOS_tick_config.o [1]
+  .rodata            const    0x3000bcd0     0x7c  port.o [1]
+  .rodata            const    0x3000bd4c     0x78  fmsh_gpio.o [1]
+  .rodata            const    0x3000bdc4     0x78  fmsh_uart.o [1]
+  .rodata            const    0x3000be3c     0x78  heap_4.o [1]
+  .rodata            const    0x3000beb4     0x74  fmsh_gic.o [1]
+  .rodata            const    0x3000bf28     0x74  fmsh_ttc.o [1]
+  .rodata            const    0x3000bf9c     0x70  ParTest.o [1]
+  .rodata            const    0x3000c00c     0x6c  main.o [1]
+  .rodata            const    0x3000c078     0x68  queue.o [1]
+  .rodata            const    0x3000c0e0     0x68  tasks.o [1]
+  .rodata            const    0x3000c148     0x68  timers.o [1]
+  .rodata            const    0x3000c1b0     0x4c  exception_handler.o [1]
+  .rodata            const    0x3000c1fc     0x4c  xprintffull_nomb.o [3]
+  .text              ro code  0x3000c248     0x40  zero_init3.o [5]
+  .rodata            const    0x3000c288     0x3c  exception_handler.o [1]
+  .rodata            const    0x3000c2c4     0x3c  exception_handler.o [1]
+  .rodata            const    0x3000c300     0x34  exception_handler.o [1]
+  .text              ro code  0x3000c334     0x30  data_init.o [5]
+  .rodata            const    0x3000c364     0x2c  exception_handler.o [1]
+  .rodata            const    0x3000c390     0x2c  exception_handler.o [1]
+  .rodata            const    0x3000c3bc     0x2c  exception_handler.o [1]
+  .rodata            const    0x3000c3e8     0x2c  exception_handler.o [1]
+  .rodata            const    0x3000c414     0x2c  exception_handler.o [1]
+  .text              ro code  0x3000c440     0x2c  cmain.o [5]
+  .text              ro code  0x3000c46c      0x4  low_level_init.o [3]
+  Veneer             ro code  0x3000c470      0x8  - Linker created -
+  .text              ro code  0x3000c478      0x4  exit.o [3]
+  .text              ro code  0x3000c47c     0x10  cexit.o [5]
+  .text              ro code  0x3000c48c     0x2c  copy_init3.o [5]
+  .rodata            const    0x3000c4b8     0x28  led_flash.o [1]
+  .rodata            const    0x3000c4e0     0x28  led_flash.o [1]
+  .text              ro code  0x3000c508     0x28  fpinit.o [4]
+  .rodata            const    0x3000c530     0x24  exception_handler.o [1]
+  .rodata            const    0x3000c554     0x24  exception_handler.o [1]
+  .rodata            const    0x3000c578     0x24  fmsh_common.o [1]
+  .rodata            const    0x3000c59c     0x24  led_flash.o [1]
+  .text              ro code  0x3000c5c0     0x24  iarwrite.o [6]
+  .text              ro code  0x3000c5e4     0x22  iarwstd.o [6]
+  .iar.init_table    const    0x3000c608     0x24  - Linker created -
+  .rodata            const    0x3000c62c     0x20  exception_handler.o [1]
+  .rodata            const    0x3000c64c     0x20  xfail_s.o [3]
+  .text              ro code  0x3000c66c     0x20  putchar.o [3]
+  .text              ro code  0x3000c68c      0xc  write.o [6]
+  .text              ro code  0x3000c698     0x14  dwrite.o [6]
+  .rodata            const    0x3000c6ac     0x1c  exception_handler.o [1]
+  .rodata            const    0x3000c6c8     0x1c  exception_handler.o [1]
+  .rodata            const    0x3000c6e4     0x1c  exception_handler.o [1]
+  .rodata            const    0x3000c700     0x1c  exception_handler.o [1]
+  .rodata            const    0x3000c71c     0x1c  exception_handler.o [1]
+  .rodata            const    0x3000c738     0x1c  led_flash.o [1]
+  .rodata            const    0x3000c754     0x1c  led_flash.o [1]
+  .rodata            const    0x3000c770     0x1c  led_flash.o [1]
+  .rodata            const    0x3000c78c     0x18  exception_handler.o [1]
+  .rodata            const    0x3000c7a4     0x18  exception_handler.o [1]
+  .rodata            const    0x3000c7bc     0x18  exception_handler.o [1]
+  .rodata            const    0x3000c7d4     0x18  exception_handler.o [1]
+  .rodata            const    0x3000c7ec     0x18  led_flash.o [1]
+  .text              ro code  0x3000c804     0x16  xprout.o [3]
+  .rodata            const    0x3000c81c     0x14  exception_handler.o [1]
+  .rodata            const    0x3000c830     0x14  exception_handler.o [1]
+  .rodata            const    0x3000c844     0x14  exception_handler.o [1]
+  .rodata            const    0x3000c858     0x14  exception_handler.o [1]
+  .rodata            const    0x3000c86c     0x10  exception_handler.o [1]
+  .rodata            const    0x3000c87c     0x10  xprintffull_nomb.o [3]
+  .rodata            const    0x3000c88c      0xc  exception_handler.o [1]
+  .rodata            const    0x3000c898      0xc  led_flash.o [1]
+  .rodata            const    0x3000c8a4      0x8  led_flash.o [1]
+  .rodata            const    0x3000c8ac      0x8  tasks.o [1]
+  .rodata            const    0x3000c8b4      0x8  timers.o [1]
+  .rodata            const    0x3000c8bc      0x8  timers.o [1]
+  .rodata            const    0x3000c8c4      0x8  xprintffull_nomb.o [3]
+  .rodata            const    0x3000c8cc      0x4  heap_4.o [1]
+  .rodata            const    0x3000c8d0      0x4  iarttio.o [6]
+  .rodata            const    0x3000c8d4      0x0  zero_init3.o [5]
+  .rodata            const    0x3000c8d4      0x0  copy_init3.o [5]
+  P4-P6 s0                    0x3000c8d4    0x448  <Init block>
+    .data            inited   0x3000c8d4    0x2ec  fmsh_gic_sinit.o [1]
+    .data            inited   0x3000cbc0     0xb8  exception_handler.o [1]
+    .data            inited   0x3000cc78     0x38  exception_handler.o [1]
+    .data            inited   0x3000ccb0     0x20  fmsh_gpio_g.o [1]
+    .data            inited   0x3000ccd0     0x20  fmsh_uart_g.o [1]
+    .data            inited   0x3000ccf0     0x10  fmsh_ttc_g.o [1]
+    .data            inited   0x3000cd00      0x8  fmsh_gtc_g.o [1]
+    .data            inited   0x3000cd08      0x8  XShttio.o [3]
+    .data            inited   0x3000cd10      0x4  FreeRTOS_tick_config.o [1]
+    .data            inited   0x3000cd14      0x4  led_flash.o [1]
+    .data            inited   0x3000cd18      0x4  port.o [1]
+  Initializer bytes  const    0x3000cd1c    0x448  <for P4-P6 s0>
+                            - 0x3000d164   0x8f64
+
+"P4-P6", part 2 of 3:                     0x11038
+  .bss               zero     0x3000d164  0x10000  heap_4.o [1]
+  .bss               zero     0x3001d164    0x7d0  main.o [1]
+  .bss               zero     0x3001d934    0x3e8  main.o [1]
+  .bss               zero     0x3001dd1c     0x8c  tasks.o [1]
+  .bss               zero     0x3001dda8     0x74  fmsh_uart_example.o [1]
+  .bss               zero     0x3001de1c     0x74  platform.o [1]
+  .bss               zero     0x3001de90     0x5c  main.o [1]
+  .bss               zero     0x3001deec     0x5c  main.o [1]
+  .bss               zero     0x3001df48     0x54  timers.o [1]
+  .bss               zero     0x3001df9c     0x50  timers.o [1]
+  .bss               zero     0x3001dfec     0x40  queue.o [1]
+  .bss               zero     0x3001e02c     0x20  FreeRTOS_tick_config.o [1]
+  .bss               zero     0x3001e04c     0x14  ParTest.o [1]
+  .bss               zero     0x3001e060     0x14  tasks.o [1]
+  .bss               zero     0x3001e074     0x14  tasks.o [1]
+  .bss               zero     0x3001e088     0x14  tasks.o [1]
+  .bss               zero     0x3001e09c     0x14  tasks.o [1]
+  .bss               zero     0x3001e0b0     0x14  tasks.o [1]
+  .bss               zero     0x3001e0c4     0x14  timers.o [1]
+  .bss               zero     0x3001e0d8     0x14  timers.o [1]
+  .bss               zero     0x3001e0ec     0x10  main.o [1]
+  .bss               zero     0x3001e0fc      0xc  fmsh_gic.o [1]
+  .bss               zero     0x3001e108      0xc  main.o [1]
+  .bss               zero     0x3001e114      0x8  heap_4.o [1]
+  .bss               zero     0x3001e11c      0x4  fmsh_gic.o [1]
+  .bss               zero     0x3001e120      0x4  heap_4.o [1]
+  .bss               zero     0x3001e124      0x4  heap_4.o [1]
+  .bss               zero     0x3001e128      0x4  heap_4.o [1]
+  .bss               zero     0x3001e12c      0x4  heap_4.o [1]
+  .bss               zero     0x3001e130      0x4  led_flash.o [1]
+  .bss               zero     0x3001e134      0x4  port.o [1]
+  .bss               zero     0x3001e138      0x4  port.o [1]
+  .bss               zero     0x3001e13c      0x4  port.o [1]
+  .bss               zero     0x3001e140      0x4  tasks.o [1]
+  .bss               zero     0x3001e144      0x4  tasks.o [1]
+  .bss               zero     0x3001e148      0x4  tasks.o [1]
+  .bss               zero     0x3001e14c      0x4  tasks.o [1]
+  .bss               zero     0x3001e150      0x4  tasks.o [1]
+  .bss               zero     0x3001e154      0x4  tasks.o [1]
+  .bss               zero     0x3001e158      0x4  tasks.o [1]
+  .bss               zero     0x3001e15c      0x4  tasks.o [1]
+  .bss               zero     0x3001e160      0x4  tasks.o [1]
+  .bss               zero     0x3001e164      0x4  tasks.o [1]
+  .bss               zero     0x3001e168      0x4  tasks.o [1]
+  .bss               zero     0x3001e16c      0x4  tasks.o [1]
+  .bss               zero     0x3001e170      0x4  tasks.o [1]
+  .bss               zero     0x3001e174      0x4  tasks.o [1]
+  .bss               zero     0x3001e178      0x4  tasks.o [1]
+  .bss               zero     0x3001e17c      0x4  tasks.o [1]
+  .bss               zero     0x3001e180      0x4  tasks.o [1]
+  .bss               zero     0x3001e184      0x4  timers.o [1]
+  .bss               zero     0x3001e188      0x4  timers.o [1]
+  .bss               zero     0x3001e18c      0x4  timers.o [1]
+  .bss               zero     0x3001e190      0x4  timers.o [1]
+  .bss               zero     0x3001e194      0x4  timers.o [1]
+  .bss               zero     0x3001e198      0x4  xfail_s.o [3]
+                            - 0x3001e19c  0x11038
+
+"P4-P6", part 3 of 3:                      0x4800
+  IRQ_STACK                   0x3001e1a0    0x200  <Block>
+    IRQ_STACK        uninit   0x3001e1a0    0x200  <Block tail>
+  FIQ_STACK                   0x3001e3a0    0x200  <Block>
+    FIQ_STACK        uninit   0x3001e3a0    0x200  <Block tail>
+  ABT_STACK                   0x3001e5a0    0x200  <Block>
+    ABT_STACK        uninit   0x3001e5a0    0x200  <Block tail>
+  UND_STACK                   0x3001e7a0    0x200  <Block>
+    UND_STACK        uninit   0x3001e7a0    0x200  <Block tail>
+  CSTACK                      0x3001e9a0   0x4000  <Block>
+    CSTACK           uninit   0x3001e9a0   0x4000  <Block tail>
+                            - 0x300229a0   0x4800
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x11038:
+          0x3000d164  0x11038
+
+Copy (__iar_copy_init3)
+    1 source range, total size 0x448:
+          0x3000cd1c    0x448
+    1 destination range, total size 0x448:
+          0x3000c8d4    0x448
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                  ro code  ro data  rw data
+    ------                  -------  -------  -------
+C:\Users\Administrator\Desktop\amp_freertos_test\fsbl-v1.0\SDK\fsbl_platform\FreeRTOS\Debug\Obj: [1]
+    FreeRTOS_asm_vectors.o      116
+    FreeRTOS_tick_config.o      316      128       36
+    ParTest.o                    96      112       20
+    cache.o                     664
+    cstartup.o                  532
+    exception_handler.o         376    1 156      240
+    fmsh_common.o               232       36
+    fmsh_gic.o                1 320      116       16
+    fmsh_gic_intr.o             132      124
+    fmsh_gic_sinit.o             60      748      748
+    fmsh_gpio.o                 528      120
+    fmsh_gpio_g.o                         32       32
+    fmsh_gpio_sinit.o            84
+    fmsh_gtc.o                   68
+    fmsh_gtc_g.o                           8        8
+    fmsh_gtc_sinit.o             84
+    fmsh_print.o                160
+    fmsh_ttc.o                  852      116
+    fmsh_ttc_g.o                          16       16
+    fmsh_ttc_sinit.o             84
+    fmsh_uart.o               5 760      120
+    fmsh_uart_example.o         324               116
+    fmsh_uart_g.o                         32       32
+    fmsh_uart_sinit.o            84
+    heap_4.o                  1 060      124   65 560
+    led_flash.o                 560      248        8
+    list.o                      276
+    main.o                      436      108    3 212
+    mmu_table.o              16 384
+    platform.o                  148               116
+    port.o                      912      128       16
+    portASM.o                   680
+    queue.o                   3 156      104       64
+    tasks.o                   4 472      112      308
+    timers.o                  1 916      120      224
+    -------------------------------------------------
+    Total:                   41 872    3 808   70 772
+
+command line: [2]
+    -------------------------------------------------
+    Total:
+
+dl7Sx_tln.a: [3]
+    XShttio.o                    10        8        8
+    abort.o                       6
+    exit.o                        4
+    low_level_init.o              4
+    printf.o                     42
+    putchar.o                    32
+    vsnprint.o                   62
+    xfail_s.o                    46       32        4
+    xprintffull_nomb.o        3 616      102
+    xprout.o                     22
+    xsnprout.o                   26
+    -------------------------------------------------
+    Total:                    3 870      142       12
+
+m7Sx_tlv.a: [4]
+    DblCmpGe.o                   46
+    DblCmpLe.o                   46
+    DblDiv.o                     18
+    DblMul.o                     18
+    DblSub.o                     18
+    DblToS32.o                   14
+    DblToU32.o                   14
+    DblToU64.o                   82
+    S32ToDbl.o                   14
+    U32ToDbl.o                   14
+    fpinit.o                     40
+    frexp.o                     112
+    ldexp.o                     260
+    round.o                      98
+    -------------------------------------------------
+    Total:                      794
+
+rt7Sx_tl.a: [5]
+    ABImemcpy.o                 212
+    ABImemset.o                 116
+    I32DivMod.o                 424
+    I64DivMod.o                 304
+    I64DivZer.o                   4
+    IntDivZer.o                   4
+    cexit.o                      16
+    cmain.o                      44
+    copy_init3.o                 44
+    data_init.o                  48
+    memchr.o                    148
+    strchr.o                     32
+    strlen.o                     84
+    zero_init3.o                 64
+    -------------------------------------------------
+    Total:                    1 544
+
+sh7Sxi_l.a: [6]
+    dwrite.o                     20
+    exit.o                       22
+    iar_semihosting.o             2
+    iarttio.o                   118        4
+    iarwrite.o                   36
+    iarwstd.o                    34
+    write.o                      12
+    -------------------------------------------------
+    Total:                      244        4
+
+    Gaps                         10        4
+    Linker created                8       36   18 432
+-----------------------------------------------------
+    Grand Total:             48 342    3 994   89 216
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address     Size  Type      Object
+-----                      -------     ----  ----      ------
+.iar.init_table$$Base   0x3000c608            --   Gb  - Linker created -
+.iar.init_table$$Limit  0x3000c62c            --   Gb  - Linker created -
+?main                   0x3000c440           Code  Gb  cmain.o [5]
+ABT_STACK$$Base         0x3001e5a0            --   Gb  - Linker created -
+ABT_STACK$$Limit        0x3001e7a0            --   Gb  - Linker created -
+Abort_C_Handler         0x3000b3a0     0x70  Code  Gb  exception_handler.o [1]
+CPUInitialize           0x30009a14     0x30  Code  Lc  fmsh_gic.o [1]
+CSTACK$$Base            0x3001e9a0            --   Gb  - Linker created -
+CSTACK$$Limit           0x300229a0            --   Gb  - Linker created -
+DistributorInit         0x30009a10      0x4  Code  Lc  fmsh_gic.o [1]
+FGicPs_CfgInitialize    0x30009a44     0xd0  Code  Gb  fmsh_gic.o [1]
+FGicPs_ConfigTable      0x3000c8d4    0x2ec  Data  Gb  fmsh_gic_sinit.o [1]
+FGicPs_Connect          0x30009b14     0x98  Code  Gb  fmsh_gic.o [1]
+FGicPs_Enable           0x30009bac     0x84  Code  Gb  fmsh_gic.o [1]
+FGicPs_Init             0x30009858     0x3c  Code  Gb  led_flash.o [1]
+FGicPs_InterruptHandler_IRQ
+                        0x3000bb54     0x80  Code  Gb  fmsh_gic_intr.o [1]
+FGicPs_InterruptMaptoCpu
+                        0x30009dd0     0x7c  Code  Gb  fmsh_gic.o [1]
+FGicPs_LookupConfig     0x300099d4     0x3c  Code  Gb  fmsh_gic_sinit.o [1]
+FGicPs_SetPriorityTriggerType
+                        0x30009c5c    0x174  Code  Gb  fmsh_gic.o [1]
+FGicPs_SetupInterruptSystem
+                        0x30009e4c     0xcc  Code  Gb  fmsh_gic.o [1]
+FGicPs_SetupInterruptSystem::GicConfig
+                        0x3001e11c      0x4  Data  Lc  fmsh_gic.o [1]
+FGpioPS_output_example  0x300097a4     0xb4  Code  Gb  led_flash.o [1]
+FGpioPs_ConfigTable     0x3000ccb0     0x20  Data  Gb  fmsh_gpio_g.o [1]
+FGpioPs_LookupConfig    0x3000b078     0x54  Code  Gb  fmsh_gpio_sinit.o [1]
+FGpioPs_getIdCode       0x3000b294     0x44  Code  Gb  fmsh_gpio.o [1]
+FGpioPs_getVerIdCode    0x3000b254     0x40  Code  Gb  fmsh_gpio.o [1]
+FGpioPs_init            0x3000b0cc     0x34  Code  Gb  fmsh_gpio.o [1]
+FGpioPs_setBitDirection
+                        0x3000b1ac     0xa8  Code  Gb  fmsh_gpio.o [1]
+FGpioPs_writeBit        0x3000b100     0xac  Code  Gb  fmsh_gpio.o [1]
+FGtcPs_ConfigTable      0x3000cd00      0x8  Data  Gb  fmsh_gtc_g.o [1]
+FGtcPs_LookupConfig     0x30009f98     0x54  Code  Gb  fmsh_gtc_sinit.o [1]
+FGtcPs_enableCounter    0x30009448     0x1c  Code  Gb  fmsh_gtc.o [1]
+FGtcPs_getConuterL      0x30009464     0x14  Code  Gb  fmsh_gtc.o [1]
+FGtcPs_init             0x30009434     0x14  Code  Gb  fmsh_gtc.o [1]
+FIQInterrupt            0x3000b4a8     0x1c  Code  Gb  exception_handler.o [1]
+FIQ_Handler             0x30004078           Code  Gb  cstartup.o [1]
+FIQ_STACK$$Base         0x3001e3a0            --   Gb  - Linker created -
+FIQ_STACK$$Limit        0x3001e5a0            --   Gb  - Linker created -
+FMSH_ExceptionNullHandler
+                        0x3000b37c      0x4  Code  Lc  exception_handler.o [1]
+FMSH_ExceptionRegisterHandler
+                        0x3000b380     0x20  Code  Gb  exception_handler.o [1]
+FMSH_In32               0x30009f28      0x8  Code  Gb  fmsh_gic.o [1]
+FMSH_Out32              0x30009f30      0x8  Code  Gb  fmsh_gic.o [1]
+FTtcPs_ClearTimerNInterrupt
+                        0x3000b94c     0x90  Code  Gb  fmsh_ttc.o [1]
+FTtcPs_ConfigTable      0x3000ccf0     0x10  Data  Gb  fmsh_ttc_g.o [1]
+FTtcPs_LookupConfig     0x3000b638     0x54  Code  Gb  fmsh_ttc_sinit.o [1]
+FTtcPs_TimerNLoadCount  0x3000b8b4     0x98  Code  Gb  fmsh_ttc.o [1]
+FTtcPs_init             0x3000b68c     0x1c  Code  Gb  fmsh_ttc.o [1]
+FTtcPs_setTimerEnble    0x3000b6a8    0x100  Code  Gb  fmsh_ttc.o [1]
+FTtcPs_setTimerMode     0x3000b7a8    0x10c  Code  Gb  fmsh_ttc.o [1]
+FUartPs_ConfigTable     0x3000ccd0     0x20  Data  Gb  fmsh_uart_g.o [1]
+FUartPs_LookupConfig    0x3000b024     0x54  Code  Gb  fmsh_uart_sinit.o [1]
+FUartPs_areFifosEnabled
+                        0x3000480c     0x74  Code  Gb  fmsh_uart.o [1]
+FUartPs_autoCompParams  0x300057bc     0xbc  Code  Gb  fmsh_uart.o [1]
+FUartPs_disableIrq      0x30004a98     0x74  Code  Gb  fmsh_uart.o [1]
+FUartPs_enableFifos     0x30004790     0x7c  Code  Gb  fmsh_uart.o [1]
+FUartPs_flushRxHold     0x300056b0    0x10c  Code  Gb  fmsh_uart.o [1]
+FUartPs_getLineStatus   0x300049c0     0x70  Code  Gb  fmsh_uart.o [1]
+FUartPs_getRxFifoLevel  0x300048e0     0x60  Code  Gb  fmsh_uart.o [1]
+FUartPs_getRxTrigger    0x30004be8     0x68  Code  Gb  fmsh_uart.o [1]
+FUartPs_getTxFifoLevel  0x30004880     0x60  Code  Gb  fmsh_uart.o [1]
+FUartPs_getTxTrigger    0x30004b0c     0x68  Code  Gb  fmsh_uart.o [1]
+FUartPs_init            0x30004200     0x5c  Code  Gb  fmsh_uart.o [1]
+FUartPs_irqHandler      0x30004c58    0x94c  Code  Gb  fmsh_uart.o [1]
+FUartPs_isBusy          0x3000425c     0x70  Code  Gb  fmsh_uart.o [1]
+FUartPs_isPtimeEnabled  0x30004940     0x78  Code  Gb  fmsh_uart.o [1]
+FUartPs_resetInstance   0x300055ac    0x104  Code  Gb  fmsh_uart.o [1]
+FUartPs_resetRxFifo     0x30004330     0x64  Code  Gb  fmsh_uart.o [1]
+FUartPs_resetTxFifo     0x300042cc     0x64  Code  Gb  fmsh_uart.o [1]
+FUartPs_setBaudRate     0x3000446c     0x78  Code  Gb  fmsh_uart.o [1]
+FUartPs_setClockDivisor
+                        0x30004394     0xd8  Code  Gb  fmsh_uart.o [1]
+FUartPs_setDataBits     0x30004590     0x7c  Code  Gb  fmsh_uart.o [1]
+FUartPs_setLineControl  0x300044e4     0xac  Code  Gb  fmsh_uart.o [1]
+FUartPs_setParity       0x30004690     0x7c  Code  Gb  fmsh_uart.o [1]
+FUartPs_setRxTrigger    0x30004b74     0x74  Code  Gb  fmsh_uart.o [1]
+FUartPs_setStick        0x3000470c     0x84  Code  Gb  fmsh_uart.o [1]
+FUartPs_setStopBits     0x3000460c     0x84  Code  Gb  fmsh_uart.o [1]
+FUartPs_write           0x30004a30     0x68  Code  Gb  fmsh_uart.o [1]
+FreeRTOS_IRQ_Handler    0x3000a220           Code  Gb  portASM.o [1]
+FreeRTOS_SWI_Handler    0x3000a128           Code  Gb  portASM.o [1]
+FreeRTOS_Tick_Handler   0x30008b68     0x5c  Code  Gb  port.o [1]
+IRQInterrupt            0x3000b48c     0x1c  Code  Gb  exception_handler.o [1]
+IRQ_Handler             0x30004038           Code  Gb  cstartup.o [1]
+IRQ_STACK$$Base         0x3001e1a0            --   Gb  - Linker created -
+IRQ_STACK$$Limit        0x3001e3a0            --   Gb  - Linker created -
+IntcInstance            0x3001e0fc      0xc  Data  Gb  fmsh_gic.o [1]
+Led_Pin                 0x3000cd14      0x4  Data  Lc  led_flash.o [1]
+LoadInt                 0x30005c05     0x7a  Code  Lc  xprintffull_nomb.o [3]
+MMUTable                0x30000000           Code  Gb  mmu_table.o [1]
+Prefetch_C_Handler      0x3000b410     0x5c  Code  Gb  exception_handler.o [1]
+Region$$Table$$Base     0x3000c608            --   Gb  - Linker created -
+Region$$Table$$Limit    0x3000c62c            --   Gb  - Linker created -
+SVCHandler              0x300040b8           Code  Gb  cstartup.o [1]
+SWInterrupt             0x3000b46c     0x10  Code  Gb  exception_handler.o [1]
+SendData                0x3000b32c     0x50  Code  Lc  fmsh_print.o [1]
+StubHandler             0x30009c30     0x2c  Code  Lc  fmsh_gic.o [1]
+UND_STACK$$Base         0x3001e7a0            --   Gb  - Linker created -
+UND_STACK$$Limit        0x3001e9a0            --   Gb  - Linker created -
+Undefined_C_Handler     0x3000b47c     0x10  Code  Gb  exception_handler.o [1]
+XExc_VectorTable        0x3000cc78     0x38  Data  Gb  exception_handler.o [1]
+_GenldFullNoMb          0x300065f1    0x268  Code  Lc  xprintffull_nomb.o [3]
+_LdtobFullNoMb          0x300061a3    0x448  Code  Lc  xprintffull_nomb.o [3]
+_LitobFullNoMb          0x30006043    0x116  Code  Lc  xprintffull_nomb.o [3]
+_PrintfFullNoMb         0x30005a67    0x198  Code  Gb  xprintffull_nomb.o [3]
+_Prout                  0x3000c805     0x16  Code  Gb  xprout.o [3]
+_PutcharsFullNoMb       0x30006859     0x2e  Code  Lc  xprintffull_nomb.o [3]
+_PutfldFullNoMb         0x30005c7f    0x2b6  Code  Lc  xprintffull_nomb.o [3]
+_PuttxtFullNoMb         0x30005f35    0x10e  Code  Lc  xprintffull_nomb.o [3]
+_SNProut                0x300059fb     0x1a  Code  Gb  xsnprout.o [3]
+__ICFEDIT_region_RAM_end__ {Abs}
+                        0x3fffffff           Data  Gb  command line/config [2]
+__ICFEDIT_region_RAM_start__ {Abs}
+                        0x30004000           Data  Gb  command line/config [2]
+__ICFEDIT_size_cstack__ {Abs}
+                        0x00004000           Data  Gb  command line/config [2]
+__ICFEDIT_size_fiqstack__ {Abs}
+                        0x00000200           Data  Gb  command line/config [2]
+__ICFEDIT_size_heap__ {Abs}
+                        0x00000400           Data  Gb  command line/config [2]
+__ICFEDIT_size_irqstack__ {Abs}
+                        0x00000200           Data  Gb  command line/config [2]
+__ICFEDIT_size_vectors__ {Abs}
+                        0x00000100           Data  Gb  command line/config [2]
+__aeabi_cdcmple         0x30006c5d           Code  Gb  DblCmpLe.o [4]
+__aeabi_cdrcmple        0x30006c8d           Code  Gb  DblCmpGe.o [4]
+__aeabi_d2iz            0x30006dc1      0xe  Code  Gb  DblToS32.o [4]
+__aeabi_d2uiz           0x30006e01      0xe  Code  Gb  DblToU32.o [4]
+__aeabi_d2ulz           0x30005a15           Code  Gb  DblToU64.o [4]
+__aeabi_ddiv            0x30006def     0x12  Code  Gb  DblDiv.o [4]
+__aeabi_dmul            0x30006b05     0x12  Code  Gb  DblMul.o [4]
+__aeabi_dsub            0x30006ddd     0x12  Code  Gb  DblSub.o [4]
+__aeabi_i2d             0x30006dcf      0xe  Code  Gb  S32ToDbl.o [4]
+__aeabi_idiv            0x30006e1c           Code  Gb  I32DivMod.o [5]
+__aeabi_idiv0           0x30007040           Code  Gb  IntDivZer.o [5]
+__aeabi_idivmod         0x30006e1c           Code  Gb  I32DivMod.o [5]
+__aeabi_ldiv0           0x3000703c           Code  Gb  I64DivZer.o [5]
+__aeabi_memcpy          0x30006b18           Code  Gb  ABImemcpy.o [5]
+__aeabi_memcpy4         0x30006b3c           Code  Gb  ABImemcpy.o [5]
+__aeabi_memcpy8         0x30006b3c           Code  Gb  ABImemcpy.o [5]
+__aeabi_memset          0x300087a0           Code  Gb  ABImemset.o [5]
+__aeabi_ui2d            0x30006e0f      0xe  Code  Gb  U32ToDbl.o [4]
+__aeabi_uidiv           0x30006e48           Code  Gb  I32DivMod.o [5]
+__aeabi_uidivmod        0x30006e48           Code  Gb  I32DivMod.o [5]
+__aeabi_uldivmod        0x300069d4           Code  Gb  I64DivMod.o [5]
+__cmain                 0x3000c440           Code  Gb  cmain.o [5]
+__dwrite                0x3000c699     0x14  Code  Gb  dwrite.o [6]
+__exit                  0x30006887     0x16  Code  Gb  exit.o [6]
+__iar_Fail_s            0x300068bd     0x2e  Code  Gb  xfail_s.o [3]
+__iar_Memchr            0x30006940           Code  Gb  memchr.o [5]
+__iar_Memset            0x300087a0           Code  Gb  ABImemset.o [5]
+__iar_Memset_word       0x300087a8           Code  Gb  ABImemset.o [5]
+__iar_Strchr            0x3000689c           Code  Gb  strchr.o [5]
+__iar_close_ttio        0x30006fc5     0x32  Code  Gb  iarttio.o [6]
+__iar_copy_init3        0x3000c48d     0x2c  Code  Gb  copy_init3.o [5]
+__iar_data_init3        0x3000c335     0x30  Code  Gb  data_init.o [5]
+__iar_frexp             0x30006bf9           Code  Gb  frexp.o [4]
+__iar_frexpl            0x30006bf9           Code  Gb  frexp.o [4]
+__iar_get_ttio          0x30006ff7     0x44  Code  Gb  iarttio.o [6]
+__iar_init_vfp          0x3000c51c           Code  Gb  fpinit.o [4]
+__iar_init_vfp_v6       0x3000c508           Code  Gb  fpinit.o [4]
+__iar_ldexp64           0x30006cd1           Code  Gb  ldexp.o [4]
+__iar_lookup_ttioh      0x30007045      0xa  Code  Gb  XShttio.o [3]
+__iar_round64           0x30005979           Code  Gb  round.o [4]
+__iar_scalbln64         0x30006cd1           Code  Gb  ldexp.o [4]
+__iar_scalbn64          0x30006cd1           Code  Gb  ldexp.o [4]
+__iar_semihosting       0x3000703b      0x2  Code  Gb  iar_semihosting.o [6]
+__iar_sh_stdout         0x3000c5e5     0x22  Code  Gb  iarwstd.o [6]
+__iar_sh_write          0x3000c5c1     0x24  Code  Gb  iarwrite.o [6]
+__iar_softfp___iar_frexp64
+                        0x30006bed           Code  Gb  frexp.o [4]
+__iar_softfp___iar_ldexp64
+                        0x30006cbd           Code  Gb  ldexp.o [4]
+__iar_softfp___iar_scalbln64
+                        0x30006cbd           Code  Gb  ldexp.o [4]
+__iar_softfp___iar_scalbn64
+                        0x30006cbd           Code  Gb  ldexp.o [4]
+__iar_softfp_frexp      0x30006bed           Code  Gb  frexp.o [4]
+__iar_softfp_frexpl     0x30006bed           Code  Gb  frexp.o [4]
+__iar_softfp_ldexp      0x30006cbd           Code  Gb  ldexp.o [4]
+__iar_softfp_ldexpl     0x30006cbd           Code  Gb  ldexp.o [4]
+__iar_softfp_scalbln    0x30006cbd           Code  Gb  ldexp.o [4]
+__iar_softfp_scalblnl   0x30006cbd           Code  Gb  ldexp.o [4]
+__iar_softfp_scalbn     0x30006cbd           Code  Gb  ldexp.o [4]
+__iar_softfp_scalbnl    0x30006cbd           Code  Gb  ldexp.o [4]
+__iar_systems$$module {Abs}
+                        0x00000001           Data  Gb  command line/config [2]
+__iar_ttio_handles      0x3000cd08      0x8  Data  Lc  XShttio.o [3]
+__iar_vfp___iar_round64
+                        0x30005969           Code  Gb  round.o [4]
+__iar_vfp_round         0x30005969           Code  Gb  round.o [4]
+__iar_vfp_roundl        0x30005969           Code  Gb  round.o [4]
+__iar_zero_init3        0x3000c249     0x40  Code  Gb  zero_init3.o [5]
+__low_level_init        0x3000c46d      0x4  Code  Gb  low_level_init.o [3]
+__write                 0x3000c68d      0xc  Code  Gb  write.o [6]
+_call_main              0x3000c454           Code  Gb  cmain.o [5]
+_exit                   0x3000c47c           Code  Gb  cexit.o [5]
+_freertos_vector_table  0x30004100           Code  Gb  FreeRTOS_asm_vectors.o [1]
+_main                   0x3000c45c           Code  Gb  cmain.o [5]
+abort                   0x300059f5      0x6  Code  Gb  abort.o [3]
+abort_status            0x3000cbc0     0xb8  Data  Lc  exception_handler.o [1]
+dcache_enable           0x300096e0     0x30  Code  Gb  cache.o [1]
+delay_ms                0x300058f8     0x64  Code  Gb  fmsh_common.o [1]
+exit                    0x3000c479      0x4  Code  Gb  exit.o [3]
+fmsh_print              0x3000b2dc     0x4c  Code  Gb  fmsh_print.o [1]
+fmsh_uart_init          0x3000b4f4    0x138  Code  Gb  fmsh_uart_example.o [1]
+g_PS_UART               0x3001dda8     0x74  Data  Gb  fmsh_uart_example.o [1]
+g_UART                  0x3001de1c     0x74  Data  Gb  platform.o [1]
+get_ccsidr              0x3000949c      0x8  Code  Lc  cache.o [1]
+get_clidr               0x300094a4      0x8  Code  Lc  cache.o [1]
+get_cpsr                0x3000948c      0x8  Code  Lc  cache.o [1]
+get_cr                  0x30009478      0x8  Code  Lc  cache.o [1]
+get_current_time        0x300058b8     0x40  Code  Gb  fmsh_common.o [1]
+global_timer_enable     0x300058a4     0x14  Code  Gb  fmsh_common.o [1]
+icache_enable           0x300096a0     0x18  Code  Gb  cache.o [1]
+init_platform           0x30009798      0xc  Code  Gb  platform.o [1]
+init_uart               0x30009710     0x84  Code  Gb  platform.o [1]
+invalidate_dcache_all   0x300096b8     0x28  Code  Gb  cache.o [1]
+ldexp                   0x30006cd1           Code  Gb  ldexp.o [4]
+ldexpl                  0x30006cd1           Code  Gb  ldexp.o [4]
+led_flash               0x30009910     0x88  Code  Gb  led_flash.o [1]
+main                    0x300081c8     0x20  Code  Gb  main.o [1]
+memchr                  0x30006940           Code  Gb  memchr.o [5]
+mmu_enabled             0x3000963c     0x10  Code  Lc  cache.o [1]
+mmu_setup               0x3000964c     0x50  Code  Gb  cache.o [1]
+onAssert__              0x30005880     0x24  Code  Gb  fmsh_common.o [1]
+printf                  0x300059cb     0x2a  Code  Gb  printf.o [3]
+prvAddCurrentTaskToDelayedList
+                        0x300080a4     0xf8  Code  Lc  tasks.o [1]
+prvAddNewTaskToReadyList
+                        0x3000731c    0x108  Code  Lc  tasks.o [1]
+prvCheckForValidListAndQueue
+                        0x30009374     0x8c  Code  Lc  timers.o [1]
+prvCheckForValidListAndQueue{1}{2}{3}{4}::ucStaticTimerQueueStorage
+                        0x3001df9c     0x50  Data  Lc  timers.o [1]
+prvCheckForValidListAndQueue{1}{2}{3}{4}::xStaticTimerQueue
+                        0x3001df48     0x54  Data  Lc  timers.o [1]
+prvCheckTasksWaitingTermination
+                        0x30007df0     0x6c  Code  Lc  tasks.o [1]
+prvCopyDataFromQueue    0x3000ad1c     0x5c  Code  Lc  queue.o [1]
+prvCopyDataToQueue      0x3000ac14    0x108  Code  Lc  queue.o [1]
+prvDeleteTCB            0x30007e68     0x5c  Code  Lc  tasks.o [1]
+prvGetNextExpireTime    0x30008fa4     0x50  Code  Lc  timers.o [1]
+prvHeapInit             0x30008614     0xb0  Code  Lc  heap_4.o [1]
+prvIdleTask             0x30007d54     0x28  Code  Lc  tasks.o [1]
+prvInitialiseNewQueue   0x3000a618     0x50  Code  Lc  queue.o [1]
+prvInitialiseNewTask    0x300071ec    0x130  Code  Lc  tasks.o [1]
+prvInitialiseTaskLists  0x30007d84     0x6c  Code  Lc  tasks.o [1]
+prvInsertBlockIntoFreeList
+                        0x300086c4     0xbc  Code  Lc  heap_4.o [1]
+prvInsertTimerInActiveList
+                        0x3000903c     0x8c  Code  Lc  timers.o [1]
+prvIsQueueEmpty         0x3000ae4c     0x30  Code  Lc  queue.o [1]
+prvIsQueueFull          0x3000ae7c     0x34  Code  Lc  queue.o [1]
+prvNotifyQueueSetContainer
+                        0x3000af68     0xb4  Code  Lc  queue.o [1]
+prvProcessExpiredTimer  0x30008e30     0xa4  Code  Lc  timers.o [1]
+prvProcessReceivedCommands
+                        0x300090c8    0x1c0  Code  Lc  timers.o [1]
+prvProcessTimerOrBlockTask
+                        0x30008efc     0xa8  Code  Lc  timers.o [1]
+prvQueueReceiveTask     0x30009894     0x7c  Code  Lc  led_flash.o [1]
+prvResetNextTaskUnblockTime
+                        0x30007ec4     0x48  Code  Lc  tasks.o [1]
+prvSampleTimeNow        0x30008ff4     0x48  Code  Lc  timers.o [1]
+prvSampleTimeNow::xLastTime
+                        0x3001e194      0x4  Data  Lc  timers.o [1]
+prvSetupHardware        0x300081e8     0x94  Code  Lc  main.o [1]
+prvSwitchTimerLists     0x30009288     0xec  Code  Lc  timers.o [1]
+prvTaskExitError        0x30008a30     0x28  Code  Lc  port.o [1]
+prvTimerTask            0x30008ed4     0x28  Code  Lc  timers.o [1]
+prvUnlockQueue          0x3000ad78     0xd4  Code  Lc  queue.o [1]
+putchar                 0x3000c66d     0x20  Code  Gb  putchar.o [3]
+pvPortMalloc            0x3000837c    0x1c0  Code  Gb  heap_4.o [1]
+pxCurrentTCB            0x3001e140      0x4  Data  Gb  tasks.o [1]
+pxCurrentTimerList      0x3001e184      0x4  Data  Lc  timers.o [1]
+pxDelayedTaskList       0x3001e144      0x4  Data  Lc  tasks.o [1]
+pxEnd                   0x3001e120      0x4  Data  Lc  heap_4.o [1]
+pxOverflowDelayedTaskList
+                        0x3001e148      0x4  Data  Lc  tasks.o [1]
+pxOverflowTimerList     0x3001e188      0x4  Data  Lc  timers.o [1]
+pxPortInitialiseStack   0x30008928    0x108  Code  Gb  port.o [1]
+pxReadyTasksLists       0x3001dd1c     0x8c  Data  Lc  tasks.o [1]
+resetHandler            0x3000ba20           Code  Gb  cstartup.o [1]
+resetVector             0x30004000           Code  Gb  cstartup.o [1]
+round                   0x30005979           Code  Gb  round.o [4]
+roundl                  0x30005979           Code  Gb  round.o [4]
+scalbln                 0x30006cd1           Code  Gb  ldexp.o [4]
+scalblnl                0x30006cd1           Code  Gb  ldexp.o [4]
+scalbn                  0x30006cd1           Code  Gb  ldexp.o [4]
+scalbnl                 0x30006cd1           Code  Gb  ldexp.o [4]
+scale                   0x30006159     0x4a  Code  Lc  xprintffull_nomb.o [3]
+sec_hand                0x3001e198      0x4  Data  Lc  xfail_s.o [3]
+set_cpsr                0x30009494      0x8  Code  Lc  cache.o [1]
+set_cr                  0x30009480      0xc  Code  Lc  cache.o [1]
+set_csselr              0x300094ac      0x8  Code  Lc  cache.o [1]
+strchr                  0x3000689c           Code  Gb  strchr.o [5]
+strlen                  0x300068ec           Code  Gb  strlen.o [5]
+tGpio                   0x3001e04c     0x14  Data  Lc  ParTest.o [1]
+ucHeap                  0x3000d164  0x10000  Data  Lc  heap_4.o [1]
+ulCriticalNesting       0x3000cd18      0x4  Data  Gb  port.o [1]
+ulPortInterruptNesting  0x3001e13c      0x4  Data  Gb  port.o [1]
+ulPortSetInterruptMask  0x30008bec     0x3c  Code  Gb  port.o [1]
+ulPortTaskHasFPUContext
+                        0x3001e134      0x4  Data  Gb  port.o [1]
+ulPortYieldRequired     0x3001e138      0x4  Data  Gb  port.o [1]
+ulTaskSwitchedInTime    0x3001e17c      0x4  Data  Lc  tasks.o [1]
+ulTotalRunTime          0x3001e180      0x4  Data  Lc  tasks.o [1]
+uxCurrentNumberOfTasks  0x3001e150      0x4  Data  Lc  tasks.o [1]
+uxDeletedTasksWaitingCleanUp
+                        0x3001e14c      0x4  Data  Lc  tasks.o [1]
+uxListRemove            0x300088d8     0x50  Code  Gb  list.o [1]
+uxPendedTicks           0x3001e160      0x4  Data  Lc  tasks.o [1]
+uxSchedulerSuspended    0x3001e178      0x4  Data  Lc  tasks.o [1]
+uxTaskNumber            0x3001e16c      0x4  Data  Lc  tasks.o [1]
+uxTopReadyPriority      0x3001e158      0x4  Data  Lc  tasks.o [1]
+v7_clean_invalidate_by_set_way
+                        0x300094b4      0x8  Code  Lc  cache.o [1]
+v7_dcache_entire_op     0x300094e8    0x154  Code  Lc  cache.o [1]
+v7_inval_tlb            0x300094c4     0x24  Code  Lc  cache.o [1]
+v7_invalidate_by_set_way
+                        0x300094bc      0x8  Code  Lc  cache.o [1]
+vApplicationFPUSafeIRQHandler
+                        0x3000a0d0     0x40  Code  Gb  FreeRTOS_tick_config.o [1]
+vApplicationFPUSafeIRQHandler::pxVectorTable
+                        0x3000cd10      0x4  Data  Lc  FreeRTOS_tick_config.o [1]
+vApplicationGetIdleTaskMemory
+                        0x30008320     0x1c  Code  Gb  main.o [1]
+vApplicationGetIdleTaskMemory::uxIdleTaskStack
+                        0x3001d934    0x3e8  Data  Lc  main.o [1]
+vApplicationGetIdleTaskMemory::xIdleTaskTCB
+                        0x3001de90     0x5c  Data  Lc  main.o [1]
+vApplicationGetTimerTaskMemory
+                        0x3000833c     0x1c  Code  Gb  main.o [1]
+vApplicationGetTimerTaskMemory::uxTimerTaskStack
+                        0x3001d164    0x7d0  Data  Lc  main.o [1]
+vApplicationGetTimerTaskMemory::xTimerTaskTCB
+                        0x3001deec     0x5c  Data  Lc  main.o [1]
+vApplicationIRQHandler  0x3000a374           Code  Gb  portASM.o [1]
+vApplicationIdleHook    0x3000829c     0x24  Code  Gb  main.o [1]
+vApplicationMallocFailedHook
+                        0x3000827c      0xc  Code  Gb  main.o [1]
+vApplicationStackOverflowHook
+                        0x30008288     0x14  Code  Gb  main.o [1]
+vApplicationTickHook    0x300082f4      0x4  Code  Gb  main.o [1]
+vAssertCalled           0x300082c0     0x34  Code  Gb  main.o [1]
+vClearTickInterrupt     0x3000a0bc     0x14  Code  Gb  FreeRTOS_tick_config.o [1]
+vConfigureTickInterrupt
+                        0x30009fec     0xd0  Code  Gb  FreeRTOS_tick_config.o [1]
+vInitialiseTimerForRunTimeStats
+                        0x300082f8     0x28  Code  Gb  main.o [1]
+vListInitialise         0x30008814     0x2c  Code  Gb  list.o [1]
+vListInitialiseItem     0x30008840      0xc  Code  Gb  list.o [1]
+vListInsert             0x3000887c     0x5c  Code  Gb  list.o [1]
+vListInsertEnd          0x3000884c     0x30  Code  Gb  list.o [1]
+vParTestInitialise      0x30009f38     0x58  Code  Gb  ParTest.o [1]
+vPortClearInterruptMask
+                        0x30008bc4     0x28  Code  Gb  port.o [1]
+vPortEnterCritical      0x30008ac8     0x4c  Code  Gb  port.o [1]
+vPortExitCritical       0x30008b14     0x54  Code  Gb  port.o [1]
+vPortFree               0x3000853c     0xc0  Code  Gb  heap_4.o [1]
+vPortInstallFreeRTOSVectorTable
+                        0x3000415c           Code  Gb  FreeRTOS_asm_vectors.o [1]
+vPortRestoreTaskContext
+                        0x3000a1c8           Code  Gb  portASM.o [1]
+vPortValidateInterruptPriority
+                        0x30008c28     0x44  Code  Gb  port.o [1]
+vQueueAddToRegistry     0x3000aeb0     0x4c  Code  Gb  queue.o [1]
+vQueueWaitForMessageRestricted
+                        0x3000aefc     0x6c  Code  Gb  queue.o [1]
+vTaskDelayUntil         0x30007424     0xdc  Code  Gb  tasks.o [1]
+vTaskInternalSetTimeOutState
+                        0x30007c28     0x1c  Code  Gb  tasks.o [1]
+vTaskMissedYield        0x30007d38     0x10  Code  Gb  tasks.o [1]
+vTaskPlaceOnEventList   0x30007ad0     0x44  Code  Gb  tasks.o [1]
+vTaskPlaceOnEventListRestricted
+                        0x30007b14     0x58  Code  Gb  tasks.o [1]
+vTaskStartScheduler     0x30007500     0xe0  Code  Gb  tasks.o [1]
+vTaskSuspendAll         0x300075e0     0x18  Code  Gb  tasks.o [1]
+vTaskSwitchContext      0x30007970    0x160  Code  Gb  tasks.o [1]
+vsnprintf               0x3000b9e1     0x3e  Code  Gb  vsnprint.o [3]
+xActiveTimerList1       0x3001e0c4     0x14  Data  Lc  timers.o [1]
+xActiveTimerList2       0x3001e0d8     0x14  Data  Lc  timers.o [1]
+xBlockAllocatedBit      0x3001e12c      0x4  Data  Lc  heap_4.o [1]
+xDelayedTaskList1       0x3001e060     0x14  Data  Lc  tasks.o [1]
+xDelayedTaskList2       0x3001e074     0x14  Data  Lc  tasks.o [1]
+xFreeBytesRemaining     0x3001e124      0x4  Data  Lc  heap_4.o [1]
+xGtcInstance            0x3001e0ec     0x10  Data  Gb  main.o [1]
+xHeapStructSize         0x3000c8cc      0x4  Data  Lc  heap_4.o [1]
+xIdleTaskHandle         0x3001e174      0x4  Data  Lc  tasks.o [1]
+xInterruptController    0x3001e108      0xc  Data  Gb  main.o [1]
+xMinimumEverFreeBytesRemaining
+                        0x3001e128      0x4  Data  Lc  heap_4.o [1]
+xNextTaskUnblockTime    0x3001e170      0x4  Data  Lc  tasks.o [1]
+xNumOfOverflows         0x3001e168      0x4  Data  Lc  tasks.o [1]
+xPendingReadyList       0x3001e088     0x14  Data  Lc  tasks.o [1]
+xPortGetFreeHeapSize    0x300085fc      0xc  Code  Gb  heap_4.o [1]
+xPortGetMinimumEverFreeHeapSize
+                        0x30008608      0xc  Code  Gb  heap_4.o [1]
+xPortStartScheduler     0x30008a58     0x70  Code  Gb  port.o [1]
+xQueue                  0x3001e130      0x4  Data  Lc  led_flash.o [1]
+xQueueGenericCreate     0x3000a598     0x80  Code  Gb  queue.o [1]
+xQueueGenericCreateStatic
+                        0x3000a494    0x104  Code  Gb  queue.o [1]
+xQueueGenericReset      0x3000a3d0     0xc4  Code  Gb  queue.o [1]
+xQueueGenericSend       0x3000a668    0x260  Code  Gb  queue.o [1]
+xQueueGenericSendFromISR
+                        0x3000a8c8    0x16c  Code  Gb  queue.o [1]
+xQueueReceive           0x3000aa34    0x1dc  Code  Gb  queue.o [1]
+xQueueRegistry          0x3001dfec     0x40  Data  Gb  queue.o [1]
+xSchedulerRunning       0x3001e15c      0x4  Data  Lc  tasks.o [1]
+xStart                  0x3001e114      0x8  Data  Lc  heap_4.o [1]
+xSuspendedTaskList      0x3001e0b0     0x14  Data  Lc  tasks.o [1]
+xTaskCheckForTimeOut    0x30007c48     0xf0  Code  Gb  tasks.o [1]
+xTaskCreate             0x3000712c     0xc0  Code  Gb  tasks.o [1]
+xTaskCreateStatic       0x30007050     0xdc  Code  Gb  tasks.o [1]
+xTaskGetSchedulerState  0x30007f0c     0x38  Code  Gb  tasks.o [1]
+xTaskGetTickCount       0x30007758      0xc  Code  Gb  tasks.o [1]
+xTaskIncrementTick      0x30007788    0x1dc  Code  Gb  tasks.o [1]
+xTaskPriorityDisinherit
+                        0x30007f54    0x114  Code  Gb  tasks.o [1]
+xTaskRemoveFromEventList
+                        0x30007b6c     0xbc  Code  Gb  tasks.o [1]
+xTaskResumeAll          0x300075f8    0x160  Code  Gb  tasks.o [1]
+xTasksWaitingTermination
+                        0x3001e09c     0x14  Data  Lc  tasks.o [1]
+xTickCount              0x3001e154      0x4  Data  Lc  tasks.o [1]
+xTimer                  0x3001e02c     0x20  Data  Lc  FreeRTOS_tick_config.o [1]
+xTimerCreateTimerTask   0x30008cb8     0xac  Code  Gb  timers.o [1]
+xTimerGenericCommand    0x30008d64     0xcc  Code  Gb  timers.o [1]
+xTimerQueue             0x3001e18c      0x4  Data  Lc  timers.o [1]
+xTimerTaskHandle        0x3001e190      0x4  Data  Lc  timers.o [1]
+xYieldPending           0x3001e164      0x4  Data  Lc  tasks.o [1]
+
+
+[1] = C:\Users\Administrator\Desktop\amp_freertos_test\fsbl-v1.0\SDK\fsbl_platform\FreeRTOS\Debug\Obj
+[2] = command line
+[3] = dl7Sx_tln.a
+[4] = m7Sx_tlv.a
+[5] = rt7Sx_tl.a
+[6] = sh7Sxi_l.a
+
+  48 342 bytes of readonly  code memory
+   3 994 bytes of readonly  data memory
+  89 216 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

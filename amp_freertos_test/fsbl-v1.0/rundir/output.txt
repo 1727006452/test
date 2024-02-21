@@ -1,0 +1,1 @@
+-- Analyzing Verilog file 'C:/Users/Administrator/Desktop/amp_freertos_test/fsbl-v1.0/bd/fsbl/hdl/fsbl.v' (VERI-1482)

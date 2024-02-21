@@ -1,0 +1,1576 @@
+###############################################################################
+#
+# IAR ELF Linker V8.11.2.13589/W32 for ARM                25/Aug/2023  08:44:13
+# Copyright 2007-2017 IAR Systems AB.
+#
+#    Output file  =  
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\FSBL\Debug\Exe\FSBL.out
+#    Map file     =  
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\FSBL\Debug\List\FSBL.map
+#    Command line =  
+#        -f C:\Users\ADMINI~1\AppData\Local\Temp\EW8AC7.tmp
+#        (D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\FSBL\Debug\Obj\boothandoff.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\FSBL\Debug\Obj\cache.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\FSBL\Debug\Obj\diskio.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\FSBL\Debug\Obj\exception_handler.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\FSBL\Debug\Obj\fdevcps.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\FSBL\Debug\Obj\ff.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\FSBL\Debug\Obj\ffsystem.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\FSBL\Debug\Obj\ffunicode.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\FSBL\Debug\Obj\fmsh_aes_sm4.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\FSBL\Debug\Obj\fmsh_authentication.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\FSBL\Debug\Obj\fmsh_common.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\FSBL\Debug\Obj\fmsh_csudma.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\FSBL\Debug\Obj\fmsh_dma.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\FSBL\Debug\Obj\fmsh_dmac.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\FSBL\Debug\Obj\fmsh_dmac_config.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\FSBL\Debug\Obj\fmsh_dmac_g.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\FSBL\Debug\Obj\fmsh_dmac_sinit.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\FSBL\Debug\Obj\fmsh_efuse.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\FSBL\Debug\Obj\fmsh_exit.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\FSBL\Debug\Obj\fmsh_fnand.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\FSBL\Debug\Obj\fmsh_gic.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\FSBL\Debug\Obj\fmsh_gic_intr.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\FSBL\Debug\Obj\fmsh_gic_selftest.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\FSBL\Debug\Obj\fmsh_gic_sinit.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\FSBL\Debug\Obj\fmsh_header.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\FSBL\Debug\Obj\fmsh_initialization.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\FSBL\Debug\Obj\fmsh_nfcps.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\FSBL\Debug\Obj\fmsh_nfcps_bbm.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\FSBL\Debug\Obj\fmsh_nfcps_flash.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\FSBL\Debug\Obj\fmsh_nfcps_g.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\FSBL\Debug\Obj\fmsh_nfcps_hw.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\FSBL\Debug\Obj\fmsh_nfcps_model.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\FSBL\Debug\Obj\fmsh_nfcps_sinit.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\FSBL\Debug\Obj\fmsh_nfcps_skipblock.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\FSBL\Debug\Obj\fmsh_nfcps_sw.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\FSBL\Debug\Obj\fmsh_nor.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\FSBL\Debug\Obj\fmsh_partition_load.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\FSBL\Debug\Obj\fmsh_qspi.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\FSBL\Debug\Obj\fmsh_qspips.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\FSBL\Debug\Obj\fmsh_qspips_flash.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\FSBL\Debug\Obj\fmsh_qspips_g.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\FSBL\Debug\Obj\fmsh_qspips_hw.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\FSBL\Debug\Obj\fmsh_qspips_sinit.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\FSBL\Debug\Obj\fmsh_qspips_sw.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\FSBL\Debug\Obj\fmsh_sac.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\FSBL\Debug\Obj\fmsh_sd.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\FSBL\Debug\Obj\fmsh_sdmmc.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\FSBL\Debug\Obj\fmsh_sdmmc_g.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\FSBL\Debug\Obj\fmsh_sdmmc_protocol.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\FSBL\Debug\Obj\fmsh_sdmmc_sinit.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\FSBL\Debug\Obj\fmsh_sha256.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\FSBL\Debug\Obj\fmsh_slcr.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\FSBL\Debug\Obj\fmsh_uart.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\FSBL\Debug\Obj\fmsh_uart_g.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\FSBL\Debug\Obj\fmsh_uart_logout.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\FSBL\Debug\Obj\fmsh_uart_sinit.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\FSBL\Debug\Obj\fmsh_watchdog.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\FSBL\Debug\Obj\fmsh_wdt.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\FSBL\Debug\Obj\init.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\FSBL\FM_QL_bsp\lib\librsa.a
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\FSBL\Debug\Obj\main.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\FSBL\Debug\Obj\mmu_table.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\FSBL\Debug\Obj\ps_init.o
+#        -o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\FSBL\Debug\Exe\FSBL.out
+#        --map
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\FSBL\Debug\List\FSBL.map
+#        --config D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\FSBL\a7_sram.icf
+#        --semihosting=iar_breakpoint
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\FSBL\FM_QL_bsp\lib\librsa.a
+#        --entry resetHandler --vfe --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__Heap_Handler  = DLMalloc
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The advanced heap was selected because the application calls memory
+allocation functions outside of system library functions, and there
+are calls to deallocation functions in the application.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"P2":  place in [from 0x00024000 to 0x000240ff] { section .vectors };
+"P3":  place in [from 0x00024100 to 0x0005ffff] { ro };
+"P4":  place in [from 0x00024100 to 0x0005ffff] { section .cstartup };
+define block IRQ_STACK with size = 512, alignment = 8 { };
+define block FIQ_STACK with size = 512, alignment = 8 { };
+define block ABT_STACK with size = 96, alignment = 8 { };
+define block UND_STACK with size = 64, alignment = 8 { };
+define block CSTACK with size = 16K, alignment = 8 { };
+define block HEAP with size = 6K, alignment = 32 { };
+"P5":  place in [from 0x00024100 to 0x0005ffff] {
+          rw, block IRQ_STACK, block FIQ_STACK, block ABT_STACK,
+          block UND_STACK, block CSTACK, block HEAP };
+initialize by copy with packing = copy, complex ranges { rw };
+
+  Section            Kind        Address     Size  Object
+  -------            ----        -------     ----  ------
+"P2":                                        0xe0
+  .vectors           ro code  0x00024000     0xe0  init.o [1]
+                            - 0x000240e0     0xe0
+
+"P3-P5", part 1 of 3:                     0x1eb2c
+  .text              ro code  0x00024100   0x35dc  fmsh_dmac.o [1]
+  .text              ro code  0x000276dc    0x1d4  fmsh_common.o [1]
+  .text              ro code  0x000278b0     0x2a  printf.o [3]
+  .text              ro code  0x000278da      0x6  abort.o [3]
+  .text              ro code  0x000278e0     0x52  DblToU64.o [5]
+  .text              ro code  0x00027932     0x1a  xsnprout.o [3]
+  .text              ro code  0x0002794c     0x46  U64ToDbl.o [5]
+  .text              ro code  0x00027992    0xf7c  xprintffuller_nomb.o [3]
+  .text              ro code  0x0002890e     0x16  exit.o [7]
+  .text              ro code  0x00028924     0x20  strchr.o [6]
+  .text              ro code  0x00028944     0x2e  xfail_s.o [3]
+  .text              ro code  0x00028972     0x12  xencoding_8859_1.o [3]
+  .text              ro code  0x00028984     0x54  strlen.o [6]
+  .text              ro code  0x000289d8     0x94  memchr.o [6]
+  .text              ro code  0x00028a6c      0xa  xmbcurmax.o [3]
+  .text              ro code  0x00028a76     0x22  xlocale_c.o [3]
+  .text              ro code  0x00028a98     0xd4  ABImemcpy.o [6]
+  .text              ro code  0x00028b6c    0x130  I64DivMod.o [6]
+  .text              ro code  0x00028c9c     0x12  DblMul.o [5]
+  .rodata            const    0x00028cae      0x2  xprintffuller_nomb.o [3]
+  .text              ro code  0x00028cb0     0x70  frexp.o [5]
+  .text              ro code  0x00028d20     0x2e  DblCmpLe.o [5]
+  .rodata            const    0x00028d4e      0x2  xlocale_c.o [3]
+  .text              ro code  0x00028d50     0x2e  DblCmpGe.o [5]
+  .rodata            const    0x00028d7e      0x2  xlocale_c.o [3]
+  .text              ro code  0x00028d80    0x104  ldexp.o [5]
+  .text              ro code  0x00028e84      0xe  DblToS32.o [5]
+  .text              ro code  0x00028e92      0xe  S32ToDbl.o [5]
+  .text              ro code  0x00028ea0     0x12  DblSub.o [5]
+  .text              ro code  0x00028eb2     0x12  DblDiv.o [5]
+  .text              ro code  0x00028ec4      0xe  DblToU32.o [5]
+  .text              ro code  0x00028ed2      0xe  U32ToDbl.o [5]
+  .text              ro code  0x00028ee0    0x1a8  I32DivMod.o [6]
+  .text              ro code  0x00029088     0x76  iarttio.o [7]
+  .text              ro code  0x000290fe      0x2  iar_semihosting.o [7]
+  .text              ro code  0x00029100      0x4  I64DivZer.o [6]
+  .text              ro code  0x00029104      0x4  IntDivZer.o [6]
+  .text              ro code  0x00029108      0xa  XShttio.o [3]
+  .rodata            const    0x00029112      0x1  xlocale_c.o [3]
+  .text              ro code  0x00029114   0x3224  fmsh_sdmmc.o [1]
+  .text              ro code  0x0002c338     0x74  ABImemset.o [6]
+  .text              ro code  0x0002c3ac    0x834  fmsh_sdmmc_protocol.o [1]
+  .text              ro code  0x0002cbe0      0x8  ABImemclr4.o [6]
+  .text              ro code  0x0002cbe8     0x38  ABImemset48.o [6]
+  .text              ro code  0x0002cc20   0x24c8  ff.o [1]
+  .text              ro code  0x0002f0e8    0x3d0  diskio.o [1]
+  .text              ro code  0x0002f4b8     0x58  fmsh_sdmmc_sinit.o [1]
+  .text              ro code  0x0002f510   0x1790  fdevcps.o [1]
+  .text              ro code  0x00030ca0    0x29c  ps_init.o [1]
+  .text              ro code  0x00030f3c   0x151c  dlmalloc.o [3]
+  .text              ro code  0x00032458      0x4  heaptramp0.o [3]
+  .text              ro code  0x0003245c    0x1ec  fmsh_sac.o [1]
+  .text              ro code  0x00032648    0xdac  fmsh_aes_sm4.o [1]
+  .text              ro code  0x000333f4    0x2a0  fmsh_uart_logout.o [1]
+  .text              ro code  0x00033694    0x2bc  main.o [1]
+  .text              ro code  0x00033950     0x30  xgetmemchunk.o [3]
+  .text              ro code  0x00033980     0x7c  fmsh_csudma.o [1]
+  .text              ro code  0x000339fc     0x54  fmsh_uart_sinit.o [1]
+  .text              ro code  0x00033a50    0x9c0  fmsh_uart.o [1]
+  .text              ro code  0x00034410     0x3e  vsnprint.o [3]
+  .text              ro code  0x00034450    0x9c4  fmsh_initialization.o [1]
+  .text              ro code  0x00034e14    0xbac  fmsh_partition_load.o [1]
+  .text              ro code  0x000359c0    0x2ec  boothandoff.o [1]
+  .text              ro code  0x00035cac     0x62  round.o [5]
+  .text              ro code  0x00035d10     0x8c  cache.o [1]
+  .text              ro code  0x00035d9c     0x48  U64ToFlt.o [5]
+  .text              ro code  0x00035de4    0xad4  fmsh_header.o [1]
+  .text              ro code  0x000368b8    0xab4  fmsh_qspips_sw.o [1]
+  .text              ro code  0x0003736c     0x24  fmsh_efuse.o [1]
+  .text              ro code  0x00037390    0x234  fmsh_sha256.o [1]
+  .text              ro code  0x000375c4    0x8c0  fmsh_authentication.o [1]
+  .text              ro code  0x00037e84    0x358  fmsh_qspi.o [1]
+  .FMSH_EXIT         ro code  0x000381dc     0x48  fmsh_exit.o [1]
+  .text              ro code  0x00038224     0x58  fmsh_qspips_sinit.o [1]
+  .text              ro code  0x0003827c    0x154  fmsh_qspips.o [1]
+  .text              ro code  0x000383d0    0x1e8  fmsh_qspips_hw.o [1]
+  .text              ro code  0x000385b8    0x270  fmsh_qspips_flash.o [1]
+  .text              ro code  0x00038828    0x8cc  SoftRSA.o [4]
+  .text              ro code  0x000390f4     0xd0  fmsh_slcr.o [1]
+  .text              ro code  0x000391c4     0x14  memset.o [6]
+  .text              ro code  0x000391d8      0xc  memcpy.o [6]
+  .text              ro code  0x000391e4    0xec0  fmsh_nfcps_flash.o [1]
+  .text              ro code  0x0003a0a4    0x3b8  fmsh_nfcps_hw.o [1]
+  .text              ro code  0x0003a45c    0xd64  fmsh_nfcps_bbm.o [1]
+  .text              ro code  0x0003b1c0     0x68  strcpy.o [6]
+  .text              ro code  0x0003b228    0x148  fmsh_nfcps_model.o [1]
+  .text              ro code  0x0003b370    0x7e8  fmsh_nfcps_sw.o [1]
+  .text              ro code  0x0003bb58     0x58  fmsh_nfcps_sinit.o [1]
+  .text              ro code  0x0003bbb0     0xe4  fmsh_nfcps.o [1]
+  .text              ro code  0x0003bc94    0x32c  fmsh_nfcps_skipblock.o [1]
+  .text              ro code  0x0003bfc0    0x1d4  fmsh_sd.o [1]
+  .text              ro code  0x0003c194    0x168  exception_handler.o [1]
+  .cstartup          ro code  0x0003c2fc    0x140  init.o [1]
+  .text              ro code  0x0003c43c     0xd8  xfspos.o [3]
+  .text              ro code  0x0003c514     0xae  fflush.o [3]
+  .text              ro code  0x0003c5c2      0xc  xfgpos.o [3]
+  .text              ro code  0x0003c5ce     0x4e  lseek.o [7]
+  .text              ro code  0x0003c61c      0xc  write.o [7]
+  .text              ro code  0x0003c628     0x84  XShHandles.o [3]
+  .text              ro code  0x0003c6ac     0x14  dwrite.o [7]
+  .text              ro code  0x0003c6c0     0x22  iarwstd.o [7]
+  .text              ro code  0x0003c6e2     0x24  iarwrite.o [7]
+  .text              ro code  0x0003c708     0xc8  fmsh_nor.o [1]
+  .text              ro code  0x0003c7d0     0xb8  fmsh_fnand.o [1]
+  .text              ro code  0x0003c888     0xb4  xfwprep.o [3]
+  .text              ro code  0x0003c93c     0x24  fseek.o [3]
+  .text              ro code  0x0003c960     0x7e  fclose.o [3]
+  .text              ro code  0x0003c9de     0x7e  xfofind.o [3]
+  .text              ro code  0x0003ca5c     0x1a  close.o [7]
+  .text              ro code  0x0003ca76     0x18  remove.o [7]
+  .rodata            const    0x0003ca90     0x68  fmsh_nfcps_skipblock.o [1]
+  .rodata            const    0x0003caf8     0x68  fmsh_sdmmc_protocol.o [1]
+  .rodata            const    0x0003cb60     0x68  xprintffuller_nomb.o [3]
+  .rodata            const    0x0003cbc8     0x64  fmsh_nfcps_flash.o [1]
+  .rodata            const    0x0003cc2c     0x60  fmsh_nfcps_bbm.o [1]
+  .rodata            const    0x0003cc8c     0x60  fmsh_nfcps_sw.o [1]
+  .rodata            const    0x0003ccec     0x60  fmsh_qspips.o [1]
+  .rodata            const    0x0003cd4c     0x60  fmsh_qspips_sw.o [1]
+  .rodata            const    0x0003cdac     0x60  fmsh_sdmmc.o [1]
+  .rodata            const    0x0003ce0c     0x5c  fdevcps.o [1]
+  .rodata            const    0x0003ce68     0x5c  fmsh_dmac.o [1]
+  .rodata            const    0x0003cec4     0x5c  fmsh_nfcps.o [1]
+  .rodata            const    0x0003cf20     0x5c  fmsh_uart.o [1]
+  .text              ro code  0x0003cf7c     0x56  fputc.o [3]
+  .rodata            const    0x0003cfd4     0x54  fmsh_aes_sm4.o [1]
+  .rodata            const    0x0003d028     0x50  fmsh_header.o [1]
+  .rodata            const    0x0003d078     0x4c  exception_handler.o [1]
+  .rodata            const    0x0003d0c4     0x4c  fmsh_header.o [1]
+  .rodata            const    0x0003d110     0x48  fmsh_header.o [1]
+  .rodata            const    0x0003d158     0x48  fmsh_initialization.o [1]
+  .rodata            const    0x0003d1a0     0x40  fmsh_authentication.o [1]
+  .rodata            const    0x0003d1e0     0x40  fmsh_initialization.o [1]
+  .rodata            const    0x0003d220     0x40  fmsh_sdmmc_protocol.o [1]
+  .text              ro code  0x0003d260     0x40  zero_init3.o [6]
+  .rodata            const    0x0003d2a0     0x3c  exception_handler.o [1]
+  .rodata            const    0x0003d2dc     0x3c  exception_handler.o [1]
+  .rodata            const    0x0003d318     0x3c  fmsh_initialization.o [1]
+  .rodata            const    0x0003d354     0x3c  fmsh_partition_load.o [1]
+  .text              ro code  0x0003d390     0x3c  xcloseall.o [3]
+  .rodata            const    0x0003d3cc     0x38  fmsh_aes_sm4.o [1]
+  .rodata            const    0x0003d404     0x38  fmsh_authentication.o [1]
+  .rodata            const    0x0003d43c     0x38  fmsh_header.o [1]
+  .rodata            const    0x0003d474     0x38  main.o [1]
+  .rodata            const    0x0003d4ac     0x34  exception_handler.o [1]
+  .rodata            const    0x0003d4e0     0x34  fdevcps.o [1]
+  .rodata            const    0x0003d514     0x34  fmsh_aes_sm4.o [1]
+  .rodata            const    0x0003d548     0x34  fmsh_authentication.o [1]
+  .rodata            const    0x0003d57c     0x34  fmsh_authentication.o [1]
+  .rodata            const    0x0003d5b0     0x34  fmsh_header.o [1]
+  .rodata            const    0x0003d5e4     0x34  fmsh_header.o [1]
+  .rodata            const    0x0003d618     0x34  fmsh_header.o [1]
+  .rodata            const    0x0003d64c     0x34  fmsh_initialization.o [1]
+  .rodata            const    0x0003d680     0x34  fmsh_initialization.o [1]
+  .rodata            const    0x0003d6b4     0x34  fmsh_initialization.o [1]
+  .rodata            const    0x0003d6e8     0x34  fmsh_initialization.o [1]
+  .rodata            const    0x0003d71c     0x34  fmsh_initialization.o [1]
+  .rodata            const    0x0003d750     0x34  fmsh_partition_load.o [1]
+  .rodata            const    0x0003d784     0x34  fmsh_partition_load.o [1]
+  .rodata            const    0x0003d7b8     0x34  main.o [1]
+  .rodata            const    0x0003d7ec     0x34  main.o [1]
+  .rodata            const    0x0003d820     0x34  main.o [1]
+  .rodata            const    0x0003d854     0x30  fmsh_aes_sm4.o [1]
+  .rodata            const    0x0003d884     0x30  fmsh_authentication.o [1]
+  .rodata            const    0x0003d8b4     0x30  fmsh_authentication.o [1]
+  .rodata            const    0x0003d8e4     0x30  fmsh_authentication.o [1]
+  .rodata            const    0x0003d914     0x30  fmsh_authentication.o [1]
+  .rodata            const    0x0003d944     0x30  fmsh_authentication.o [1]
+  .rodata            const    0x0003d974     0x30  fmsh_authentication.o [1]
+  .rodata            const    0x0003d9a4     0x30  fmsh_authentication.o [1]
+  .rodata            const    0x0003d9d4     0x30  fmsh_header.o [1]
+  .rodata            const    0x0003da04     0x30  fmsh_initialization.o [1]
+  .rodata            const    0x0003da34     0x30  fmsh_initialization.o [1]
+  .rodata            const    0x0003da64     0x30  fmsh_partition_load.o [1]
+  .rodata            const    0x0003da94     0x30  fmsh_partition_load.o [1]
+  .rodata            const    0x0003dac4     0x30  fmsh_partition_load.o [1]
+  .rodata            const    0x0003daf4     0x30  fmsh_partition_load.o [1]
+  .rodata            const    0x0003db24     0x30  fmsh_partition_load.o [1]
+  .rodata            const    0x0003db54     0x30  main.o [1]
+  .text              ro code  0x0003db84     0x30  data_init.o [6]
+  .rodata            const    0x0003dbb4     0x2c  exception_handler.o [1]
+  .rodata            const    0x0003dbe0     0x2c  exception_handler.o [1]
+  .rodata            const    0x0003dc0c     0x2c  exception_handler.o [1]
+  .rodata            const    0x0003dc38     0x2c  exception_handler.o [1]
+  .rodata            const    0x0003dc64     0x2c  exception_handler.o [1]
+  .rodata            const    0x0003dc90     0x2c  fmsh_header.o [1]
+  .rodata            const    0x0003dcbc     0x2c  fmsh_initialization.o [1]
+  .rodata            const    0x0003dce8     0x2c  fmsh_initialization.o [1]
+  .rodata            const    0x0003dd14     0x2c  fmsh_initialization.o [1]
+  .rodata            const    0x0003dd40     0x2c  fmsh_initialization.o [1]
+  .rodata            const    0x0003dd6c     0x2c  fmsh_initialization.o [1]
+  .rodata            const    0x0003dd98     0x2c  fmsh_sd.o [1]
+  .rodata            const    0x0003ddc4     0x2c  fmsh_uart_logout.o [1]
+  .rodata            const    0x0003ddf0     0x2c  main.o [1]
+  .rodata            const    0x0003de1c     0x2c  main.o [1]
+  .rodata            const    0x0003de48     0x2c  main.o [1]
+  .text              ro code  0x0003de74     0x2c  cmain.o [6]
+  .text              ro code  0x0003dea0      0x4  low_level_init.o [3]
+  Veneer             ro code  0x0003dea4      0x8  - Linker created -
+  .text              ro code  0x0003deac      0x4  exit.o [3]
+  .text              ro code  0x0003deb0     0x14  cexit.o [6]
+  .text              ro code  0x0003dec4     0x2c  copy_init3.o [6]
+  .rodata            const    0x0003def0     0x28  fdevcps.o [1]
+  .rodata            const    0x0003df18     0x28  fmsh_aes_sm4.o [1]
+  .rodata            const    0x0003df40     0x28  fmsh_authentication.o [1]
+  .rodata            const    0x0003df68     0x28  fmsh_header.o [1]
+  .rodata            const    0x0003df90     0x28  fmsh_header.o [1]
+  .rodata            const    0x0003dfb8     0x28  fmsh_initialization.o [1]
+  .rodata            const    0x0003dfe0     0x28  fmsh_initialization.o [1]
+  .rodata            const    0x0003e008     0x28  fmsh_initialization.o [1]
+  .rodata            const    0x0003e030     0x28  fmsh_partition_load.o [1]
+  .rodata            const    0x0003e058     0x28  fmsh_partition_load.o [1]
+  .rodata            const    0x0003e080     0x28  fmsh_partition_load.o [1]
+  .rodata            const    0x0003e0a8     0x28  fmsh_partition_load.o [1]
+  .rodata            const    0x0003e0d0     0x28  fmsh_partition_load.o [1]
+  .rodata            const    0x0003e0f8     0x28  fmsh_partition_load.o [1]
+  .rodata            const    0x0003e120     0x28  fmsh_partition_load.o [1]
+  .rodata            const    0x0003e148     0x28  fmsh_partition_load.o [1]
+  .rodata            const    0x0003e170     0x28  fmsh_partition_load.o [1]
+  .rodata            const    0x0003e198     0x28  fmsh_partition_load.o [1]
+  .rodata            const    0x0003e1c0     0x28  fmsh_uart_logout.o [1]
+  .rodata            const    0x0003e1e8     0x28  fmsh_uart_logout.o [1]
+  .text              ro code  0x0003e210     0x28  fpinit.o [5]
+  .rodata            const    0x0003e238     0x24  exception_handler.o [1]
+  .rodata            const    0x0003e25c     0x24  exception_handler.o [1]
+  .rodata            const    0x0003e280     0x24  fmsh_authentication.o [1]
+  .rodata            const    0x0003e2a4     0x24  fmsh_authentication.o [1]
+  .rodata            const    0x0003e2c8     0x24  fmsh_authentication.o [1]
+  .rodata            const    0x0003e2ec     0x24  fmsh_common.o [1]
+  .rodata            const    0x0003e310     0x24  fmsh_header.o [1]
+  .rodata            const    0x0003e334     0x24  fmsh_header.o [1]
+  .rodata            const    0x0003e358     0x24  fmsh_header.o [1]
+  .rodata            const    0x0003e37c     0x24  fmsh_header.o [1]
+  .rodata            const    0x0003e3a0     0x24  fmsh_header.o [1]
+  .rodata            const    0x0003e3c4     0x24  fmsh_header.o [1]
+  .rodata            const    0x0003e3e8     0x24  fmsh_header.o [1]
+  .rodata            const    0x0003e40c     0x24  fmsh_header.o [1]
+  .rodata            const    0x0003e430     0x24  fmsh_header.o [1]
+  .rodata            const    0x0003e454     0x24  fmsh_initialization.o [1]
+  .rodata            const    0x0003e478     0x24  fmsh_initialization.o [1]
+  .rodata            const    0x0003e49c     0x24  fmsh_partition_load.o [1]
+  .rodata            const    0x0003e4c0     0x24  fmsh_partition_load.o [1]
+  .rodata            const    0x0003e4e4     0x24  fmsh_partition_load.o [1]
+  .rodata            const    0x0003e508     0x24  fmsh_partition_load.o [1]
+  .rodata            const    0x0003e52c     0x24  fmsh_partition_load.o [1]
+  .rodata            const    0x0003e550     0x24  fmsh_sdmmc.o [1]
+  .rodata            const    0x0003e574     0x24  fmsh_sdmmc.o [1]
+  .rodata            const    0x0003e598     0x24  fmsh_uart_logout.o [1]
+  .rodata            const    0x0003e5bc     0x24  fmsh_uart_logout.o [1]
+  .rodata            const    0x0003e5e0     0x24  fmsh_uart_logout.o [1]
+  .rodata            const    0x0003e604     0x24  fmsh_uart_logout.o [1]
+  .rodata            const    0x0003e628     0x24  fmsh_uart_logout.o [1]
+  .rodata            const    0x0003e64c     0x24  main.o [1]
+  .rodata            const    0x0003e670     0x24  main.o [1]
+  .iar.init_table    const    0x0003e694     0x24  - Linker created -
+  .rodata            const    0x0003e6b8     0x20  boothandoff.o [1]
+  .rodata            const    0x0003e6d8     0x20  boothandoff.o [1]
+  .rodata            const    0x0003e6f8     0x20  exception_handler.o [1]
+  .rodata            const    0x0003e718     0x20  fmsh_aes_sm4.o [1]
+  .rodata            const    0x0003e738     0x20  fmsh_authentication.o [1]
+  .rodata            const    0x0003e758     0x20  fmsh_authentication.o [1]
+  .rodata            const    0x0003e778     0x20  fmsh_authentication.o [1]
+  .rodata            const    0x0003e798     0x20  fmsh_authentication.o [1]
+  .rodata            const    0x0003e7b8     0x20  fmsh_header.o [1]
+  .rodata            const    0x0003e7d8     0x20  fmsh_header.o [1]
+  .rodata            const    0x0003e7f8     0x20  fmsh_header.o [1]
+  .rodata            const    0x0003e818     0x20  fmsh_header.o [1]
+  .rodata            const    0x0003e838     0x20  fmsh_header.o [1]
+  .rodata            const    0x0003e858     0x20  fmsh_header.o [1]
+  .rodata            const    0x0003e878     0x20  fmsh_header.o [1]
+  .rodata            const    0x0003e898     0x20  fmsh_header.o [1]
+  .rodata            const    0x0003e8b8     0x20  fmsh_header.o [1]
+  .rodata            const    0x0003e8d8     0x20  fmsh_header.o [1]
+  .rodata            const    0x0003e8f8     0x20  fmsh_header.o [1]
+  .rodata            const    0x0003e918     0x20  fmsh_header.o [1]
+  .rodata            const    0x0003e938     0x20  fmsh_header.o [1]
+  .rodata            const    0x0003e958     0x20  fmsh_initialization.o [1]
+  .rodata            const    0x0003e978     0x20  fmsh_initialization.o [1]
+  .rodata            const    0x0003e998     0x20  fmsh_initialization.o [1]
+  .rodata            const    0x0003e9b8     0x20  fmsh_partition_load.o [1]
+  .rodata            const    0x0003e9d8     0x20  fmsh_partition_load.o [1]
+  .rodata            const    0x0003e9f8     0x20  fmsh_partition_load.o [1]
+  .rodata            const    0x0003ea18     0x20  fmsh_partition_load.o [1]
+  .rodata            const    0x0003ea38     0x20  fmsh_partition_load.o [1]
+  .rodata            const    0x0003ea58     0x20  fmsh_partition_load.o [1]
+  .rodata            const    0x0003ea78     0x20  fmsh_sd.o [1]
+  .rodata            const    0x0003ea98     0x20  fmsh_sd.o [1]
+  .rodata            const    0x0003eab8     0x20  fmsh_sdmmc_protocol.o [1]
+  .rodata            const    0x0003ead8     0x20  fmsh_sdmmc_protocol.o [1]
+  .rodata            const    0x0003eaf8     0x20  fmsh_uart_logout.o [1]
+  .rodata            const    0x0003eb18     0x20  fmsh_uart_logout.o [1]
+  .rodata            const    0x0003eb38     0x20  fmsh_uart_logout.o [1]
+  .rodata            const    0x0003eb58     0x20  fmsh_uart_logout.o [1]
+  .rodata            const    0x0003eb78     0x20  fmsh_uart_logout.o [1]
+  .rodata            const    0x0003eb98     0x20  xfail_s.o [3]
+  .rodata            const    0x0003ebb8     0x1c  exception_handler.o [1]
+  .rodata            const    0x0003ebd4     0x1c  exception_handler.o [1]
+  .rodata            const    0x0003ebf0     0x1c  exception_handler.o [1]
+  .rodata            const    0x0003ec0c     0x1c  exception_handler.o [1]
+  .rodata            const    0x0003ec28     0x1c  exception_handler.o [1]
+  .rodata            const    0x0003ec44     0x1c  fdevcps.o [1]
+  .rodata            const    0x0003ec60     0x1c  fdevcps.o [1]
+  .rodata            const    0x0003ec7c     0x1c  fmsh_aes_sm4.o [1]
+  .rodata            const    0x0003ec98     0x1c  fmsh_aes_sm4.o [1]
+  .rodata            const    0x0003ecb4     0x1c  fmsh_authentication.o [1]
+  .rodata            const    0x0003ecd0     0x1c  fmsh_header.o [1]
+  .rodata            const    0x0003ecec     0x1c  fmsh_header.o [1]
+  .rodata            const    0x0003ed08     0x1c  fmsh_header.o [1]
+  .rodata            const    0x0003ed24     0x1c  fmsh_initialization.o [1]
+  .rodata            const    0x0003ed40     0x1c  fmsh_initialization.o [1]
+  .rodata            const    0x0003ed5c     0x1c  fmsh_initialization.o [1]
+  .rodata            const    0x0003ed78     0x1c  fmsh_partition_load.o [1]
+  .rodata            const    0x0003ed94     0x1c  fmsh_partition_load.o [1]
+  .rodata            const    0x0003edb0     0x1c  fmsh_partition_load.o [1]
+  .rodata            const    0x0003edcc     0x1c  fmsh_partition_load.o [1]
+  .rodata            const    0x0003ede8     0x1c  fmsh_partition_load.o [1]
+  .rodata            const    0x0003ee04     0x1c  fmsh_sd.o [1]
+  .rodata            const    0x0003ee20     0x1c  fmsh_uart_logout.o [1]
+  .rodata            const    0x0003ee3c     0x1c  main.o [1]
+  .rodata            const    0x0003ee58     0x1c  main.o [1]
+  .rodata            const    0x0003ee74     0x18  exception_handler.o [1]
+  .rodata            const    0x0003ee8c     0x18  exception_handler.o [1]
+  .rodata            const    0x0003eea4     0x18  exception_handler.o [1]
+  .rodata            const    0x0003eebc     0x18  exception_handler.o [1]
+  .rodata            const    0x0003eed4     0x18  fmsh_aes_sm4.o [1]
+  .rodata            const    0x0003eeec     0x18  fmsh_authentication.o [1]
+  .rodata            const    0x0003ef04     0x18  fmsh_authentication.o [1]
+  .rodata            const    0x0003ef1c     0x18  fmsh_authentication.o [1]
+  .rodata            const    0x0003ef34     0x18  fmsh_header.o [1]
+  .rodata            const    0x0003ef4c     0x18  fmsh_header.o [1]
+  .rodata            const    0x0003ef64     0x18  fmsh_initialization.o [1]
+  .rodata            const    0x0003ef7c     0x18  fmsh_initialization.o [1]
+  .rodata            const    0x0003ef94     0x18  fmsh_initialization.o [1]
+  .rodata            const    0x0003efac     0x18  fmsh_initialization.o [1]
+  .rodata            const    0x0003efc4     0x18  fmsh_partition_load.o [1]
+  .rodata            const    0x0003efdc     0x18  fmsh_partition_load.o [1]
+  .rodata            const    0x0003eff4     0x18  fmsh_uart_logout.o [1]
+  .rodata            const    0x0003f00c     0x18  fmsh_uart_logout.o [1]
+  .rodata            const    0x0003f024     0x18  fmsh_uart_logout.o [1]
+  .rodata            const    0x0003f03c     0x18  fmsh_uart_logout.o [1]
+  .rodata            const    0x0003f054     0x18  fmsh_uart_logout.o [1]
+  .text              ro code  0x0003f06c     0x16  xprout.o [3]
+  .text              ro code  0x0003f082      0xc  putchar.o [3]
+  .rodata            const    0x0003f090     0x14  boothandoff.o [1]
+  .rodata            const    0x0003f0a4     0x14  exception_handler.o [1]
+  .rodata            const    0x0003f0b8     0x14  exception_handler.o [1]
+  .rodata            const    0x0003f0cc     0x14  exception_handler.o [1]
+  .rodata            const    0x0003f0e0     0x14  exception_handler.o [1]
+  .rodata            const    0x0003f0f4     0x14  fmsh_authentication.o [1]
+  .rodata            const    0x0003f108     0x14  fmsh_initialization.o [1]
+  .rodata            const    0x0003f11c     0x14  fmsh_initialization.o [1]
+  .rodata            const    0x0003f130     0x14  fmsh_initialization.o [1]
+  .rodata            const    0x0003f144     0x14  fmsh_initialization.o [1]
+  .rodata            const    0x0003f158     0x14  fmsh_initialization.o [1]
+  .rodata            const    0x0003f16c     0x14  fmsh_initialization.o [1]
+  .rodata            const    0x0003f180     0x14  fmsh_uart_logout.o [1]
+  .rodata            const    0x0003f194     0x14  fmsh_uart_logout.o [1]
+  .rodata            const    0x0003f1a8     0x14  fmsh_uart_logout.o [1]
+  .rodata            const    0x0003f1bc     0x10  exception_handler.o [1]
+  .rodata            const    0x0003f1cc     0x10  ff.o [1]
+  .rodata            const    0x0003f1dc     0x10  fmsh_initialization.o [1]
+  .rodata            const    0x0003f1ec     0x10  fmsh_initialization.o [1]
+  .rodata            const    0x0003f1fc     0x10  fmsh_sd.o [1]
+  .rodata            const    0x0003f20c     0x10  fmsh_sdmmc_protocol.o [1]
+  .rodata            const    0x0003f21c     0x10  xprintffuller_nomb.o [3]
+  .rodata            const    0x0003f22c      0xc  exception_handler.o [1]
+  .rodata            const    0x0003f238      0xc  ff.o [1]
+  .rodata            const    0x0003f244      0xc  fmsh_sd.o [1]
+  .rodata            const    0x0003f250      0x8  ff.o [1]
+  .rodata            const    0x0003f258      0x8  fmsh_header.o [1]
+  .rodata            const    0x0003f260      0x8  fmsh_nfcps_bbm.o [1]
+  .rodata            const    0x0003f268      0x8  fmsh_nfcps_bbm.o [1]
+  .rodata            const    0x0003f270      0x8  main.o [1]
+  .rodata            const    0x0003f278      0x8  xprintffuller_nomb.o [3]
+  .rodata            const    0x0003f280      0x8  xprintffuller_nomb.o [3]
+  .rodata            const    0x0003f288      0x4  iarttio.o [7]
+  .text              ro code  0x0003f28c      0x0  cstart_closeall.o [6]
+  .rodata            const    0x0003f28c      0x0  zero_init3.o [6]
+  .rodata            const    0x0003f28c      0x0  copy_init3.o [6]
+  P3-P5 s0                    0x0003f28c   0x1cd0  <Init block>
+    .data            inited   0x0003f28c    0x814  ps_init.o [1]
+    .data            inited   0x0003faa0    0x49c  ps_init.o [1]
+    .data            inited   0x0003ff3c    0x494  main.o [1]
+    .data            inited   0x000403d0    0x3bc  ps_init.o [1]
+    .data            inited   0x0004078c    0x304  ps_init.o [1]
+    .data            inited   0x00040a90    0x148  fmsh_nfcps_flash.o [1]
+    .data            inited   0x00040bd8     0xb8  exception_handler.o [1]
+    .data            inited   0x00040c90     0x80  fdevcps.o [1]
+    .data            inited   0x00040d10     0x48  xfiles.o [3]
+    .data            inited   0x00040d58     0x48  xfiles.o [3]
+    .data            inited   0x00040da0     0x48  xfiles.o [3]
+    .data            inited   0x00040de8     0x48  xlocale_c.o [3]
+    .data            inited   0x00040e30     0x38  exception_handler.o [1]
+    .data            inited   0x00040e68     0x38  xlocale_c.o [3]
+    .data            inited   0x00040ea0     0x28  fmsh_sdmmc_g.o [1]
+    .data            inited   0x00040ec8     0x20  fmsh_uart_g.o [1]
+    .data            inited   0x00040ee8     0x20  xfiles.o [3]
+    .data            inited   0x00040f08     0x1c  ps_init.o [1]
+    .data            inited   0x00040f24     0x18  fmsh_qspips_g.o [1]
+    .data            inited   0x00040f3c      0xc  fmsh_nfcps_g.o [1]
+    .data            inited   0x00040f48      0x8  XShttio.o [3]
+    .data            inited   0x00040f50      0x4  fmsh_header.o [1]
+    .data            inited   0x00040f54      0x4  fmsh_header.o [1]
+    .data            inited   0x00040f58      0x4  fmsh_sd.o [1]
+  Initializer bytes  const    0x00040f5c   0x1cd0  <for P3-P5 s0>
+                            - 0x00042c2c  0x1eb2c
+
+"P3-P5", part 2 of 3:                      0x4e58
+  .bss               zero     0x00042c2c   0x2000  fmsh_header.o [1]
+  .bss               zero     0x00044c2c   0x2000  fmsh_header.o [1]
+  .bss               zero     0x00046c30    0x2f8  diskio.o [1]
+  .bss               zero     0x00046f28    0x230  fmsh_sd.o [1]
+  .bss               zero     0x00047158    0x228  fmsh_sd.o [1]
+  .bss               zero     0x00047380    0x1dc  fmsh_fnand.o [1]
+  .bss               zero     0x0004755c    0x1d8  dlmalloc.o [3]
+  .bss               zero     0x00047734     0x80  XShHandles.o [3]
+  .bss               zero     0x000477b4     0x74  fmsh_uart_logout.o [1]
+  .bss               zero     0x00047828     0x50  diskio.o [1]
+  .bss               zero     0x00047878     0x50  xfiles.o [3]
+  .bss               zero     0x000478c8     0x50  xfiles.o [3]
+  .bss               zero     0x00047918     0x38  fmsh_qspi.o [1]
+  .bss               zero     0x00047950     0x2c  fmsh_header.o [1]
+  .bss               zero     0x0004797c     0x20  diskio.o [1]
+  .bss               zero     0x0004799c     0x20  fmsh_authentication.o [1]
+  .bss               zero     0x000479bc     0x20  fmsh_dma.o [1]
+  .bss               zero     0x000479dc     0x20  fmsh_sd.o [1]
+  .bss               zero     0x000479fc     0x18  dlmalloc.o [3]
+  .bss               zero     0x00047a14     0x14  fmsh_partition_load.o [1]
+  .bss               zero     0x00047a28      0x8  main.o [1]
+  .bss               zero     0x00047a30      0x8  main.o [1]
+  .bss               zero     0x00047a38      0x8  main.o [1]
+  .bss               zero     0x00047a40      0x4  diskio.o [1]
+  .bss               zero     0x00047a44      0x4  diskio.o [1]
+  .bss               zero     0x00047a48      0x4  diskio.o [1]
+  .bss               zero     0x00047a4c      0x4  ff.o [1]
+  .bss               zero     0x00047a50      0x4  fmsh_authentication.o [1]
+  .bss               zero     0x00047a54      0x4  fmsh_authentication.o [1]
+  .bss               zero     0x00047a58      0x4  fmsh_authentication.o [1]
+  .bss               zero     0x00047a5c      0x4  fmsh_authentication.o [1]
+  .bss               zero     0x00047a60      0x4  fmsh_fnand.o [1]
+  .bss               zero     0x00047a64      0x4  fmsh_header.o [1]
+  .bss               zero     0x00047a68      0x4  fmsh_qspi.o [1]
+  .bss               zero     0x00047a6c      0x4  fmsh_qspi.o [1]
+  .bss               zero     0x00047a70      0x4  fmsh_sd.o [1]
+  .bss               zero     0x00047a74      0x4  xgetmemchunk.o [3]
+  .bss               zero     0x00047a78      0x4  xfail_s.o [3]
+  .bss               zero     0x00047a7c      0x2  ff.o [1]
+  .bss               zero     0x00047a7e      0x1  diskio.o [1]
+  .bss               zero     0x00047a7f      0x1  diskio.o [1]
+  .bss               zero     0x00047a80      0x1  fmsh_dma.o [1]
+  .bss               zero     0x00047a81      0x1  fmsh_qspi.o [1]
+  .bss               zero     0x00047a82      0x1  fmsh_qspi.o [1]
+                            - 0x00047a83   0x4e57
+
+"P3-P5", part 3 of 3:                      0x5cb8
+  IRQ_STACK                   0x00047a88    0x200  <Block>
+    IRQ_STACK        uninit   0x00047a88    0x200  <Block tail>
+  FIQ_STACK                   0x00047c88    0x200  <Block>
+    FIQ_STACK        uninit   0x00047c88    0x200  <Block tail>
+  ABT_STACK                   0x00047e88     0x60  <Block>
+    ABT_STACK        uninit   0x00047e88     0x60  <Block tail>
+  UND_STACK                   0x00047ee8     0x40  <Block>
+    UND_STACK        uninit   0x00047ee8     0x40  <Block tail>
+  CSTACK                      0x00047f28   0x4000  <Block>
+    CSTACK           uninit   0x00047f28   0x4000  <Block tail>
+  HEAP                        0x0004bf40   0x1800  <Block>
+    HEAP             uninit   0x0004bf40   0x1800  <Block tail>
+                            - 0x0004d740   0x5cb8
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x4e57:
+          0x00042c2c  0x4e57
+
+Copy (__iar_copy_init3)
+    1 source range, total size 0x1cd0:
+          0x00040f5c  0x1cd0
+    1 destination range, total size 0x1cd0:
+          0x0003f28c  0x1cd0
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                  ro code  ro data  rw data
+    ------                  -------  -------  -------
+D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\FSBL\Debug\Obj: [1]
+    boothandoff.o               748       84
+    cache.o                     140
+    diskio.o                    976               886
+    exception_handler.o         360    1 156      240
+    fdevcps.o                 6 032      368      128
+    ff.o                      9 416       36        6
+    fmsh_aes_sm4.o            3 500      392
+    fmsh_authentication.o     2 240      956       48
+    fmsh_common.o               468       36
+    fmsh_csudma.o               124
+    fmsh_dma.o                                     33
+    fmsh_dmac.o              13 788       92
+    fmsh_efuse.o                 36
+    fmsh_exit.o                  72
+    fmsh_fnand.o                184               480
+    fmsh_header.o             2 772    1 500   16 440
+    fmsh_initialization.o     2 500    1 392
+    fmsh_nfcps.o                228       92
+    fmsh_nfcps_bbm.o          3 428      112
+    fmsh_nfcps_flash.o        3 776      428      328
+    fmsh_nfcps_g.o                        12       12
+    fmsh_nfcps_hw.o             952
+    fmsh_nfcps_model.o          328
+    fmsh_nfcps_sinit.o           88
+    fmsh_nfcps_skipblock.o      812      104
+    fmsh_nfcps_sw.o           2 024       96
+    fmsh_nor.o                  200
+    fmsh_partition_load.o     2 988    1 364       20
+    fmsh_qspi.o                 856                66
+    fmsh_qspips.o               340       96
+    fmsh_qspips_flash.o         624
+    fmsh_qspips_g.o                       24       24
+    fmsh_qspips_hw.o            488
+    fmsh_qspips_sinit.o          88
+    fmsh_qspips_sw.o          2 740       96
+    fmsh_sac.o                  492
+    fmsh_sd.o                   468      168    1 152
+    fmsh_sdmmc.o             12 836      168
+    fmsh_sdmmc_g.o                        40       40
+    fmsh_sdmmc_protocol.o     2 100      248
+    fmsh_sdmmc_sinit.o           88
+    fmsh_sha256.o               564
+    fmsh_slcr.o                 208
+    fmsh_uart.o               2 496       92
+    fmsh_uart_g.o                         32       32
+    fmsh_uart_logout.o          672      672      116
+    fmsh_uart_sinit.o            84
+    init.o                      544
+    main.o                      700    1 700    1 196
+    ps_init.o                   668    5 004    5 004
+    -------------------------------------------------
+    Total:                   85 236   16 560   26 251
+
+command line: [2]
+    -------------------------------------------------
+    Total:
+
+dl7Sx_tlf.a: [3]
+    XShHandles.o                132               128
+    XShttio.o                    10        8        8
+    abort.o                       6
+    dlmalloc.o                5 404               496
+    exit.o                        4
+    fclose.o                    126
+    fflush.o                    174
+    fputc.o                      86
+    fseek.o                      36
+    heaptramp0.o                  4
+    low_level_init.o              4
+    printf.o                     42
+    putchar.o                    12
+    vsnprint.o                   62
+    xcloseall.o                  60
+    xencoding_8859_1.o           18
+    xfail_s.o                    46       32        4
+    xfgpos.o                     12
+    xfiles.o                             248      408
+    xfofind.o                   126
+    xfspos.o                    216
+    xfwprep.o                   180
+    xgetmemchunk.o               48                 4
+    xlocale_c.o                  34      133      128
+    xmbcurmax.o                  10
+    xprintffuller_nomb.o      3 964      138
+    xprout.o                     22
+    xsnprout.o                   26
+    -------------------------------------------------
+    Total:                   10 864      559    1 176
+
+librsa.a: [4]
+    SoftRSA.o                 2 252
+    -------------------------------------------------
+    Total:                    2 252
+
+m7Sx_tlv.a: [5]
+    DblCmpGe.o                   46
+    DblCmpLe.o                   46
+    DblDiv.o                     18
+    DblMul.o                     18
+    DblSub.o                     18
+    DblToS32.o                   14
+    DblToU32.o                   14
+    DblToU64.o                   82
+    S32ToDbl.o                   14
+    U32ToDbl.o                   14
+    U64ToDbl.o                   70
+    U64ToFlt.o                   72
+    fpinit.o                     40
+    frexp.o                     112
+    ldexp.o                     260
+    round.o                      98
+    -------------------------------------------------
+    Total:                      936
+
+rt7Sx_tl.a: [6]
+    ABImemclr4.o                  8
+    ABImemcpy.o                 212
+    ABImemset.o                 116
+    ABImemset48.o                56
+    I32DivMod.o                 424
+    I64DivMod.o                 304
+    I64DivZer.o                   4
+    IntDivZer.o                   4
+    cexit.o                      20
+    cmain.o                      44
+    copy_init3.o                 44
+    cstart_closeall.o
+    data_init.o                  48
+    memchr.o                    148
+    memcpy.o                     12
+    memset.o                     20
+    strchr.o                     32
+    strcpy.o                    104
+    strlen.o                     84
+    zero_init3.o                 64
+    -------------------------------------------------
+    Total:                    1 748
+
+sh7Sxi_l.a: [7]
+    close.o                      26
+    dwrite.o                     20
+    exit.o                       22
+    iar_semihosting.o             2
+    iarttio.o                   118        4
+    iarwrite.o                   36
+    iarwstd.o                    34
+    lseek.o                      78
+    remove.o                     24
+    write.o                      12
+    -------------------------------------------------
+    Total:                      372        4
+
+    Gaps                          7        6        4
+    Linker created                8       36   23 712
+-----------------------------------------------------
+    Grand Total:            101 423   17 165   51 143
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address    Size  Type      Object
+-----                      -------    ----  ----      ------
+.iar.init_table$$Base   0x0003e694           --   Gb  - Linker created -
+.iar.init_table$$Limit  0x0003e6b8           --   Gb  - Linker created -
+?main                   0x0003de74          Code  Gb  cmain.o [6]
+ABT_STACK$$Base         0x00047e88           --   Gb  - Linker created -
+ABT_STACK$$Limit        0x00047ee8           --   Gb  - Linker created -
+Abort_C_Handler         0x0003c198    0x74  Code  Gb  exception_handler.o [1]
+AesDis                  0x0003274c    0x34  Code  Lc  fmsh_aes_sm4.o [1]
+AesEn                   0x00032718    0x34  Code  Lc  fmsh_aes_sm4.o [1]
+AesSm4                  0x00032984   0x1f8  Code  Lc  fmsh_aes_sm4.o [1]
+AesSm4Cnt               0x00032e24   0x200  Code  Lc  fmsh_aes_sm4.o [1]
+AesSm4GcmDec            0x00033024   0x100  Code  Gb  fmsh_aes_sm4.o [1]
+AesSm4GenTag            0x00032b7c   0x2a8  Code  Gb  fmsh_aes_sm4.o [1]
+BaseAddress             0x00047a40     0x4  Data  Lc  diskio.o [1]
+BootHandoff             0x00035abc   0x100  Code  Gb  boothandoff.o [1]
+BootHdr                 0x00040f54     0x4  Data  Gb  fmsh_header.o [1]
+BootHeaderBuffer        0x00044c2c  0x2000  Data  Gb  fmsh_header.o [1]
+BootHeaderInfo          0x00047950    0x2c  Data  Gb  fmsh_header.o [1]
+BootHeaderSize          0x00047a64     0x4  Data  Gb  fmsh_header.o [1]
+BootInstance            0x0003ff3c   0x494  Data  Gb  main.o [1]
+CSTACK$$Base            0x00047f28           --   Gb  - Linker created -
+CSTACK$$Limit           0x0004bf28           --   Gb  - Linker created -
+CardDetect              0x00047a44     0x4  Data  Lc  diskio.o [1]
+CheckValidMemoryAddress
+                        0x00036160    0xb4  Code  Lc  fmsh_header.o [1]
+CompareHashs            0x00037674    0x64  Code  Lc  fmsh_authentication.o [1]
+DbcTbl                  0x0003f238     0xc  Data  Lc  ff.o [1]
+DefaultHandoffExit      0x00035bbc     0xc  Code  Gb  boothandoff.o [1]
+EfusePpkHash            0x0004799c    0x20  Data  Gb  fmsh_authentication.o [1]
+EfuseSpkID              0x00047a50     0x4  Data  Gb  fmsh_authentication.o [1]
+EncryptionData          0x00047a14    0x14  Data  Gb  fmsh_partition_load.o [1]
+ErrorLockDown           0x00035bc8    0xb4  Code  Gb  boothandoff.o [1]
+FDevcPs_AES_CR_AESENDisable
+                        0x0002fc90    0x24  Code  Gb  fdevcps.o [1]
+FDevcPs_AES_CR_AESENEnable
+                        0x0002fcb4    0x24  Code  Gb  fdevcps.o [1]
+FDevcPs_AES_CR_ALG_SEL  0x0002fcd8    0x3c  Code  Gb  fdevcps.o [1]
+FDevcPs_AES_CR_CHMOD    0x0002fd48    0x34  Code  Gb  fdevcps.o [1]
+FDevcPs_AES_CR_MODE     0x0002fd14    0x34  Code  Gb  fdevcps.o [1]
+FDevcPs_AES_DEC_FLAG    0x0002fdc8    0x34  Code  Gb  fdevcps.o [1]
+FDevcPs_AES_KEY_IV_LOAD
+                        0x0002fdb0    0x18  Code  Gb  fdevcps.o [1]
+FDevcPs_AES_KEY_SOURCE  0x0002fd7c    0x34  Code  Gb  fdevcps.o [1]
+FDevcPs_CSI_B_HIGH      0x0002f964    0x28  Code  Gb  fdevcps.o [1]
+FDevcPs_CSI_B_LOW       0x0002f9b0    0x28  Code  Gb  fdevcps.o [1]
+FDevcPs_IV              0x0002f9fc    0x74  Code  Gb  fdevcps.o [1]
+FDevcPs_Prog_B          0x0002f8a8    0xbc  Code  Gb  fdevcps.o [1]
+FDevcPs_RDWR_B_HIGH     0x0002f98c    0x24  Code  Gb  fdevcps.o [1]
+FDevcPs_RDWR_B_LOW      0x0002f9d8    0x24  Code  Gb  fdevcps.o [1]
+FDevcPs_adjustFreq      0x0002f528   0x100  Code  Gb  fdevcps.o [1]
+FDevcPs_clearPcapStatus
+                        0x0002fedc    0x4c  Code  Gb  fdevcps.o [1]
+FDevcPs_devcInitDownload
+                        0x00030a5c    0x2c  Code  Gb  fdevcps.o [1]
+FDevcPs_downloadMode    0x0002fad8    0x34  Code  Gb  fdevcps.o [1]
+FDevcPs_download_non_secure
+                        0x00030a88    0xb8  Code  Gb  fdevcps.o [1]
+FDevcPs_encryptDownload_AES_NoOp
+                        0x00030b40    0x58  Code  Gb  fdevcps.o [1]
+FDevcPs_encryptDownload_AES_UseOp
+                        0x00030b98    0x58  Code  Gb  fdevcps.o [1]
+FDevcPs_encryptDownload_SM4_NoOp
+                        0x00030bf0    0x58  Code  Gb  fdevcps.o [1]
+FDevcPs_encryptDownload_SM4_UseOp
+                        0x00030c48    0x58  Code  Gb  fdevcps.o [1]
+FDevcPs_fabricInit      0x0002f784   0x124  Code  Gb  fdevcps.o [1]
+FDevcPs_init            0x0002f774    0x10  Code  Gb  fdevcps.o [1]
+FDevcPs_initiateDma     0x0002ff28    0x4c  Code  Gb  fdevcps.o [1]
+FDevcPs_initiateDma_readback
+                        0x0002ff74    0x5c  Code  Gb  fdevcps.o [1]
+FDevcPs_pcapLoadPartition
+                        0x00030420    0xa4  Code  Gb  fdevcps.o [1]
+FDevcPs_pollDPDone      0x0003004c    0x7c  Code  Gb  fdevcps.o [1]
+FDevcPs_pollDmaDone     0x0002ffd0    0x7c  Code  Gb  fdevcps.o [1]
+FDevcPs_pollFpgaDone    0x000300c8   0x174  Code  Gb  fdevcps.o [1]
+FDevcPs_rclk_edge       0x0002fc18    0x3c  Code  Gb  fdevcps.o [1]
+FDevcPs_readFifoThre    0x0002fbb0    0x34  Code  Gb  fdevcps.o [1]
+FDevcPs_readbackDummyCount
+                        0x0002fb7c    0x34  Code  Gb  fdevcps.o [1]
+FDevcPs_recoverFreq     0x0002f628   0x14c  Code  Gb  fdevcps.o [1]
+FDevcPs_rxDataSwap      0x0002fb0c    0x34  Code  Gb  fdevcps.o [1]
+FDevcPs_secDownDataByteSwap
+                        0x0002fa70    0x34  Code  Gb  fdevcps.o [1]
+FDevcPs_smap32Swap      0x0002fb40    0x3c  Code  Gb  fdevcps.o [1]
+FDevcPs_transfer        0x0003026c   0x1b4  Code  Gb  fdevcps.o [1]
+FDevcPs_txDataSwap      0x0002faa4    0x34  Code  Gb  fdevcps.o [1]
+FDevcPs_unLockCSU       0x0002f510    0x18  Code  Gb  fdevcps.o [1]
+FDevcPs_wclk_edge       0x0002fc54    0x3c  Code  Gb  fdevcps.o [1]
+FDevcPs_writeFifoThre   0x0002fbe4    0x34  Code  Gb  fdevcps.o [1]
+FDmaPs_checkChannelBusy
+                        0x00027478    0xd8  Code  Gb  fmsh_dmac.o [1]
+FDmaPs_checkChannelRange
+                        0x000273c8    0xb0  Code  Gb  fmsh_dmac.o [1]
+FDmaPs_clearIrq         0x000248a8   0x178  Code  Gb  fmsh_dmac.o [1]
+FDmaPs_disable          0x00024284    0xb4  Code  Gb  fmsh_dmac.o [1]
+FDmaPs_disableChannel   0x00024420   0x138  Code  Gb  fmsh_dmac.o [1]
+FDmaPs_disableChannelIrq
+                        0x00024698   0x140  Code  Gb  fmsh_dmac.o [1]
+FDmaPs_enable           0x00024208    0x7c  Code  Gb  fmsh_dmac.o [1]
+FDmaPs_enableChannel    0x00024338    0xe8  Code  Gb  fmsh_dmac.o [1]
+FDmaPs_enableChannelIrq
+                        0x00024558   0x140  Code  Gb  fmsh_dmac.o [1]
+FDmaPs_getBurstTransLength
+                        0x00026114   0x140  Code  Gb  fmsh_dmac.o [1]
+FDmaPs_getChannelConfig
+                        0x000252e8   0x534  Code  Gb  fmsh_dmac.o [1]
+FDmaPs_getChannelIndex  0x00026c9c    0x38  Code  Gb  fmsh_dmac.o [1]
+FDmaPs_getFreeChannel   0x000247d8    0xc8  Code  Gb  fmsh_dmac.o [1]
+FDmaPs_getHandshakingMode
+                        0x0002639c   0x140  Code  Gb  fmsh_dmac.o [1]
+FDmaPs_getMemPeriphFlowCtl
+                        0x00026020    0xf4  Code  Gb  fmsh_dmac.o [1]
+FDmaPs_getTransWidth    0x0002625c   0x138  Code  Gb  fmsh_dmac.o [1]
+FDmaPs_getTransferType  0x00025d70   0x21c  Code  Gb  fmsh_dmac.o [1]
+FDmaPs_init             0x00024100   0x108  Code  Gb  fmsh_dmac.o [1]
+FDmaPs_maskIrq          0x00024a28   0x178  Code  Gb  fmsh_dmac.o [1]
+FDmaPs_resetInstance    0x00027194   0x22c  Code  Gb  fmsh_dmac.o [1]
+FDmaPs_setChannelConfig
+                        0x00024d14   0x5cc  Code  Gb  fmsh_dmac.o [1]
+FDmaPs_setChannelPriorityOrder
+                        0x00027550   0x184  Code  Gb  fmsh_dmac.o [1]
+FDmaPs_setListPointerAddress
+                        0x000264dc   0x19c  Code  Gb  fmsh_dmac.o [1]
+FDmaPs_setLlpEnable     0x0002667c   0x250  Code  Gb  fmsh_dmac.o [1]
+FDmaPs_setReload        0x000268d0   0x3c4  Code  Gb  fmsh_dmac.o [1]
+FDmaPs_setTestMode      0x00025f94    0x84  Code  Gb  fmsh_dmac.o [1]
+FDmaPs_setTransferType  0x0002581c   0x554  Code  Gb  fmsh_dmac.o [1]
+FDmaPs_startTransfer    0x00026cd4   0x4bc  Code  Gb  fmsh_dmac.o [1]
+FDmaPs_unmaskIrq        0x00024ba0   0x174  Code  Gb  fmsh_dmac.o [1]
+FGmacPs_InitPhy         0x00034450    0xa0  Code  Lc  fmsh_initialization.o [1]
+FIQInterrupt            0x0003c2b0    0x1c  Code  Gb  exception_handler.o [1]
+FIQ_Handler             0x00024078          Code  Gb  init.o [1]
+FIQ_STACK$$Base         0x00047c88           --   Gb  - Linker created -
+FIQ_STACK$$Limit        0x00047e88           --   Gb  - Linker created -
+FMSH_EXIT               0x000381dc          Code  Gb  fmsh_exit.o [1]
+FMSH_ExceptionNullHandler
+                        0x0003c194     0x4  Code  Lc  exception_handler.o [1]
+FNfcPs_CfgInitialize    0x0003bbb0    0xa0  Code  Gb  fmsh_nfcps.o [1]
+FNfcPs_CheckBlock       0x0003b048    0xd4  Code  Gb  fmsh_nfcps_bbm.o [1]
+FNfcPs_ClearEccStat     0x0003a28c    0x14  Code  Gb  fmsh_nfcps_hw.o [1]
+FNfcPs_ClearFIFO        0x0003a2d8    0x14  Code  Gb  fmsh_nfcps_hw.o [1]
+FNfcPs_ConfigTable      0x00040f3c     0xc  Data  Gb  fmsh_nfcps_g.o [1]
+FNfcPs_CreateBadBlockTable
+                        0x0003a5a8    0xc4  Code  Lc  fmsh_nfcps_bbm.o [1]
+FNfcPs_DisableEcc       0x0003a0d4    0x20  Code  Gb  fmsh_nfcps_hw.o [1]
+FNfcPs_EccMode          0x0003b634   0x1c0  Code  Gb  fmsh_nfcps_sw.o [1]
+FNfcPs_EnableEcc        0x0003a0b4    0x20  Code  Gb  fmsh_nfcps_hw.o [1]
+FNfcPs_EnableSmallBlock
+                        0x0003a0f4    0x20  Code  Gb  fmsh_nfcps_hw.o [1]
+FNfcPs_FindInstruction  0x000391e4    0x48  Code  Gb  fmsh_nfcps_flash.o [1]
+FNfcPs_GetBlockSizeInBytes
+                        0x0003b348    0x14  Code  Gb  fmsh_nfcps_model.o [1]
+FNfcPs_GetDMAStatus     0x0003a368    0x18  Code  Gb  fmsh_nfcps_hw.o [1]
+FNfcPs_GetDeviceSizeInBytes
+                        0x0003b328    0x20  Code  Gb  fmsh_nfcps_model.o [1]
+FNfcPs_GetEccStat       0x0003a2a0    0x10  Code  Gb  fmsh_nfcps_hw.o [1]
+FNfcPs_GetPageSizeInBytes
+                        0x0003b35c    0x14  Code  Gb  fmsh_nfcps_model.o [1]
+FNfcPs_IdCheck          0x0003b5b0    0x84  Code  Lc  fmsh_nfcps_sw.o [1]
+FNfcPs_InitBadBlockTableDesc
+                        0x0003a45c   0x14c  Code  Gb  fmsh_nfcps_bbm.o [1]
+FNfcPs_InitController   0x0003b3c0   0x1f0  Code  Gb  fmsh_nfcps_sw.o [1]
+FNfcPs_InitRemap        0x0003a3bc    0x14  Code  Gb  fmsh_nfcps_hw.o [1]
+FNfcPs_Initialize       0x0003b370    0x50  Code  Gb  fmsh_nfcps_sw.o [1]
+FNfcPs_IsBlockBad       0x0003b11c    0x98  Code  Gb  fmsh_nfcps_bbm.o [1]
+FNfcPs_LookupConfig     0x0003bb58    0x58  Code  Gb  fmsh_nfcps_sinit.o [1]
+FNfcPs_MarkBadBlockTable
+                        0x0003aecc    0xdc  Code  Lc  fmsh_nfcps_bbm.o [1]
+FNfcPs_Read             0x0003b9b8   0x198  Code  Gb  fmsh_nfcps_sw.o [1]
+FNfcPs_ReadBadBlockTable
+                        0x0003a70c   0x414  Code  Lc  fmsh_nfcps_bbm.o [1]
+FNfcPs_ReadFIFO         0x0003a2c8    0x10  Code  Gb  fmsh_nfcps_hw.o [1]
+FNfcPs_Reset            0x0003bc50    0x3c  Code  Gb  fmsh_nfcps.o [1]
+FNfcPs_ScanBadBlockTable
+                        0x0003a66c    0xa0  Code  Gb  fmsh_nfcps_bbm.o [1]
+FNfcPs_SearchBadBlockTable
+                        0x0003ab20    0xf4  Code  Lc  fmsh_nfcps_bbm.o [1]
+FNfcPs_SetBlockSize     0x0003a1d4    0x80  Code  Gb  fmsh_nfcps_hw.o [1]
+FNfcPs_SetCtrl          0x0003a0a4    0x10  Code  Gb  fmsh_nfcps_hw.o [1]
+FNfcPs_SetDMAAddr       0x0003a2fc    0x10  Code  Gb  fmsh_nfcps_hw.o [1]
+FNfcPs_SetDMACnt        0x0003a30c    0x14  Code  Gb  fmsh_nfcps_hw.o [1]
+FNfcPs_SetDMACtrl       0x0003a330    0x38  Code  Gb  fmsh_nfcps_hw.o [1]
+FNfcPs_SetDMATrigLvl    0x0003a320    0x10  Code  Gb  fmsh_nfcps_hw.o [1]
+FNfcPs_SetDevPtr        0x0003a3d0    0x10  Code  Gb  fmsh_nfcps_hw.o [1]
+FNfcPs_SetDevSize       0x0003a3e0    0x10  Code  Gb  fmsh_nfcps_hw.o [1]
+FNfcPs_SetEccBlockSize  0x0003a154    0x80  Code  Gb  fmsh_nfcps_hw.o [1]
+FNfcPs_SetEccCtrl       0x0003a264    0x28  Code  Gb  fmsh_nfcps_hw.o [1]
+FNfcPs_SetEccOffset     0x0003a2b0    0x18  Code  Gb  fmsh_nfcps_hw.o [1]
+FNfcPs_SetIOWidth       0x0003a114    0x40  Code  Gb  fmsh_nfcps_hw.o [1]
+FNfcPs_SetIntrMask      0x0003a254    0x10  Code  Gb  fmsh_nfcps_hw.o [1]
+FNfcPs_SetStatusMask    0x0003a2ec    0x10  Code  Gb  fmsh_nfcps_hw.o [1]
+FNfcPs_SetTiming        0x0003a380    0x34  Code  Gb  fmsh_nfcps_hw.o [1]
+FNfcPs_TranslateFlashAddress
+                        0x0003b228   0x100  Code  Gb  fmsh_nfcps_model.o [1]
+FNfcPs_UpdateBadBlockTable
+                        0x0003afa8    0xa0  Code  Lc  fmsh_nfcps_bbm.o [1]
+FNfcPs_WaitForBit       0x0003a3f0    0x6c  Code  Gb  fmsh_nfcps_hw.o [1]
+FNfcPs_Write            0x0003b7f4   0x1c4  Code  Gb  fmsh_nfcps_sw.o [1]
+FNfcPs_WriteBadBlockTable
+                        0x0003ac14   0x2b8  Code  Lc  fmsh_nfcps_bbm.o [1]
+FQspiFlash_GetFlagStatus
+                        0x00038650    0x2c  Code  Gb  fmsh_qspips_flash.o [1]
+FQspiFlash_GetReg8      0x0003867c    0x40  Code  Gb  fmsh_qspips_flash.o [1]
+FQspiFlash_GetStatus1   0x00038624    0x2c  Code  Gb  fmsh_qspips_flash.o [1]
+FQspiFlash_ReadId       0x0003874c    0x28  Code  Gb  fmsh_qspips_flash.o [1]
+FQspiFlash_SetReg8      0x000386bc    0x90  Code  Gb  fmsh_qspips_flash.o [1]
+FQspiFlash_WREN         0x000385b8    0x6c  Code  Gb  fmsh_qspips_flash.o [1]
+FQspiFlash_WaitForFSR   0x000387cc    0x5c  Code  Gb  fmsh_qspips_flash.o [1]
+FQspiFlash_WaitForWIP   0x00038774    0x58  Code  Gb  fmsh_qspips_flash.o [1]
+FQspiPs_AddressMap      0x00037e84    0x28  Code  Gb  fmsh_qspi.o [1]
+FQspiPs_Calibration     0x000369b0   0x110  Code  Lc  fmsh_qspips_sw.o [1]
+FQspiPs_CfgInitialize   0x0003827c    0x94  Code  Gb  fmsh_qspips.o [1]
+FQspiPs_CmdExecute      0x000384b0    0x64  Code  Gb  fmsh_qspips_hw.o [1]
+FQspiPs_ConfigTable     0x00040f24    0x18  Data  Gb  fmsh_qspips_g.o [1]
+FQspiPs_Disable         0x000383e8    0x18  Code  Gb  fmsh_qspips_hw.o [1]
+FQspiPs_DisableDAC      0x00038418    0x18  Code  Gb  fmsh_qspips_hw.o [1]
+FQspiPs_Enable          0x000383d0    0x18  Code  Gb  fmsh_qspips_hw.o [1]
+FQspiPs_EnableDAC       0x00038400    0x18  Code  Gb  fmsh_qspips_hw.o [1]
+FQspiPs_EnableXip       0x00038430    0x18  Code  Gb  fmsh_qspips_hw.o [1]
+FQspiPs_EnterXIP        0x00036ec4   0x1d4  Code  Gb  fmsh_qspips_sw.o [1]
+FQspiPs_GetFlashInfo    0x00036ac0   0x1ec  Code  Gb  fmsh_qspips_sw.o [1]
+FQspiPs_Initialize      0x000368b8    0xf8  Code  Gb  fmsh_qspips_sw.o [1]
+FQspiPs_IsFlashQuad     0x00036cac   0x13c  Code  Gb  fmsh_qspips_sw.o [1]
+FQspiPs_LookupConfig    0x00038224    0x58  Code  Gb  fmsh_qspips_sinit.o [1]
+FQspiPs_RecvBytes       0x00037298    0xa8  Code  Gb  fmsh_qspips_sw.o [1]
+FQspiPs_Reset           0x00038310    0xb8  Code  Gb  fmsh_qspips.o [1]
+FQspiPs_ResetFlash      0x00037098    0xc4  Code  Gb  fmsh_qspips_sw.o [1]
+FQspiPs_SetBaudRate     0x00038448    0x24  Code  Gb  fmsh_qspips_hw.o [1]
+FQspiPs_SetCaptureDelay
+                        0x0003846c    0x2c  Code  Gb  fmsh_qspips_hw.o [1]
+FQspiPs_SetFlashMode    0x00036de8    0xdc  Code  Gb  fmsh_qspips_sw.o [1]
+FQspiPs_SetFlashSegment
+                        0x0003715c   0x13c  Code  Gb  fmsh_qspips_sw.o [1]
+FQspiPs_SetModeBits     0x00038498    0x18  Code  Gb  fmsh_qspips_hw.o [1]
+FQspiPs_WaitForBit      0x00038554    0x64  Code  Gb  fmsh_qspips_hw.o [1]
+FQspiPs_WaitForIndacDone
+                        0x00037ee8   0x174  Code  Gb  fmsh_qspi.o [1]
+FQspiPs_WaitIdle        0x00038514    0x40  Code  Gb  fmsh_qspips_hw.o [1]
+FSdmmcPs_ConfigTable    0x00040ea0    0x28  Data  Gb  fmsh_sdmmc_g.o [1]
+FSdmmcPs_LookupConfig   0x0002f4b8    0x58  Code  Gb  fmsh_sdmmc_sinit.o [1]
+FSdmmcPs_addSdDevice    0x0002c03c    0x90  Code  Gb  fmsh_sdmmc.o [1]
+FSdmmcPs_cardDetect     0x0002a410    0x64  Code  Gb  fmsh_sdmmc.o [1]
+FSdmmcPs_cardIdentify   0x0002b9bc   0x398  Code  Gb  fmsh_sdmmc.o [1]
+FSdmmcPs_cardIdentify::mmc_versions
+                        0x0003e574    0x24  Data  Lc  fmsh_sdmmc.o [1]
+FSdmmcPs_cfgInitialize  0x0002c200   0x128  Code  Gb  fmsh_sdmmc.o [1]
+FSdmmcPs_changeBusSpeed
+                        0x0002b328   0x128  Code  Gb  fmsh_sdmmc.o [1]
+FSdmmcPs_disableIntMask
+                        0x0002ad0c    0x68  Code  Gb  fmsh_sdmmc.o [1]
+FSdmmcPs_doTransfer     0x0002bd58   0x1d0  Code  Gb  fmsh_sdmmc.o [1]
+FSdmmcPs_enableDMA      0x0002aca8    0x64  Code  Gb  fmsh_sdmmc.o [1]
+FSdmmcPs_enableInt      0x0002ac44    0x64  Code  Gb  fmsh_sdmmc.o [1]
+FSdmmcPs_getBusSpeed    0x0002b300    0x28  Code  Gb  fmsh_sdmmc.o [1]
+FSdmmcPs_getMmcExtCsd   0x0002b538    0xc4  Code  Gb  fmsh_sdmmc.o [1]
+FSdmmcPs_getRawIntStat  0x0002ab7c    0x60  Code  Gb  fmsh_sdmmc.o [1]
+FSdmmcPs_getSdSCR       0x0002b454    0xe4  Code  Gb  fmsh_sdmmc.o [1]
+FSdmmcPs_initCard       0x0002c140    0xb4  Code  Gb  fmsh_sdmmc.o [1]
+FSdmmcPs_initDev        0x0002a3d0    0x40  Code  Gb  fmsh_sdmmc.o [1]
+FSdmmcPs_instanceReset  0x0002a474   0x194  Code  Gb  fmsh_sdmmc.o [1]
+FSdmmcPs_mmcEnumerate   0x0002b7e4   0x1d4  Code  Gb  fmsh_sdmmc.o [1]
+FSdmmcPs_powerDown      0x0002a774    0x6c  Code  Gb  fmsh_sdmmc.o [1]
+FSdmmcPs_powerUp        0x0002a7e0    0x6c  Code  Gb  fmsh_sdmmc.o [1]
+FSdmmcPs_prepareCmd     0x0002ad88   0x188  Code  Gb  fmsh_sdmmc.o [1]
+FSdmmcPs_readData       0x00029d80   0x308  Code  Lc  fmsh_sdmmc.o [1]
+FSdmmcPs_readFun        0x0002bf28    0x88  Code  Gb  fmsh_sdmmc.o [1]
+FSdmmcPs_removeSdDevice
+                        0x0002c0cc    0x70  Code  Gb  fmsh_sdmmc.o [1]
+FSdmmcPs_sdControllerReset
+                        0x0002aa38    0xa0  Code  Gb  fmsh_sdmmc.o [1]
+FSdmmcPs_sdEnumerate    0x0002b5fc   0x1e8  Code  Gb  fmsh_sdmmc.o [1]
+FSdmmcPs_sdFifoReset    0x0002aadc    0xa0  Code  Gb  fmsh_sdmmc.o [1]
+FSdmmcPs_sdGetLongReply
+                        0x0002a39c    0x34  Code  Lc  fmsh_sdmmc.o [1]
+FSdmmcPs_sdGetShortReply
+                        0x0002a38c    0x10  Code  Lc  fmsh_sdmmc.o [1]
+FSdmmcPs_selectCard     0x00029d1c    0x5c  Code  Lc  fmsh_sdmmc.o [1]
+FSdmmcPs_sendCmd        0x0002af10   0x22c  Code  Gb  fmsh_sdmmc.o [1]
+FSdmmcPs_setBlockLen    0x0002b148    0x94  Code  Gb  fmsh_sdmmc.o [1]
+FSdmmcPs_setCardBusWidth
+                        0x0002b1dc   0x124  Code  Gb  fmsh_sdmmc.o [1]
+FSdmmcPs_setClock       0x0002a84c   0x148  Code  Gb  fmsh_sdmmc.o [1]
+FSdmmcPs_setCtrlBuswidth
+                        0x0002a994    0xa4  Code  Gb  fmsh_sdmmc.o [1]
+FSdmmcPs_setDmaMsize    0x0002a608    0x70  Code  Gb  fmsh_sdmmc.o [1]
+FSdmmcPs_setRXwmark     0x0002a678    0x7c  Code  Gb  fmsh_sdmmc.o [1]
+FSdmmcPs_setRawIntStat  0x0002abdc    0x64  Code  Gb  fmsh_sdmmc.o [1]
+FSdmmcPs_setTXwmark     0x0002a6f4    0x80  Code  Gb  fmsh_sdmmc.o [1]
+FSdmmcPs_writeData      0x0002a08c   0x300  Code  Lc  fmsh_sdmmc.o [1]
+FSdmmcPs_writeFun       0x0002bfb0    0x88  Code  Gb  fmsh_sdmmc.o [1]
+FSlcrPs_ipReleaseRst    0x00039198    0x2c  Code  Gb  fmsh_slcr.o [1]
+FSlcrPs_ipSetRst        0x0003916c    0x2c  Code  Gb  fmsh_slcr.o [1]
+FSlcrPs_lock            0x00039140    0x14  Code  Gb  fmsh_slcr.o [1]
+FSlcrPs_setBitTo0       0x000390f4    0x28  Code  Gb  fmsh_slcr.o [1]
+FSlcrPs_setBitTo1       0x0003911c    0x24  Code  Gb  fmsh_slcr.o [1]
+FSlcrPs_unlock          0x00039154    0x14  Code  Gb  fmsh_slcr.o [1]
+FUartPs_ConfigTable     0x00040ec8    0x20  Data  Gb  fmsh_uart_g.o [1]
+FUartPs_LookupConfig    0x000339fc    0x54  Code  Gb  fmsh_uart_sinit.o [1]
+FUartPs_areFifosEnabled
+                        0x00033fb0    0x74  Code  Gb  fmsh_uart.o [1]
+FUartPs_autoCompParams  0x0003434c    0xbc  Code  Gb  fmsh_uart.o [1]
+FUartPs_disableIrq      0x00034164    0x74  Code  Gb  fmsh_uart.o [1]
+FUartPs_enableFifos     0x00033f34    0x7c  Code  Gb  fmsh_uart.o [1]
+FUartPs_getLineStatus   0x0003402c    0x70  Code  Gb  fmsh_uart.o [1]
+FUartPs_getTxTrigger    0x000341d8    0x68  Code  Gb  fmsh_uart.o [1]
+FUartPs_init            0x00033a50    0x5c  Code  Gb  fmsh_uart.o [1]
+FUartPs_isBusy          0x00033aac    0x70  Code  Gb  fmsh_uart.o [1]
+FUartPs_read            0x0003409c    0x60  Code  Gb  fmsh_uart.o [1]
+FUartPs_resetInstance   0x00034248   0x104  Code  Gb  fmsh_uart.o [1]
+FUartPs_resetRxFifo     0x00033b80    0x64  Code  Gb  fmsh_uart.o [1]
+FUartPs_resetTxFifo     0x00033b1c    0x64  Code  Gb  fmsh_uart.o [1]
+FUartPs_setBaudRate     0x00033cbc    0x78  Code  Gb  fmsh_uart.o [1]
+FUartPs_setClockDivisor
+                        0x00033be4    0xd8  Code  Gb  fmsh_uart.o [1]
+FUartPs_setDataBits     0x00033d34    0x7c  Code  Gb  fmsh_uart.o [1]
+FUartPs_setParity       0x00033e34    0x7c  Code  Gb  fmsh_uart.o [1]
+FUartPs_setStick        0x00033eb0    0x84  Code  Gb  fmsh_uart.o [1]
+FUartPs_setStopBits     0x00033db0    0x84  Code  Gb  fmsh_uart.o [1]
+FUartPs_write           0x000340fc    0x68  Code  Gb  fmsh_uart.o [1]
+FatFs                   0x00047a4c     0x4  Data  Lc  ff.o [1]
+FlashReadBaseAddress    0x00047a70     0x4  Data  Gb  fmsh_sd.o [1]
+FmshFsbl_AuthenticateHeader
+                        0x00037b8c   0x264  Code  Gb  fmsh_authentication.o [1]
+FmshFsbl_AuthenticatePartition
+                        0x000378f8   0x294  Code  Gb  fmsh_authentication.o [1]
+FmshFsbl_BootDeviceInit
+                        0x00034750   0x15c  Code  Lc  fmsh_initialization.o [1]
+FmshFsbl_BootDeviceInitAndValidate
+                        0x00034bb4   0x174  Code  Gb  fmsh_initialization.o [1]
+FmshFsbl_BootHeaderSearchAndValidate
+                        0x000348b0   0x28c  Code  Lc  fmsh_initialization.o [1]
+FmshFsbl_BootInitialize
+                        0x000346bc    0x94  Code  Gb  fmsh_initialization.o [1]
+FmshFsbl_ByteSwap       0x00032560    0x24  Code  Gb  fmsh_sac.o [1]
+FmshFsbl_CalcualteSHA   0x00034e14    0xd0  Code  Lc  fmsh_partition_load.o [1]
+FmshFsbl_CheckHandoffCpu
+                        0x00034ee4    0x60  Code  Lc  fmsh_partition_load.o [1]
+FmshFsbl_CheckSupportedCpu
+                        0x000359d8    0x34  Code  Lc  boothandoff.o [1]
+FmshFsbl_CloseUsrLevelShifter
+                        0x000325e0    0x30  Code  Gb  fmsh_sac.o [1]
+FmshFsbl_CsuDmaPollDone
+                        0x000339a4    0x44  Code  Gb  fmsh_csudma.o [1]
+FmshFsbl_CsuInitiateDma
+                        0x00033980    0x24  Code  Gb  fmsh_csudma.o [1]
+FmshFsbl_FindOneInNumber
+                        0x0003736c    0x24  Code  Gb  fmsh_efuse.o [1]
+FmshFsbl_GetDestinationCpu
+                        0x000365b4     0xc  Code  Gb  fmsh_header.o [1]
+FmshFsbl_GetDestinationDevice
+                        0x000365cc     0xc  Code  Gb  fmsh_header.o [1]
+FmshFsbl_GetErrorInfo   0x00033548    0xec  Code  Gb  fmsh_uart_logout.o [1]
+FmshFsbl_GetExecState   0x000365d8     0xc  Code  Gb  fmsh_header.o [1]
+FmshFsbl_GetPartitionOwner
+                        0x0003659c     0xc  Code  Gb  fmsh_header.o [1]
+FmshFsbl_HandoffExit    0x00035a0c    0x24  Code  Gb  boothandoff.o [1]
+FmshFsbl_InitQspi       0x00037eac    0x3c  Code  Gb  fmsh_qspi.o [1]
+FmshFsbl_IsBitDone      0x00032610    0x20  Code  Gb  fmsh_sac.o [1]
+FmshFsbl_IsEncryptedPresent
+                        0x000365c0     0xc  Code  Gb  fmsh_header.o [1]
+FmshFsbl_IsRsaSignaturePresent
+                        0x000365a8     0xc  Code  Gb  fmsh_header.o [1]
+FmshFsbl_NandCopy       0x0003c838    0x48  Code  Gb  fmsh_fnand.o [1]
+FmshFsbl_NandInit       0x0003c7d0    0x68  Code  Gb  fmsh_fnand.o [1]
+FmshFsbl_NorCopy        0x0003c778    0x58  Code  Gb  fmsh_nor.o [1]
+FmshFsbl_NorInit        0x0003c764    0x14  Code  Gb  fmsh_nor.o [1]
+FmshFsbl_OpenCfgLevelShifter
+                        0x000325b0    0x30  Code  Gb  fmsh_sac.o [1]
+FmshFsbl_PartitionCopy  0x00034f44   0x18c  Code  Lc  fmsh_partition_load.o [1]
+FmshFsbl_PartitionHeaderValidation
+                        0x00036634    0x90  Code  Gb  fmsh_header.o [1]
+FmshFsbl_PartitionLoad  0x000357d0   0x12c  Code  Gb  fmsh_partition_load.o [1]
+FmshFsbl_PartitionValidation
+                        0x000350d0   0x700  Code  Lc  fmsh_partition_load.o [1]
+FmshFsbl_ProcessorInit  0x00034624    0x98  Code  Lc  fmsh_initialization.o [1]
+FmshFsbl_QspiAccess     0x0003805c   0x170  Code  Gb  fmsh_qspi.o [1]
+FmshFsbl_ReadImageHeader
+                        0x000366c4   0x128  Code  Gb  fmsh_header.o [1]
+FmshFsbl_SacAesSwitch   0x00032584    0x2c  Code  Gb  fmsh_sac.o [1]
+FmshFsbl_SacInit        0x0003245c    0x38  Code  Gb  fmsh_sac.o [1]
+FmshFsbl_SacUnlock      0x00032494    0x10  Code  Gb  fmsh_sac.o [1]
+FmshFsbl_SdCopy         0x0003c0dc    0x88  Code  Gb  fmsh_sd.o [1]
+FmshFsbl_SdInit         0x0003c0ac    0x30  Code  Gb  fmsh_sd.o [1]
+FmshFsbl_Secure_AesDecrypt
+                        0x00033258   0x148  Code  Gb  fmsh_aes_sm4.o [1]
+FmshFsbl_SetSacDataSwap
+                        0x000324f0    0x70  Code  Gb  fmsh_sac.o [1]
+FmshFsbl_SetSacMode     0x000324a4    0x4c  Code  Gb  fmsh_sac.o [1]
+FmshFsbl_SystemInit     0x000344f0   0x134  Code  Lc  fmsh_initialization.o [1]
+FmshFsbl_UartInit       0x000333f4    0xb0  Code  Gb  fmsh_uart_logout.o [1]
+FmshFsbl_UpdateResetVector
+                        0x00035a30    0x8c  Code  Lc  boothandoff.o [1]
+FmshFsbl_ValidataBootHeader
+                        0x000365e4    0x50  Code  Gb  fmsh_header.o [1]
+FmshFsbl_ValidateHeader
+                        0x00034b3c    0x78  Code  Lc  fmsh_initialization.o [1]
+FmshFsbl_sha256         0x000373c0   0x1dc  Code  Gb  fmsh_sha256.o [1]
+Fsid                    0x00047a7c     0x2  Data  Lc  ff.o [1]
+GcmDecTag               0x000304c4    0xf0  Code  Gb  fdevcps.o [1]
+GetSacIv                0x00032810    0x54  Code  Gb  fmsh_aes_sm4.o [1]
+HEAP$$Base              0x0004bf40           --   Gb  - Linker created -
+HEAP$$Limit             0x0004d740           --   Gb  - Linker created -
+HandoffJtagExit         0x000359c0    0x18  Code  Gb  boothandoff.o [1]
+IRQInterrupt            0x0003c294    0x1c  Code  Gb  exception_handler.o [1]
+IRQ_Handler             0x00024038          Code  Gb  init.o [1]
+IRQ_STACK$$Base         0x00047a88           --   Gb  - Linker created -
+IRQ_STACK$$Limit        0x00047c88           --   Gb  - Linker created -
+ImageHdr                0x00040f50     0x4  Data  Gb  fmsh_header.o [1]
+ImageHeaderBuffer       0x00042c2c  0x2000  Data  Gb  fmsh_header.o [1]
+InitSD                  0x0003bfec    0xc0  Code  Gb  fmsh_sd.o [1]
+IvToY0                  0x000328b4    0x48  Code  Lc  fmsh_aes_sm4.o [1]
+IvToY1                  0x00032864    0x50  Code  Gb  fmsh_aes_sm4.o [1]
+LoadInt                 0x00027b31    0x7a  Code  Lc  xprintffuller_nomb.o [3]
+NandInstance            0x00047380   0x1dc  Data  Gb  fmsh_fnand.o [1]
+NandInstancePtr         0x00047a60     0x4  Data  Gb  fmsh_fnand.o [1]
+Nandflash_EraseBlock    0x00039b24    0x74  Code  Gb  fmsh_nfcps_flash.o [1]
+Nandflash_GetFlashInfo  0x0003922c   0x5a4  Code  Gb  fmsh_nfcps_flash.o [1]
+Nandflash_ReadId        0x00039848    0xf8  Code  Gb  fmsh_nfcps_flash.o [1]
+Nandflash_ReadOnfiId    0x00039940    0xe4  Code  Gb  fmsh_nfcps_flash.o [1]
+Nandflash_ReadPage      0x00039b98   0x2b0  Code  Gb  fmsh_nfcps_flash.o [1]
+Nandflash_ReadParaPage  0x00039a24   0x100  Code  Gb  fmsh_nfcps_flash.o [1]
+Nandflash_Reset         0x000397d0    0x78  Code  Gb  fmsh_nfcps_flash.o [1]
+Nandflash_WritePage     0x00039e4c   0x250  Code  Gb  fmsh_nfcps_flash.o [1]
+Nor_initMemctl          0x0003c708    0x44  Code  Lc  fmsh_nor.o [1]
+PpkExp                  0x00047a5c     0x4  Data  Lc  fmsh_authentication.o [1]
+PpkModular              0x00047a54     0x4  Data  Lc  fmsh_authentication.o [1]
+PpkModularEx            0x00047a58     0x4  Data  Lc  fmsh_authentication.o [1]
+PpkSpkIdVer             0x000376d8   0x100  Code  Lc  fmsh_authentication.o [1]
+Prefetch_C_Handler      0x0003c20c    0x60  Code  Gb  exception_handler.o [1]
+PrintArray_1            0x00033694    0x54  Code  Gb  main.o [1]
+QspiInstance            0x00047918    0x38  Data  Gb  fmsh_qspi.o [1]
+QspiInstancePtr         0x00047a68     0x4  Data  Gb  fmsh_qspi.o [1]
+ReadPpkHashSpkID        0x000375c4    0x80  Code  Lc  fmsh_authentication.o [1]
+RecreatePaddingAndCheck
+                        0x000377d8   0x120  Code  Lc  fmsh_authentication.o [1]
+Region$$Table$$Base     0x0003e694           --   Gb  - Linker created -
+Region$$Table$$Limit    0x0003e6b8           --   Gb  - Linker created -
+SDMMC_decodeCID         0x0002c400   0x38c  Code  Gb  fmsh_sdmmc_protocol.o [1]
+SDMMC_decodeCSD         0x0002c78c   0x320  Code  Gb  fmsh_sdmmc_protocol.o [1]
+SDMMC_getCSDInfo        0x0002caac   0x114  Code  Gb  fmsh_sdmmc_protocol.o [1]
+SVCHandler              0x000240b8          Code  Gb  init.o [1]
+SWInterrupt             0x0003c26c    0x14  Code  Gb  exception_handler.o [1]
+Secure_AesDecryptBlk    0x00033124   0x11c  Code  Gb  fmsh_aes_sm4.o [1]
+Secure_AesIvLoad        0x00032708    0x10  Code  Lc  fmsh_aes_sm4.o [1]
+Secure_AesKeySelNLoad   0x00032780    0x4c  Code  Lc  fmsh_aes_sm4.o [1]
+SendData                0x000334a4    0x50  Code  Lc  fmsh_uart_logout.o [1]
+SetAesCHMode            0x00032648    0x40  Code  Lc  fmsh_aes_sm4.o [1]
+SetAesH                 0x000328fc    0x48  Code  Lc  fmsh_aes_sm4.o [1]
+SetAlgMode              0x000326c8    0x40  Code  Lc  fmsh_aes_sm4.o [1]
+SetDecFlag              0x00032944    0x40  Code  Lc  fmsh_aes_sm4.o [1]
+SetEncDecMode           0x00032688    0x40  Code  Lc  fmsh_aes_sm4.o [1]
+SetPpk                  0x00037644    0x30  Code  Lc  fmsh_authentication.o [1]
+SetSacIv                0x000327cc    0x44  Code  Gb  fmsh_aes_sm4.o [1]
+ShaReset                0x00037390    0x30  Code  Lc  fmsh_sha256.o [1]
+SkipBlockNandflash_CalculateBadBlockNum
+                        0x0003bf60    0x60  Code  Lc  fmsh_nfcps_skipblock.o [1]
+SkipBlockNandflash_CalculateLength
+                        0x0003be64    0xf8  Code  Lc  fmsh_nfcps_skipblock.o [1]
+SkipBlockNandflash_Read
+                        0x0003bc94   0x1d0  Code  Gb  fmsh_nfcps_skipblock.o [1]
+Stat                    0x00047a7e     0x1  Data  Lc  diskio.o [1]
+StubStatusHandler       0x0003bc90     0x4  Code  Lc  fmsh_nfcps.o [1]
+StubStatusHandler       0x000383c8     0x4  Code  Lc  fmsh_qspips.o [1]
+TransMode               0x00047a7f     0x1  Data  Lc  diskio.o [1]
+UND_STACK$$Base         0x00047ee8           --   Gb  - Linker created -
+UND_STACK$$Limit        0x00047f28           --   Gb  - Linker created -
+UNSTUFF_BITS            0x0002c3ac    0x54  Code  Lc  fmsh_sdmmc_protocol.o [1]
+Undefined_C_Handler     0x0003c280    0x14  Code  Gb  exception_handler.o [1]
+ValidateChecksum        0x00035e34    0x94  Code  Lc  fmsh_header.o [1]
+ValidateImageHeaderTable
+                        0x00035ec8   0x298  Code  Lc  fmsh_header.o [1]
+ValidateImageID         0x00035de4    0x50  Code  Lc  fmsh_header.o [1]
+ValidatePartitionHeader
+                        0x00036214   0x388  Code  Lc  fmsh_header.o [1]
+WriteProtect            0x00047a48     0x4  Data  Lc  diskio.o [1]
+XExc_VectorTable        0x00040e30    0x38  Data  Gb  exception_handler.o [1]
+_Close_all              0x0003d391    0x3c  Code  Gb  xcloseall.o [3]
+_Encoding_8859_1_Wctomb
+                        0x00028973    0x12  Code  Gb  xencoding_8859_1.o [3]
+_Files                  0x00040ee8    0x20  Data  Gb  xfiles.o [3]
+_Fofree                 0x0003c9df    0x7e  Code  Gb  xfofind.o [3]
+_Fspos                  0x0003c43d    0xd8  Code  Gb  xfspos.o [3]
+_Fwprep                 0x0003c889    0xb4  Code  Gb  xfwprep.o [3]
+_GenldFullerNoMb        0x00028661   0x280  Code  Lc  xprintffuller_nomb.o [3]
+_LdtobFullerNoMb        0x00028213   0x448  Code  Lc  xprintffuller_nomb.o [3]
+_LitobFullerNoMb        0x000280b3   0x116  Code  Lc  xprintffuller_nomb.o [3]
+_Locale_lconv           0x00040e68    0x38  Data  Lc  xlocale_c.o [3]
+_Nnl                    0x0003c5c3     0xc  Code  Gb  xfgpos.o [3]
+_PrintfFullerNoMb       0x00027993   0x198  Code  Gb  xprintffuller_nomb.o [3]
+_Prout                  0x0003f06d    0x16  Code  Gb  xprout.o [3]
+_PutcharsFullerNoMb     0x000288e1    0x2e  Code  Lc  xprintffuller_nomb.o [3]
+_PutfldFullerNoMb       0x00027bab   0x332  Code  Lc  xprintffuller_nomb.o [3]
+_PutstrFullerNoMb       0x00027feb    0xc8  Code  Lc  xprintffuller_nomb.o [3]
+_PuttxtFullerNoMb       0x00027edd   0x10e  Code  Lc  xprintffuller_nomb.o [3]
+_SNProut                0x00027933    0x1a  Code  Gb  xsnprout.o [3]
+__ICFEDIT_region_RAM_end__ {Abs}
+                        0x0005ffff          Data  Gb  command line/config [2]
+__ICFEDIT_region_RAM_start__ {Abs}
+                        0x00024000          Data  Gb  command line/config [2]
+__ICFEDIT_size_cstack__ {Abs}
+                        0x00004000          Data  Gb  command line/config [2]
+__ICFEDIT_size_fiqstack__ {Abs}
+                        0x00000200          Data  Gb  command line/config [2]
+__ICFEDIT_size_heap__ {Abs}
+                        0x00001800          Data  Gb  command line/config [2]
+__ICFEDIT_size_irqstack__ {Abs}
+                        0x00000200          Data  Gb  command line/config [2]
+__ICFEDIT_size_vectors__ {Abs}
+                        0x00000100          Data  Gb  command line/config [2]
+__aeabi_cdcmple         0x00028d21          Code  Gb  DblCmpLe.o [5]
+__aeabi_cdrcmple        0x00028d51          Code  Gb  DblCmpGe.o [5]
+__aeabi_d2iz            0x00028e85     0xe  Code  Gb  DblToS32.o [5]
+__aeabi_d2uiz           0x00028ec5     0xe  Code  Gb  DblToU32.o [5]
+__aeabi_d2ulz           0x000278e1          Code  Gb  DblToU64.o [5]
+__aeabi_ddiv            0x00028eb3    0x12  Code  Gb  DblDiv.o [5]
+__aeabi_dmul            0x00028c9d    0x12  Code  Gb  DblMul.o [5]
+__aeabi_dsub            0x00028ea1    0x12  Code  Gb  DblSub.o [5]
+__aeabi_i2d             0x00028e93     0xe  Code  Gb  S32ToDbl.o [5]
+__aeabi_idiv            0x00028ee0          Code  Gb  I32DivMod.o [6]
+__aeabi_idiv0           0x00029104          Code  Gb  IntDivZer.o [6]
+__aeabi_idivmod         0x00028ee0          Code  Gb  I32DivMod.o [6]
+__aeabi_ldiv0           0x00029100          Code  Gb  I64DivZer.o [6]
+__aeabi_memclr4         0x0002cbe0          Code  Gb  ABImemclr4.o [6]
+__aeabi_memcpy          0x00028a98          Code  Gb  ABImemcpy.o [6]
+__aeabi_memcpy4         0x00028abc          Code  Gb  ABImemcpy.o [6]
+__aeabi_memcpy8         0x00028abc          Code  Gb  ABImemcpy.o [6]
+__aeabi_memset          0x0002c338          Code  Gb  ABImemset.o [6]
+__aeabi_ui2d            0x00028ed3     0xe  Code  Gb  U32ToDbl.o [5]
+__aeabi_uidiv           0x00028f0c          Code  Gb  I32DivMod.o [6]
+__aeabi_uidivmod        0x00028f0c          Code  Gb  I32DivMod.o [6]
+__aeabi_ul2d            0x0002794d          Code  Gb  U64ToDbl.o [5]
+__aeabi_ul2f            0x00035d9d          Code  Gb  U64ToFlt.o [5]
+__aeabi_uldivmod        0x00028b6c          Code  Gb  I64DivMod.o [6]
+__cexit_closeall        0x0003deb4          Code  Gb  cexit.o [6]
+__close                 0x0003ca5d    0x1a  Code  Gb  close.o [7]
+__cmain                 0x0003de74          Code  Gb  cmain.o [6]
+__cstart_closeall       0x0003f28c          Data  Gb  cstart_closeall.o [6]
+__data_GetMemChunk      0x00033951    0x30  Code  Gb  xgetmemchunk.o [3]
+__data_GetMemChunk::start
+                        0x00047a74     0x4  Data  Lc  xgetmemchunk.o [3]
+__dwrite                0x0003c6ad    0x14  Code  Gb  dwrite.o [7]
+__exit                  0x0002890f    0x16  Code  Gb  exit.o [7]
+__iar_Fail_s            0x00028945    0x2e  Code  Gb  xfail_s.o [3]
+__iar_Mbcurmax          0x00028a6d     0xa  Code  Gb  xmbcurmax.o [3]
+__iar_Memchr            0x000289d8          Code  Gb  memchr.o [6]
+__iar_Memset            0x0002c338          Code  Gb  ABImemset.o [6]
+__iar_Memset4_word      0x0002cbe8          Code  Gb  ABImemset48.o [6]
+__iar_Memset8_word      0x0002cbe8          Code  Gb  ABImemset48.o [6]
+__iar_Memset_word       0x0002c340          Code  Gb  ABImemset.o [6]
+__iar_Stderr            0x00040da0    0x48  Data  Gb  xfiles.o [3]
+__iar_Stdin             0x00040d10    0x48  Data  Gb  xfiles.o [3]
+__iar_Stdout            0x00040d58    0x48  Data  Gb  xfiles.o [3]
+__iar_Strchr            0x00028924          Code  Gb  strchr.o [6]
+__iar_close_ttio        0x00029089    0x32  Code  Gb  iarttio.o [7]
+__iar_copy_init3        0x0003dec5    0x2c  Code  Gb  copy_init3.o [6]
+__iar_data_init3        0x0003db85    0x30  Code  Gb  data_init.o [6]
+__iar_dlfree            0x00031f65   0x4f4  Code  Gb  dlmalloc.o [3]
+__iar_dlmalloc          0x00031ca9   0x2bc  Code  Gb  dlmalloc.o [3]
+__iar_frexp             0x00028cbd          Code  Gb  frexp.o [5]
+__iar_frexpl            0x00028cbd          Code  Gb  frexp.o [5]
+__iar_get_ttio          0x000290bb    0x44  Code  Gb  iarttio.o [7]
+__iar_globLocale        0x00040de8    0x48  Data  Lc  xlocale_c.o [3]
+__iar_global_Locale     0x00028a77     0xa  Code  Gb  xlocale_c.o [3]
+__iar_init_vfp          0x0003e224          Code  Gb  fpinit.o [5]
+__iar_init_vfp_v6       0x0003e210          Code  Gb  fpinit.o [5]
+__iar_ldexp64           0x00028d95          Code  Gb  ldexp.o [5]
+__iar_lookup_ttioh      0x00029109     0xa  Code  Gb  XShttio.o [3]
+__iar_round64           0x00035cbd          Code  Gb  round.o [5]
+__iar_scalbln64         0x00028d95          Code  Gb  ldexp.o [5]
+__iar_scalbn64          0x00028d95          Code  Gb  ldexp.o [5]
+__iar_semihosting       0x000290ff     0x2  Code  Gb  iar_semihosting.o [7]
+__iar_sh_Discard        0x0003c629    0x2a  Code  Gb  XShHandles.o [3]
+__iar_sh_Move           0x0003c653    0x34  Code  Gb  XShHandles.o [3]
+__iar_sh_Pos            0x0003c687    0x26  Code  Gb  XShHandles.o [3]
+__iar_sh_stdout         0x0003c6c1    0x22  Code  Gb  iarwstd.o [7]
+__iar_sh_write          0x0003c6e3    0x24  Code  Gb  iarwrite.o [7]
+__iar_softfp___iar_frexp64
+                        0x00028cb1          Code  Gb  frexp.o [5]
+__iar_softfp___iar_ldexp64
+                        0x00028d81          Code  Gb  ldexp.o [5]
+__iar_softfp___iar_scalbln64
+                        0x00028d81          Code  Gb  ldexp.o [5]
+__iar_softfp___iar_scalbn64
+                        0x00028d81          Code  Gb  ldexp.o [5]
+__iar_softfp_frexp      0x00028cb1          Code  Gb  frexp.o [5]
+__iar_softfp_frexpl     0x00028cb1          Code  Gb  frexp.o [5]
+__iar_softfp_ldexp      0x00028d81          Code  Gb  ldexp.o [5]
+__iar_softfp_ldexpl     0x00028d81          Code  Gb  ldexp.o [5]
+__iar_softfp_scalbln    0x00028d81          Code  Gb  ldexp.o [5]
+__iar_softfp_scalblnl   0x00028d81          Code  Gb  ldexp.o [5]
+__iar_softfp_scalbn     0x00028d81          Code  Gb  ldexp.o [5]
+__iar_softfp_scalbnl    0x00028d81          Code  Gb  ldexp.o [5]
+__iar_systems$$module {Abs}
+                        0x00000001          Data  Gb  command line/config [2]
+__iar_ttio_handles      0x00040f48     0x8  Data  Lc  XShttio.o [3]
+__iar_vfp___iar_round64
+                        0x00035cad          Code  Gb  round.o [5]
+__iar_vfp_round         0x00035cad          Code  Gb  round.o [5]
+__iar_vfp_roundl        0x00035cad          Code  Gb  round.o [5]
+__iar_zero_init3        0x0003d261    0x40  Code  Gb  zero_init3.o [6]
+__low_level_init        0x0003dea1     0x4  Code  Gb  low_level_init.o [3]
+__lseek                 0x0003c5cf    0x4e  Code  Gb  lseek.o [7]
+__write                 0x0003c61d     0xc  Code  Gb  write.o [7]
+_call_main              0x0003de88          Code  Gb  cmain.o [6]
+_exit                   0x0003deb0          Code  Gb  cexit.o [6]
+_gLocale_wctomb         0x00028a85     0xa  Code  Gb  xlocale_c.o [3]
+_gLocale_wctombInt      0x00028a81     0x4  Code  Gb  xlocale_c.o [3]
+_gm_                    0x0004755c   0x1d8  Data  Lc  dlmalloc.o [3]
+_main                   0x0003de90          Code  Gb  cmain.o [6]
+abort                   0x000278db     0x6  Code  Gb  abort.o [3]
+abort_status            0x00040bd8    0xb8  Data  Lc  exception_handler.o [1]
+add_segment             0x00031319   0x202  Code  Lc  dlmalloc.o [3]
+boot_file               0x00040f58     0x4  Data  Lc  fmsh_sd.o [1]
+buffer                  0x000479dc    0x20  Data  Lc  fmsh_sd.o [1]
+check_fs                0x0002dfc0    0xc4  Code  Lc  ff.o [1]
+chk_chr                 0x0002cd3c    0x28  Code  Lc  ff.o [1]
+clst2sect               0x0002cfa0    0x30  Code  Lc  ff.o [1]
+create_chain            0x0002d400   0x234  Code  Lc  ff.o [1]
+create_name             0x0002dc0c   0x1dc  Code  Lc  ff.o [1]
+dbc_1st                 0x0002cd64    0x7c  Code  Lc  ff.o [1]
+dbc_2nd                 0x0002cde0    0xb4  Code  Lc  ff.o [1]
+delay_1ms               0x00027804    0x4c  Code  Gb  fmsh_common.o [1]
+delay_1us               0x00027864    0x4c  Code  Gb  fmsh_common.o [1]
+delay_ms                0x00027754    0x64  Code  Gb  fmsh_common.o [1]
+delay_us                0x000277b8    0x4c  Code  Gb  fmsh_common.o [1]
+devc_byte_swap          0x0002fdfc    0x70  Code  Gb  fdevcps.o [1]
+devc_byte_swap_todes    0x0002fe6c    0x70  Code  Gb  fdevcps.o [1]
+dir_alloc               0x0002d958    0xd4  Code  Lc  ff.o [1]
+dir_clear               0x0002d634    0xa4  Code  Lc  ff.o [1]
+dir_find                0x0002daa8    0xe4  Code  Lc  ff.o [1]
+dir_next                0x0002d7f0   0x168  Code  Lc  ff.o [1]
+dir_register            0x0002db8c    0x80  Code  Lc  ff.o [1]
+dir_sdi                 0x0002d6d8   0x118  Code  Lc  ff.o [1]
+disk_initialize         0x0002f1f0   0x154  Code  Gb  diskio.o [1]
+disk_read               0x0002f344    0xa4  Code  Gb  diskio.o [1]
+disk_status             0x0002f0e8   0x108  Code  Gb  diskio.o [1]
+disk_write              0x0002f3e8    0xa4  Code  Gb  diskio.o [1]
+ebuf                    0x00047878    0x50  Data  Lc  xfiles.o [3]
+exit                    0x0003dead     0x4  Code  Gb  exit.o [3]
+f_lseek                 0x0002edf8   0x2f0  Code  Gb  ff.o [1]
+f_mount                 0x0002e67c    0xa8  Code  Gb  ff.o [1]
+f_open                  0x0002e73c   0x3c4  Code  Gb  ff.o [1]
+f_read                  0x0002eb00   0x2f8  Code  Gb  ff.o [1]
+fatfs                   0x00046f28   0x230  Data  Lc  fmsh_sd.o [1]
+fclose                  0x0003c961    0x7e  Code  Gb  fclose.o [3]
+fflush                  0x0003c589    0x3a  Code  Gb  fflush.o [3]
+fflushOne               0x0003c515    0x74  Code  Lc  fflush.o [3]
+fil                     0x00047158   0x228  Data  Lc  fmsh_sd.o [1]
+find_volume             0x0002e088   0x564  Code  Lc  ff.o [1]
+follow_path             0x0002dde8   0x124  Code  Lc  ff.o [1]
+fputc                   0x0003cf7d    0x56  Code  Gb  fputc.o [3]
+free                    0x00032459     0x4  Code  Gb  heaptramp0.o [3]
+fseek                   0x0003c93d    0x24  Code  Gb  fseek.o [3]
+g_DMA_dmac              0x000479bc    0x20  Data  Gb  fmsh_dma.o [1]
+g_QSPI_DMA_Flag         0x00047a81     0x1  Data  Gb  fmsh_qspi.o [1]
+g_QSPI_High_Addr_Flag   0x00047a82     0x1  Data  Gb  fmsh_qspi.o [1]
+g_UART                  0x000477b4    0x74  Data  Gb  fmsh_uart_logout.o [1]
+get_cpsr                0x00035d24     0x8  Code  Lc  cache.o [1]
+get_cr                  0x00035d10     0x8  Code  Lc  cache.o [1]
+get_current_time        0x00027714    0x40  Code  Gb  fmsh_common.o [1]
+get_fat                 0x0002cfd0   0x144  Code  Lc  ff.o [1]
+get_fattime             0x0002f4ac     0xc  Code  Gb  diskio.o [1]
+get_ldnumber            0x0002df0c    0xb4  Code  Lc  ff.o [1]
+global_timer_enable     0x00027700    0x14  Code  Gb  fmsh_common.o [1]
+gt                      0x00038c4c    0xb0  Code  Lc  SoftRSA.o [4]
+gtc_count0              0x00047a28     0x8  Data  Gb  main.o [1]
+gtc_count1              0x00047a30     0x8  Data  Gb  main.o [1]
+gtc_time                0x00047a38     0x8  Data  Gb  main.o [1]
+icache_disable          0x00035d6c    0x18  Code  Gb  cache.o [1]
+icache_enable           0x00035d84    0x18  Code  Gb  cache.o [1]
+init_mparams            0x00030f5b    0x3e  Code  Lc  dlmalloc.o [3]
+init_top                0x00030f99    0x36  Code  Lc  dlmalloc.o [3]
+intrStatus              0x00047a6c     0x4  Data  Lc  fmsh_qspi.o [1]
+invalidate_icache_all   0x00035d34    0x38  Code  Gb  cache.o [1]
+invert                  0x00038828    0x78  Code  Lc  SoftRSA.o [4]
+keyRolling_download     0x000305d4   0x488  Code  Gb  fdevcps.o [1]
+ld_clust                0x0002da2c    0x3c  Code  Lc  ff.o [1]
+ld_dword                0x0002cc38    0x24  Code  Lc  ff.o [1]
+ld_word                 0x0002cc20    0x18  Code  Lc  ff.o [1]
+ldexp                   0x00028d95          Code  Gb  ldexp.o [5]
+ldexpl                  0x00028d95          Code  Gb  ldexp.o [5]
+localeconv              0x00028a8f     0xa  Code  Gb  xlocale_c.o [3]
+main                    0x000336e8   0x228  Code  Gb  main.o [1]
+mem_cmp                 0x0002ccf8    0x44  Code  Lc  ff.o [1]
+mem_cpy                 0x0002cca8    0x34  Code  Lc  ff.o [1]
+mem_set                 0x0002ccdc    0x1c  Code  Lc  ff.o [1]
+memchr                  0x000289d8          Code  Gb  memchr.o [6]
+memcpy                  0x000391d9     0xc  Code  Gb  memcpy.o [6]
+memset                  0x000391c5    0x14  Code  Gb  memset.o [6]
+mont                    0x000388a0   0x3ac  Code  Lc  SoftRSA.o [4]
+move_window             0x0002cf28    0x74  Code  Lc  ff.o [1]
+mparams                 0x000479fc    0x18  Data  Lc  dlmalloc.o [3]
+obuf                    0x000478c8    0x50  Data  Lc  xfiles.o [3]
+onAssert__              0x000276dc    0x24  Code  Gb  fmsh_common.o [1]
+prepend_alloc           0x00030fcf   0x34a  Code  Lc  dlmalloc.o [3]
+printf                  0x000278b1    0x2a  Code  Gb  printf.o [3]
+ps_clock_init_data      0x0003faa0   0x49c  Data  Gb  ps_init.o [1]
+ps_config               0x00030ca0   0x1ec  Code  Gb  ps_init.o [1]
+ps_ddr_init_data        0x0003f28c   0x814  Data  Gb  ps_init.o [1]
+ps_init                 0x00030e8c    0x98  Code  Gb  ps_init.o [1]
+ps_mio_init_data        0x000403d0   0x3bc  Data  Gb  ps_init.o [1]
+ps_peripherals_init_data
+                        0x00040f08    0x1c  Data  Gb  ps_init.o [1]
+ps_pll_init_data        0x0004078c   0x304  Data  Gb  ps_init.o [1]
+put_fat                 0x0002d114   0x1d4  Code  Lc  ff.o [1]
+putchar                 0x0003f083     0xc  Code  Gb  putchar.o [3]
+remove                  0x0003ca77    0x18  Code  Gb  remove.o [7]
+remove_chain            0x0002d2e8   0x118  Code  Lc  ff.o [1]
+resetHandler            0x0003c2fc          Code  Gb  init.o [1]
+resetVector             0x00024000          Code  Gb  init.o [1]
+round                   0x00035cbd          Code  Gb  round.o [5]
+roundl                  0x00035cbd          Code  Gb  round.o [5]
+rsa2048_exp             0x00038f30   0x1c4  Code  Gb  SoftRSA.o [4]
+rsa2048_pubexp          0x00038dd0   0x160  Code  Gb  SoftRSA.o [4]
+sFileInfo               0x00047734    0x80  Data  Lc  XShHandles.o [3]
+s_CommandTable          0x00040a90   0x148  Data  Lc  fmsh_nfcps_flash.o [1]
+s_DMA_tfrFlag           0x00047a80     0x1  Data  Gb  fmsh_dma.o [1]
+s_Dmac                  0x0004797c    0x20  Data  Lc  diskio.o [1]
+s_SDMMC                 0x00047828    0x50  Data  Lc  diskio.o [1]
+s_SDMMC_instance        0x00046c30   0x2f8  Data  Lc  diskio.o [1]
+scalbln                 0x00028d95          Code  Gb  ldexp.o [5]
+scalblnl                0x00028d95          Code  Gb  ldexp.o [5]
+scalbn                  0x00028d95          Code  Gb  ldexp.o [5]
+scalbnl                 0x00028d95          Code  Gb  ldexp.o [5]
+scale                   0x000281c9    0x4a  Code  Lc  xprintffuller_nomb.o [3]
+sdmmc_appCmd41          0x00029a40    0xb8  Code  Lc  fmsh_sdmmc.o [1]
+sdmmc_appCmd51          0x00029af8    0x9c  Code  Lc  fmsh_sdmmc.o [1]
+sdmmc_appCmd6           0x000299bc    0x84  Code  Lc  fmsh_sdmmc.o [1]
+sdmmc_cmd0              0x0002919c    0x8c  Code  Lc  fmsh_sdmmc.o [1]
+sdmmc_cmd1              0x00029228    0x94  Code  Lc  fmsh_sdmmc.o [1]
+sdmmc_cmd13             0x00029798    0x88  Code  Lc  fmsh_sdmmc.o [1]
+sdmmc_cmd16             0x00029820    0x84  Code  Lc  fmsh_sdmmc.o [1]
+sdmmc_cmd2              0x000292bc    0x8c  Code  Lc  fmsh_sdmmc.o [1]
+sdmmc_cmd23             0x000298a4    0x88  Code  Lc  fmsh_sdmmc.o [1]
+sdmmc_cmd3              0x00029348    0xd4  Code  Lc  fmsh_sdmmc.o [1]
+sdmmc_cmd55             0x0002992c    0x90  Code  Lc  fmsh_sdmmc.o [1]
+sdmmc_cmd7              0x0002953c    0x90  Code  Lc  fmsh_sdmmc.o [1]
+sdmmc_cmd9              0x00029708    0x90  Code  Lc  fmsh_sdmmc.o [1]
+sdmmc_getResLen         0x00029d0c    0x10  Code  Lc  fmsh_sdmmc.o [1]
+sdmmc_mmcCmd6           0x000294b8    0x84  Code  Lc  fmsh_sdmmc.o [1]
+sdmmc_mmcCmd8           0x00029650    0xb8  Code  Lc  fmsh_sdmmc.o [1]
+sdmmc_res_len           0x0003e550    0x24  Data  Gb  fmsh_sdmmc.o [1]
+sdmmc_sdAcmd41          0x00029c14    0x78  Code  Lc  fmsh_sdmmc.o [1]
+sdmmc_sdAcmd51          0x00029c8c    0x80  Code  Lc  fmsh_sdmmc.o [1]
+sdmmc_sdAcmd6           0x00029b94    0x80  Code  Lc  fmsh_sdmmc.o [1]
+sdmmc_sdCmd6            0x0002941c    0x9c  Code  Lc  fmsh_sdmmc.o [1]
+sdmmc_sdCmd8            0x000295cc    0x84  Code  Lc  fmsh_sdmmc.o [1]
+sdmmc_waitStartCmdCleared
+                        0x00029114    0x88  Code  Lc  fmsh_sdmmc.o [1]
+sec_hand                0x00047a78     0x4  Data  Lc  xfail_s.o [3]
+segment_holding         0x00030f3d    0x1e  Code  Lc  dlmalloc.o [3]
+set_cpsr                0x00035d2c     0x8  Code  Lc  cache.o [1]
+set_cr                  0x00035d18     0xc  Code  Lc  cache.o [1]
+st_clust                0x0002da68    0x40  Code  Lc  ff.o [1]
+st_dword                0x0002cc78    0x30  Code  Lc  ff.o [1]
+st_word                 0x0002cc5c    0x1c  Code  Lc  ff.o [1]
+strchr                  0x00028924          Code  Gb  strchr.o [6]
+strcpy                  0x0003b1c0          Code  Gb  strcpy.o [6]
+strcpy_rom              0x0003bfc0    0x2c  Code  Gb  fmsh_sd.o [1]
+strlen                  0x00028984          Code  Gb  strlen.o [6]
+sub                     0x00038cfc    0xd4  Code  Lc  SoftRSA.o [4]
+sync_window             0x0002ce94    0x94  Code  Lc  ff.o [1]
+sys_alloc               0x00031521   0x16e  Code  Lc  dlmalloc.o [3]
+sys_trim                0x0003168f    0x78  Code  Lc  dlmalloc.o [3]
+taac_exp                0x0003ead8    0x20  Data  Lc  fmsh_sdmmc_protocol.o [1]
+taac_mant               0x0003d220    0x40  Data  Lc  fmsh_sdmmc_protocol.o [1]
+temp_ps_pll_init_data   0x00040c90    0x80  Data  Gb  fdevcps.o [1]
+tmalloc_large           0x00031707   0x394  Code  Lc  dlmalloc.o [3]
+tmalloc_small           0x00031a9b   0x208  Code  Lc  dlmalloc.o [3]
+tran_exp                0x0003eab8    0x20  Data  Lc  fmsh_sdmmc_protocol.o [1]
+tran_mant               0x0003f20c    0x10  Data  Lc  fmsh_sdmmc_protocol.o [1]
+uart_printf             0x000334f4    0x54  Code  Gb  fmsh_uart_logout.o [1]
+validate                0x0002e5ec    0x90  Code  Lc  ff.o [1]
+vsnprintf               0x00034411    0x3e  Code  Gb  vsnprint.o [3]
+
+
+[1] = D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\FSBL\Debug\Obj
+[2] = command line
+[3] = dl7Sx_tlf.a
+[4] = librsa.a
+[5] = m7Sx_tlv.a
+[6] = rt7Sx_tl.a
+[7] = sh7Sxi_l.a
+
+  101 423 bytes of readonly  code memory
+   17 165 bytes of readonly  data memory
+   51 143 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

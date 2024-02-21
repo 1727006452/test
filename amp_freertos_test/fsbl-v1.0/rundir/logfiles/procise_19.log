@@ -1,0 +1,10 @@
+Procise 2022.1
+SVN Version : 26989
+Build  time : 2022/06/24 09:06:18
+Start  time : 2023-01-11 14:51:57
+>>set_device FMQL45T900
+  set_device elapsed_time 5.53 seconds, cpu_time 5.55 seconds
+  set_device used memory 521MB, procise used peak memory 1520MB, current used memory 1264MB
+>>increment_bit_cfg_v3 Z:/work/my7045-demos/gaodiwen_test/mig_dma_xc7z045_v40/mig_7series_0_ex/mig_7series_0_ex.runs/impl_1/example_top.bit Z:/work/my7045-demos/gaodiwen_test/mig_dma_xc7z045_v40/mig_7series_0_ex/mig_7series_0_ex.runs/impl_1/output.bit -Default -disable_icap
+  increment_bit_cfg_v3 elapsed_time 2.03 seconds, cpu_time 0.92 seconds
+  increment_bit_cfg_v3 used memory 340MB, procise used peak memory 1602MB, current used memory 1483MB

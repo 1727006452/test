@@ -1,0 +1,8 @@
+//arch = fmql; split = false; format = BIN
+the_ROM_image:
+{
+	[bootloader, destination_device = ps]D:/FMQL/FSBL/src/fsbl-v1.0/BOOT/FSBL.out
+	[destination_device = pl]D:/FMQL/FSBL/src/fsbl-v1.0/BOOT/axi_gpio_led_demo_wrapper.bit
+	[destination_cpu = apu_0, destination_device = ps]D:/FMQL/FSBL/src/fsbl-v1.0/BOOT/Empty.out
+	[fsbl_config]apu_x32
+}

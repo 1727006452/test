@@ -1,0 +1,502 @@
+###############################################################################
+#
+# IAR ELF Linker V8.11.2.13589/W32 for ARM                29/Aug/2023  13:55:47
+# Copyright 2007-2017 IAR Systems AB.
+#
+#    Output file  =  
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\HelloWorld\Debug\Exe\HelloWorld.out
+#    Map file     =  
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\HelloWorld\Debug\List\HelloWorld.map
+#    Command line =  
+#        -f C:\Users\ADMINI~1\AppData\Local\Temp\EW6CF.tmp
+#        (D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\HelloWorld\Debug\Obj\cache.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\HelloWorld\Debug\Obj\cstartup.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\HelloWorld\Debug\Obj\exception_handler.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\HelloWorld\Debug\Obj\fmsh_can.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\HelloWorld\Debug\Obj\fmsh_can_g.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\HelloWorld\Debug\Obj\fmsh_can_sinit.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\HelloWorld\Debug\Obj\fmsh_common.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\HelloWorld\Debug\Obj\fmsh_devc.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\HelloWorld\Debug\Obj\fmsh_devc_g.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\HelloWorld\Debug\Obj\fmsh_devc_sinit.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\HelloWorld\Debug\Obj\fmsh_dmac.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\HelloWorld\Debug\Obj\fmsh_dmac_g.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\HelloWorld\Debug\Obj\fmsh_dmac_sinit.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\HelloWorld\Debug\Obj\fmsh_gic.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\HelloWorld\Debug\Obj\fmsh_gic_intr.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\HelloWorld\Debug\Obj\fmsh_gic_sinit.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\HelloWorld\Debug\Obj\fmsh_gmac_g.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\HelloWorld\Debug\Obj\fmsh_gmac_hw.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\HelloWorld\Debug\Obj\fmsh_gmac_lib.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\HelloWorld\Debug\Obj\fmsh_gmac_sinit.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\HelloWorld\Debug\Obj\fmsh_gpio.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\HelloWorld\Debug\Obj\fmsh_gpio_g.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\HelloWorld\Debug\Obj\fmsh_gpio_sinit.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\HelloWorld\Debug\Obj\fmsh_gtc.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\HelloWorld\Debug\Obj\fmsh_gtc_g.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\HelloWorld\Debug\Obj\fmsh_gtc_sinit.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\HelloWorld\Debug\Obj\fmsh_i2c.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\HelloWorld\Debug\Obj\fmsh_i2c_g.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\HelloWorld\Debug\Obj\fmsh_i2c_sinit.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\HelloWorld\Debug\Obj\fmsh_mdio.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\HelloWorld\Debug\Obj\fmsh_nfcps.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\HelloWorld\Debug\Obj\fmsh_nfcps_bbm.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\HelloWorld\Debug\Obj\fmsh_nfcps_flash.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\HelloWorld\Debug\Obj\fmsh_nfcps_g.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\HelloWorld\Debug\Obj\fmsh_nfcps_hw.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\HelloWorld\Debug\Obj\fmsh_nfcps_model.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\HelloWorld\Debug\Obj\fmsh_nfcps_sinit.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\HelloWorld\Debug\Obj\fmsh_nfcps_skipblock.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\HelloWorld\Debug\Obj\fmsh_nfcps_sw.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\HelloWorld\Debug\Obj\fmsh_print.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\HelloWorld\Debug\Obj\fmsh_qspips.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\HelloWorld\Debug\Obj\fmsh_qspips_g.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\HelloWorld\Debug\Obj\fmsh_qspips_hw.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\HelloWorld\Debug\Obj\fmsh_qspips_nand.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\HelloWorld\Debug\Obj\fmsh_qspips_nor.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\HelloWorld\Debug\Obj\fmsh_qspips_sinit.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\HelloWorld\Debug\Obj\fmsh_qspips_sw.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\HelloWorld\Debug\Obj\fmsh_sdmmc.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\HelloWorld\Debug\Obj\fmsh_sdmmc_g.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\HelloWorld\Debug\Obj\fmsh_sdmmc_protocol.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\HelloWorld\Debug\Obj\fmsh_sdmmc_sinit.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\HelloWorld\Debug\Obj\fmsh_slcr.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\HelloWorld\Debug\Obj\fmsh_smc.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\HelloWorld\Debug\Obj\fmsh_smc_amd.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\HelloWorld\Debug\Obj\fmsh_smc_api.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\HelloWorld\Debug\Obj\fmsh_smc_cfi.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\HelloWorld\Debug\Obj\fmsh_smc_common.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\HelloWorld\Debug\Obj\fmsh_smc_intel.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\HelloWorld\Debug\Obj\fmsh_spips.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\HelloWorld\Debug\Obj\fmsh_spips_g.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\HelloWorld\Debug\Obj\fmsh_spips_hw.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\HelloWorld\Debug\Obj\fmsh_spips_sinit.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\HelloWorld\Debug\Obj\fmsh_spips_sw.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\HelloWorld\Debug\Obj\fmsh_testmem.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\HelloWorld\Debug\Obj\fmsh_ttc.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\HelloWorld\Debug\Obj\fmsh_ttc_g.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\HelloWorld\Debug\Obj\fmsh_ttc_sinit.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\HelloWorld\Debug\Obj\fmsh_uart.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\HelloWorld\Debug\Obj\fmsh_uart_g.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\HelloWorld\Debug\Obj\fmsh_uart_sinit.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\HelloWorld\Debug\Obj\fmsh_wdt.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\HelloWorld\Debug\Obj\fmsh_wdt_g.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\HelloWorld\Debug\Obj\fmsh_wdt_sinit.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\HelloWorld\Debug\Obj\helloworld.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\HelloWorld\Debug\Obj\marvell_88e1116r.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\HelloWorld\Debug\Obj\microchip_ksz9031RNX.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\HelloWorld\Debug\Obj\mmu_table.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\HelloWorld\Debug\Obj\platform.o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\HelloWorld\Debug\Obj\ps_init.o
+#        -o
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\HelloWorld\Debug\Exe\HelloWorld.out
+#        --redirect _Printf=_PrintfFullNoMb --redirect _Scanf=_ScanfFullNoMb
+#        --map
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\HelloWorld\Debug\List\HelloWorld.map
+#        --config
+#        D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\HelloWorld\a7_ahbsram.icf
+#        --semihosting=iar_breakpoint --entry resetHandler --vfe --text_out
+#        locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__Heap_Handler  = DLMalloc
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The advanced heap was selected because the application calls memory
+allocation functions outside of system library functions, and there
+are calls to deallocation functions in the application.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"P2":  place in [from 0x19000000 to 0x190000ff] { section .vectors };
+"P3":  place in [from 0x19000100 to 0x1903ffff] { ro };
+"P4":  place in [from 0x19000100 to 0x1903ffff] { section .cstartup };
+define block IRQ_STACK with size = 512, alignment = 8 { };
+define block FIQ_STACK with size = 512, alignment = 8 { };
+define block ABT_STACK with size = 96, alignment = 8 { };
+define block UND_STACK with size = 64, alignment = 8 { };
+define block CSTACK with size = 16K, alignment = 8 { };
+define block HEAP with size = 768, alignment = 8 { };
+"P5":  place in [from 0x19000100 to 0x1903ffff] {
+          rw, block IRQ_STACK, block FIQ_STACK, block ABT_STACK,
+          block UND_STACK, block CSTACK, block HEAP };
+initialize by copy with packing = copy, complex ranges { rw };
+
+  Section            Kind        Address    Size  Object
+  -------            ----        -------    ----  ------
+"P2":                                       0xe0
+  .vectors           ro code  0x19000000    0xe0  cstartup.o [1]
+                            - 0x190000e0    0xe0
+
+"P3-P5", part 1 of 2:                     0x221c
+  .text              ro code  0x19000100   0xe20  xprintffull_nomb.o [3]
+  .text              ro code  0x19000f20    0x20  strchr.o [5]
+  .text              ro code  0x19000f40    0x2e  xfail_s.o [3]
+  .rodata            const    0x19000f6e     0x2  xprintffull_nomb.o [3]
+  .text              ro code  0x19000f70    0x54  strlen.o [5]
+  .text              ro code  0x19000fc4    0x94  memchr.o [5]
+  .text              ro code  0x19001058   0x130  I64DivMod.o [5]
+  .text              ro code  0x19001188    0x12  DblMul.o [4]
+  .text              ro code  0x1900119c    0xd4  ABImemcpy.o [5]
+  .text              ro code  0x19001270    0x70  frexp.o [4]
+  .text              ro code  0x190012e0    0x2e  DblCmpLe.o [4]
+  .text              ro code  0x19001310    0x2e  DblCmpGe.o [4]
+  .text              ro code  0x19001340   0x104  ldexp.o [4]
+  .text              ro code  0x19001444     0xe  DblToS32.o [4]
+  .text              ro code  0x19001452     0xe  S32ToDbl.o [4]
+  .text              ro code  0x19001460    0x12  DblSub.o [4]
+  .text              ro code  0x19001472    0x12  DblDiv.o [4]
+  .text              ro code  0x19001484     0xe  DblToU32.o [4]
+  .text              ro code  0x19001492     0xe  U32ToDbl.o [4]
+  .text              ro code  0x190014a0   0x1a8  I32DivMod.o [5]
+  .text              ro code  0x19001648     0x6  abort.o [3]
+  .text              ro code  0x19001650     0x4  I64DivZer.o [5]
+  .text              ro code  0x19001654     0x4  IntDivZer.o [5]
+  .text              ro code  0x19001658    0x16  exit.o [6]
+  .text              ro code  0x1900166e    0x76  iarttio.o [6]
+  .text              ro code  0x190016e4     0x2  iar_semihosting.o [6]
+  .text              ro code  0x190016e6     0xa  XShttio.o [3]
+  .text              ro code  0x190016f0   0x158  exception_handler.o [1]
+  .text              ro code  0x19001848    0x2a  printf.o [3]
+  .cstartup          ro code  0x19001874   0x144  cstartup.o [1]
+  .text              ro code  0x190019b8    0xcc  helloworld.o [1]
+  .text              ro code  0x19001a84    0xac  fmsh_common.o [1]
+  .text              ro code  0x19001b30    0x52  DblToU64.o [4]
+  .rodata            const    0x19001b84    0x4c  exception_handler.o [1]
+  .rodata            const    0x19001bd0    0x4c  xprintffull_nomb.o [3]
+  .rodata            const    0x19001c1c    0x3c  exception_handler.o [1]
+  .rodata            const    0x19001c58    0x3c  exception_handler.o [1]
+  .rodata            const    0x19001c94    0x34  exception_handler.o [1]
+  .text              ro code  0x19001cc8    0x30  data_init.o [5]
+  .rodata            const    0x19001cf8    0x2c  exception_handler.o [1]
+  .rodata            const    0x19001d24    0x2c  exception_handler.o [1]
+  .rodata            const    0x19001d50    0x2c  exception_handler.o [1]
+  .rodata            const    0x19001d7c    0x2c  exception_handler.o [1]
+  .rodata            const    0x19001da8    0x2c  exception_handler.o [1]
+  .text              ro code  0x19001dd4    0x2c  cmain.o [5]
+  .text              ro code  0x19001e00     0x4  low_level_init.o [3]
+  Veneer             ro code  0x19001e04     0x8  - Linker created -
+  .text              ro code  0x19001e0c     0x4  exit.o [3]
+  .text              ro code  0x19001e10    0x10  cexit.o [5]
+  .text              ro code  0x19001e20    0x2c  copy_init3.o [5]
+  .text              ro code  0x19001e4c    0x28  fpinit.o [4]
+  .rodata            const    0x19001e74    0x24  exception_handler.o [1]
+  .rodata            const    0x19001e98    0x24  exception_handler.o [1]
+  .text              ro code  0x19001ebc    0x24  iarwrite.o [6]
+  .text              ro code  0x19001ee0    0x22  iarwstd.o [6]
+  .iar.init_table    const    0x19001f04    0x14  - Linker created -
+  .rodata            const    0x19001f18    0x20  exception_handler.o [1]
+  .rodata            const    0x19001f38    0x20  xfail_s.o [3]
+  .text              ro code  0x19001f58    0x20  putchar.o [3]
+  .text              ro code  0x19001f78     0xc  write.o [6]
+  .text              ro code  0x19001f84    0x14  dwrite.o [6]
+  .rodata            const    0x19001f98    0x1c  exception_handler.o [1]
+  .rodata            const    0x19001fb4    0x1c  exception_handler.o [1]
+  .rodata            const    0x19001fd0    0x1c  exception_handler.o [1]
+  .rodata            const    0x19001fec    0x1c  exception_handler.o [1]
+  .rodata            const    0x19002008    0x1c  exception_handler.o [1]
+  .rodata            const    0x19002024    0x18  exception_handler.o [1]
+  .rodata            const    0x1900203c    0x18  exception_handler.o [1]
+  .rodata            const    0x19002054    0x18  exception_handler.o [1]
+  .rodata            const    0x1900206c    0x18  exception_handler.o [1]
+  .text              ro code  0x19002084    0x16  xprout.o [3]
+  .rodata            const    0x1900209c    0x14  exception_handler.o [1]
+  .rodata            const    0x190020b0    0x14  exception_handler.o [1]
+  .rodata            const    0x190020c4    0x14  exception_handler.o [1]
+  .rodata            const    0x190020d8    0x14  exception_handler.o [1]
+  .rodata            const    0x190020ec    0x10  exception_handler.o [1]
+  .rodata            const    0x190020fc    0x10  xprintffull_nomb.o [3]
+  .rodata            const    0x1900210c     0xc  exception_handler.o [1]
+  .rodata            const    0x19002118     0x8  xprintffull_nomb.o [3]
+  .rodata            const    0x19002120     0x4  iarttio.o [6]
+  .rodata            const    0x19002124     0x0  copy_init3.o [5]
+  P3-P5 s0                    0x19002124    0xfc  <Init block>
+    .data            inited   0x19002124    0xb8  exception_handler.o [1]
+    .data            inited   0x190021dc    0x38  exception_handler.o [1]
+    .data            inited   0x19002214     0x8  XShttio.o [3]
+    .bss             inited   0x1900221c     0x4  xfail_s.o [3]
+  Initializer bytes  const    0x19002220    0xfc  <for P3-P5 s0>
+                            - 0x1900231c  0x221c
+
+"P3-P5", part 2 of 2:                     0x44a0
+  IRQ_STACK                   0x19002320   0x200  <Block>
+    IRQ_STACK        uninit   0x19002320   0x200  <Block tail>
+  FIQ_STACK                   0x19002520   0x200  <Block>
+    FIQ_STACK        uninit   0x19002520   0x200  <Block tail>
+  ABT_STACK                   0x19002720    0x60  <Block>
+    ABT_STACK        uninit   0x19002720    0x60  <Block tail>
+  UND_STACK                   0x19002780    0x40  <Block>
+    UND_STACK        uninit   0x19002780    0x40  <Block tail>
+  CSTACK                      0x190027c0  0x4000  <Block>
+    CSTACK           uninit   0x190027c0  0x4000  <Block tail>
+                            - 0x190067c0  0x44a0
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Copy (__iar_copy_init3)
+    1 source range, total size 0xfc:
+          0x19002220  0xfc
+    1 destination range, total size 0xfc:
+          0x19002124  0xfc
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module               ro code  ro data  rw data
+    ------               -------  -------  -------
+D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\HelloWorld\Debug\Obj: [1]
+    cstartup.o               548
+    exception_handler.o      344    1 156      240
+    fmsh_common.o            172
+    helloworld.o             204
+    ----------------------------------------------
+    Total:                 1 268    1 156      240
+
+command line: [2]
+    ----------------------------------------------
+    Total:
+
+dl7Sx_tln.a: [3]
+    XShttio.o                 10        8        8
+    abort.o                    6
+    exit.o                     4
+    low_level_init.o           4
+    printf.o                  42
+    putchar.o                 32
+    xfail_s.o                 46       36        4
+    xprintffull_nomb.o     3 616      102
+    xprout.o                  22
+    ----------------------------------------------
+    Total:                 3 782      146       12
+
+m7Sx_tlv.a: [4]
+    DblCmpGe.o                46
+    DblCmpLe.o                46
+    DblDiv.o                  18
+    DblMul.o                  18
+    DblSub.o                  18
+    DblToS32.o                14
+    DblToU32.o                14
+    DblToU64.o                82
+    S32ToDbl.o                14
+    U32ToDbl.o                14
+    fpinit.o                  40
+    frexp.o                  112
+    ldexp.o                  260
+    ----------------------------------------------
+    Total:                   696
+
+rt7Sx_tl.a: [5]
+    ABImemcpy.o              212
+    I32DivMod.o              424
+    I64DivMod.o              304
+    I64DivZer.o                4
+    IntDivZer.o                4
+    cexit.o                   16
+    cmain.o                   44
+    copy_init3.o              44
+    data_init.o               48
+    memchr.o                 148
+    strchr.o                  32
+    strlen.o                  84
+    ----------------------------------------------
+    Total:                 1 364
+
+sh7Sxi_l.a: [6]
+    dwrite.o                  20
+    exit.o                    22
+    iar_semihosting.o          2
+    iarttio.o                118        4
+    iarwrite.o                36
+    iarwstd.o                 34
+    write.o                   12
+    ----------------------------------------------
+    Total:                   244        4
+
+    Gaps                      10        6
+    Linker created             8       20   17 568
+--------------------------------------------------
+    Grand Total:           7 372    1 332   17 820
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address   Size  Type      Object
+-----                      -------   ----  ----      ------
+.iar.init_table$$Base   0x19001f04          --   Gb  - Linker created -
+.iar.init_table$$Limit  0x19001f18          --   Gb  - Linker created -
+?main                   0x19001dd4         Code  Gb  cmain.o [5]
+ABT_STACK$$Base         0x19002720          --   Gb  - Linker created -
+ABT_STACK$$Limit        0x19002780          --   Gb  - Linker created -
+Abort_C_Handler         0x190016f4   0x70  Code  Gb  exception_handler.o [1]
+CSTACK$$Base            0x190027c0          --   Gb  - Linker created -
+CSTACK$$Limit           0x190067c0          --   Gb  - Linker created -
+FIQInterrupt            0x190017fc   0x1c  Code  Gb  exception_handler.o [1]
+FIQ_Handler             0x19000078         Code  Gb  cstartup.o [1]
+FIQ_STACK$$Base         0x19002520          --   Gb  - Linker created -
+FIQ_STACK$$Limit        0x19002720          --   Gb  - Linker created -
+FMSH_ExceptionNullHandler
+                        0x190016f0    0x4  Code  Lc  exception_handler.o [1]
+IRQInterrupt            0x190017e0   0x1c  Code  Gb  exception_handler.o [1]
+IRQ_Handler             0x19000038         Code  Gb  cstartup.o [1]
+IRQ_STACK$$Base         0x19002320          --   Gb  - Linker created -
+IRQ_STACK$$Limit        0x19002520          --   Gb  - Linker created -
+LoadInt                 0x1900029f   0x7a  Code  Lc  xprintffull_nomb.o [3]
+Prefetch_C_Handler      0x19001764   0x5c  Code  Gb  exception_handler.o [1]
+Region$$Table$$Base     0x19001f04          --   Gb  - Linker created -
+Region$$Table$$Limit    0x19001f18          --   Gb  - Linker created -
+SVCHandler              0x190000b8         Code  Gb  cstartup.o [1]
+SWInterrupt             0x190017c0   0x10  Code  Gb  exception_handler.o [1]
+UND_STACK$$Base         0x19002780          --   Gb  - Linker created -
+UND_STACK$$Limit        0x190027c0          --   Gb  - Linker created -
+Undefined_C_Handler     0x190017d0   0x10  Code  Gb  exception_handler.o [1]
+XExc_VectorTable        0x190021dc   0x38  Data  Gb  exception_handler.o [1]
+_GenldFullNoMb          0x19000c8b  0x268  Code  Lc  xprintffull_nomb.o [3]
+_LdtobFullNoMb          0x1900083d  0x448  Code  Lc  xprintffull_nomb.o [3]
+_LitobFullNoMb          0x190006dd  0x116  Code  Lc  xprintffull_nomb.o [3]
+_PrintfFullNoMb         0x19000101  0x198  Code  Gb  xprintffull_nomb.o [3]
+_Prout                  0x19002085   0x16  Code  Gb  xprout.o [3]
+_PutcharsFullNoMb       0x19000ef3   0x2e  Code  Lc  xprintffull_nomb.o [3]
+_PutfldFullNoMb         0x19000319  0x2b6  Code  Lc  xprintffull_nomb.o [3]
+_PuttxtFullNoMb         0x190005cf  0x10e  Code  Lc  xprintffull_nomb.o [3]
+__ICFEDIT_region_RAM_end__ {Abs}
+                        0x1903ffff         Data  Gb  command line/config [2]
+__ICFEDIT_region_RAM_start__ {Abs}
+                        0x19000000         Data  Gb  command line/config [2]
+__ICFEDIT_size_cstack__ {Abs}
+                        0x00004000         Data  Gb  command line/config [2]
+__ICFEDIT_size_fiqstack__ {Abs}
+                        0x00000200         Data  Gb  command line/config [2]
+__ICFEDIT_size_heap__ {Abs}
+                        0x00000300         Data  Gb  command line/config [2]
+__ICFEDIT_size_irqstack__ {Abs}
+                        0x00000200         Data  Gb  command line/config [2]
+__ICFEDIT_size_vectors__ {Abs}
+                        0x00000100         Data  Gb  command line/config [2]
+__aeabi_cdcmple         0x190012e1         Code  Gb  DblCmpLe.o [4]
+__aeabi_cdrcmple        0x19001311         Code  Gb  DblCmpGe.o [4]
+__aeabi_d2iz            0x19001445    0xe  Code  Gb  DblToS32.o [4]
+__aeabi_d2uiz           0x19001485    0xe  Code  Gb  DblToU32.o [4]
+__aeabi_d2ulz           0x19001b31         Code  Gb  DblToU64.o [4]
+__aeabi_ddiv            0x19001473   0x12  Code  Gb  DblDiv.o [4]
+__aeabi_dmul            0x19001189   0x12  Code  Gb  DblMul.o [4]
+__aeabi_dsub            0x19001461   0x12  Code  Gb  DblSub.o [4]
+__aeabi_i2d             0x19001453    0xe  Code  Gb  S32ToDbl.o [4]
+__aeabi_idiv            0x190014a0         Code  Gb  I32DivMod.o [5]
+__aeabi_idiv0           0x19001654         Code  Gb  IntDivZer.o [5]
+__aeabi_idivmod         0x190014a0         Code  Gb  I32DivMod.o [5]
+__aeabi_ldiv0           0x19001650         Code  Gb  I64DivZer.o [5]
+__aeabi_memcpy          0x1900119c         Code  Gb  ABImemcpy.o [5]
+__aeabi_memcpy4         0x190011c0         Code  Gb  ABImemcpy.o [5]
+__aeabi_memcpy8         0x190011c0         Code  Gb  ABImemcpy.o [5]
+__aeabi_ui2d            0x19001493    0xe  Code  Gb  U32ToDbl.o [4]
+__aeabi_uidiv           0x190014cc         Code  Gb  I32DivMod.o [5]
+__aeabi_uidivmod        0x190014cc         Code  Gb  I32DivMod.o [5]
+__aeabi_uldivmod        0x19001058         Code  Gb  I64DivMod.o [5]
+__cmain                 0x19001dd4         Code  Gb  cmain.o [5]
+__dwrite                0x19001f85   0x14  Code  Gb  dwrite.o [6]
+__exit                  0x19001659   0x16  Code  Gb  exit.o [6]
+__iar_Fail_s            0x19000f41   0x2e  Code  Gb  xfail_s.o [3]
+__iar_Memchr            0x19000fc4         Code  Gb  memchr.o [5]
+__iar_Strchr            0x19000f20         Code  Gb  strchr.o [5]
+__iar_close_ttio        0x1900166f   0x32  Code  Gb  iarttio.o [6]
+__iar_copy_init3        0x19001e21   0x2c  Code  Gb  copy_init3.o [5]
+__iar_data_init3        0x19001cc9   0x30  Code  Gb  data_init.o [5]
+__iar_frexp             0x1900127d         Code  Gb  frexp.o [4]
+__iar_frexpl            0x1900127d         Code  Gb  frexp.o [4]
+__iar_get_ttio          0x190016a1   0x44  Code  Gb  iarttio.o [6]
+__iar_init_vfp          0x19001e60         Code  Gb  fpinit.o [4]
+__iar_init_vfp_v6       0x19001e4c         Code  Gb  fpinit.o [4]
+__iar_ldexp64           0x19001355         Code  Gb  ldexp.o [4]
+__iar_lookup_ttioh      0x190016e7    0xa  Code  Gb  XShttio.o [3]
+__iar_scalbln64         0x19001355         Code  Gb  ldexp.o [4]
+__iar_scalbn64          0x19001355         Code  Gb  ldexp.o [4]
+__iar_semihosting       0x190016e5    0x2  Code  Gb  iar_semihosting.o [6]
+__iar_sh_stdout         0x19001ee1   0x22  Code  Gb  iarwstd.o [6]
+__iar_sh_write          0x19001ebd   0x24  Code  Gb  iarwrite.o [6]
+__iar_softfp___iar_frexp64
+                        0x19001271         Code  Gb  frexp.o [4]
+__iar_softfp___iar_ldexp64
+                        0x19001341         Code  Gb  ldexp.o [4]
+__iar_softfp___iar_scalbln64
+                        0x19001341         Code  Gb  ldexp.o [4]
+__iar_softfp___iar_scalbn64
+                        0x19001341         Code  Gb  ldexp.o [4]
+__iar_softfp_frexp      0x19001271         Code  Gb  frexp.o [4]
+__iar_softfp_frexpl     0x19001271         Code  Gb  frexp.o [4]
+__iar_softfp_ldexp      0x19001341         Code  Gb  ldexp.o [4]
+__iar_softfp_ldexpl     0x19001341         Code  Gb  ldexp.o [4]
+__iar_softfp_scalbln    0x19001341         Code  Gb  ldexp.o [4]
+__iar_softfp_scalblnl   0x19001341         Code  Gb  ldexp.o [4]
+__iar_softfp_scalbn     0x19001341         Code  Gb  ldexp.o [4]
+__iar_softfp_scalbnl    0x19001341         Code  Gb  ldexp.o [4]
+__iar_systems$$module {Abs}
+                        0x00000001         Data  Gb  command line/config [2]
+__iar_ttio_handles      0x19002214    0x8  Data  Lc  XShttio.o [3]
+__low_level_init        0x19001e01    0x4  Code  Gb  low_level_init.o [3]
+__write                 0x19001f79    0xc  Code  Gb  write.o [6]
+_call_main              0x19001de8         Code  Gb  cmain.o [5]
+_exit                   0x19001e10         Code  Gb  cexit.o [5]
+_main                   0x19001df0         Code  Gb  cmain.o [5]
+abort                   0x19001649    0x6  Code  Gb  abort.o [3]
+abort_status            0x19002124   0xb8  Data  Lc  exception_handler.o [1]
+delay_ms                0x19001ac8   0x60  Code  Gb  fmsh_common.o [1]
+exit                    0x19001e0d    0x4  Code  Gb  exit.o [3]
+get_current_time        0x19001a98   0x30  Code  Gb  fmsh_common.o [1]
+global_timer_enable     0x19001a84   0x14  Code  Gb  fmsh_common.o [1]
+ldexp                   0x19001355         Code  Gb  ldexp.o [4]
+ldexpl                  0x19001355         Code  Gb  ldexp.o [4]
+main                    0x190019b8   0xcc  Code  Gb  helloworld.o [1]
+memchr                  0x19000fc4         Code  Gb  memchr.o [5]
+printf                  0x19001849   0x2a  Code  Gb  printf.o [3]
+putchar                 0x19001f59   0x20  Code  Gb  putchar.o [3]
+resetHandler            0x19001874         Code  Gb  cstartup.o [1]
+resetVector             0x19000000         Code  Gb  cstartup.o [1]
+scalbln                 0x19001355         Code  Gb  ldexp.o [4]
+scalblnl                0x19001355         Code  Gb  ldexp.o [4]
+scalbn                  0x19001355         Code  Gb  ldexp.o [4]
+scalbnl                 0x19001355         Code  Gb  ldexp.o [4]
+scale                   0x190007f3   0x4a  Code  Lc  xprintffull_nomb.o [3]
+sec_hand                0x1900221c    0x4  Data  Lc  xfail_s.o [3]
+strchr                  0x19000f20         Code  Gb  strchr.o [5]
+strlen                  0x19000f70         Code  Gb  strlen.o [5]
+
+
+[1] = D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\HelloWorld\Debug\Obj
+[2] = command line
+[3] = dl7Sx_tln.a
+[4] = m7Sx_tlv.a
+[5] = rt7Sx_tl.a
+[6] = sh7Sxi_l.a
+
+   7 372 bytes of readonly  code memory
+   1 332 bytes of readonly  data memory
+  17 820 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

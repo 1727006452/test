@@ -1,0 +1,1859 @@
+              definition:  __as_table_start
+              definition:  __as_entries_start
+              definition:  __ICFEDIT_region_RAM_start__
+              definition:  __ICFEDIT_region_RAM_end__
+              definition:  __ICFEDIT_size_vectors__
+              definition:  __ICFEDIT_size_cstack__
+              definition:  __ICFEDIT_size_irqstack__
+              definition:  __ICFEDIT_size_fiqstack__
+              definition:  __ICFEDIT_size_heap__
+Loading object D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\cache.o.
+              reference :  MMUTable
+              reference :  abort
+              reference :  printf
+              definition:  dcache_disable
+              definition:  dcache_enable
+              definition:  flush_dcache_all
+              definition:  flush_dcache_range
+              definition:  icache_disable
+              definition:  icache_enable
+              definition:  invalidate_dcache_all
+              definition:  invalidate_dcache_range
+              definition:  invalidate_icache_all
+              definition:  mmu_setup
+Loading object D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\cstartup.o.
+              reference :  Undefined_C_Handler
+              reference :  Prefetch_C_Handler
+              reference :  Abort_C_Handler
+              reference :  SWInterrupt
+              reference :  FIQInterrupt
+              reference :  IRQInterrupt
+              reference :  ?main
+              definition:  resetVector
+              definition:  IRQ_Handler
+              definition:  FIQ_Handler
+              definition:  SVCHandler
+              definition:  resetHandler
+              reference :  CSTACK$$Limit
+              reference :  IRQ_STACK$$Limit
+              reference :  FIQ_STACK$$Limit
+              reference :  ABT_STACK$$Limit
+              reference :  UND_STACK$$Limit
+Loading object D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\empty.o.
+              reference :  FGpioPs_LookupConfig
+              reference :  FGpioPs_init
+              reference :  FGpioPs_setBitDirection
+              reference :  FGpioPs_writeBit
+              reference :  delay_ms
+              reference :  fmsh_print
+              reference :  init_platform
+              definition:  FGpioPs_output_example
+              definition:  main
+Loading object D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\exception_handler.o.
+              reference :  printf
+              definition:  Abort_C_Handler
+              definition:  FIQInterrupt
+              definition:  FMSH_ExceptionInit
+              definition:  FMSH_ExceptionRegisterHandler
+              definition:  IRQInterrupt
+              definition:  InstancePtr
+              definition:  Prefetch_C_Handler
+              definition:  SWInterrupt
+              definition:  Undefined_C_Handler
+              definition:  XExc_VectorTable
+Loading object D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_can.o.
+              reference :  __aeabi_memcpy4
+              reference :  abs
+              definition:  FCanPs_abortTransmission
+              definition:  FCanPs_clearDataOverrun
+              definition:  FCanPs_extendedFrameTransmit
+              definition:  FCanPs_frameReceive
+              definition:  FCanPs_getBusStatus
+              definition:  FCanPs_getDataOverrunStatus
+              definition:  FCanPs_getErrorStatus
+              definition:  FCanPs_getInterrupt
+              definition:  FCanPs_getReceiveBufferStatus
+              definition:  FCanPs_getReceiveStatus
+              definition:  FCanPs_getTransmissionCompleteStatus
+              definition:  FCanPs_getTransmitBufferStatus
+              definition:  FCanPs_getTtansmitStatus
+              definition:  FCanPs_init
+              definition:  FCanPs_releaseReceiveBuffer
+              definition:  FCanPs_selfReceptionRequest
+              definition:  FCanPs_setAMR
+              definition:  FCanPs_setArbitrationLostInterrupt
+              definition:  FCanPs_setBaudRate
+              definition:  FCanPs_setBusErrorInterrupt
+              definition:  FCanPs_setDataOverrunInterrupt
+              definition:  FCanPs_setEffACR
+              definition:  FCanPs_setErrorPassiveInterrupt
+              definition:  FCanPs_setErrorWarningInterrupt
+              definition:  FCanPs_setListenOnlyMode
+              definition:  FCanPs_setReceiveFilterMode
+              definition:  FCanPs_setReceiveInterrupt
+              definition:  FCanPs_setResetMode
+              definition:  FCanPs_setSelfTestMode
+              definition:  FCanPs_setSleepMode
+              definition:  FCanPs_setStdACR
+              definition:  FCanPs_setTransmitInterrupt
+              definition:  FCanPs_setWakeUpInterrupt
+              definition:  FCanPs_standardFrameTransmit
+              definition:  FCanPs_transmissionRequest
+Loading object D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_can_g.o.
+              definition:  FCanPs_ConfigTable
+Loading object D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_can_sinit.o.
+              reference :  FCanPs_ConfigTable
+              definition:  FCanPs_LookupConfig
+Loading object D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_common.o.
+              reference :  __aeabi_d2ulz
+              reference :  __aeabi_ul2d
+              reference :  abort
+              reference :  printf
+              definition:  delay_1ms
+              definition:  delay_1us
+              definition:  delay_ms
+              definition:  delay_us
+              definition:  get_current_time
+              definition:  global_timer_disable
+              definition:  global_timer_enable
+              definition:  mask_generate
+              definition:  onAssert__
+Loading object D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_devc.o.
+              reference :  __aeabi_memclr4
+              reference :  delay_ms
+              reference :  free
+              reference :  malloc
+              reference :  onAssert__
+              definition:  FDevcPs_CSI_B_HIGH
+              definition:  FDevcPs_CSI_B_LOW
+              definition:  FDevcPs_DEVKEY
+              definition:  FDevcPs_IV
+              definition:  FDevcPs_KUPKEY
+              definition:  FDevcPs_Prog_B
+              definition:  FDevcPs_RDWR_B_HIGH
+              definition:  FDevcPs_RDWR_B_LOW
+              definition:  FDevcPs_clearPcapStatus
+              definition:  FDevcPs_downloadMode
+              definition:  FDevcPs_fabricInit
+              definition:  FDevcPs_getConfigdata
+              definition:  FDevcPs_init
+              definition:  FDevcPs_initiateDma
+              definition:  FDevcPs_initiateDma_readback
+              definition:  FDevcPs_keyRollingDownload
+              definition:  FDevcPs_lockCSU
+              definition:  FDevcPs_pcapLoadPartition
+              definition:  FDevcPs_pollDPDone
+              definition:  FDevcPs_pollDmaDone
+              definition:  FDevcPs_pollFpgaDone
+              definition:  FDevcPs_rclk_edge
+              definition:  FDevcPs_readFifoThre
+              definition:  FDevcPs_readbackDummyCount
+              definition:  FDevcPs_rxDataSwap
+              definition:  FDevcPs_secDownDataByteSwap
+              definition:  FDevcPs_smap32Swap
+              definition:  FDevcPs_transfer
+              definition:  FDevcPs_txDataSwap
+              definition:  FDevcPs_unLockCSU
+              definition:  FDevcPs_unLockDEVKEY
+              definition:  FDevcPs_wclk_edge
+              definition:  FDevcPs_writeFifoThre
+              definition:  keyRolling_download
+Loading object D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_devc_g.o.
+              definition:  FDevcPs_ConfigTable
+Loading object D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_devc_sinit.o.
+              reference :  FDevcPs_ConfigTable
+              definition:  FDevcPs_LookupConfig
+Loading object D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_dmac.o.
+              reference :  onAssert__
+              definition:  FDmaPs_addLliItem
+              definition:  FDmaPs_autoCompParams
+              definition:  FDmaPs_checkChannelBusy
+              definition:  FDmaPs_checkChannelRange
+              definition:  FDmaPs_clearIrq
+              definition:  FDmaPs_destinationReady
+              definition:  FDmaPs_disable
+              definition:  FDmaPs_disableChannel
+              definition:  FDmaPs_disableChannelIrq
+              definition:  FDmaPs_enable
+              definition:  FDmaPs_enableChannel
+              definition:  FDmaPs_enableChannelIrq
+              definition:  FDmaPs_getAddress
+              definition:  FDmaPs_getAddressInc
+              definition:  FDmaPs_getBlockByteCount
+              definition:  FDmaPs_getBlockCount
+              definition:  FDmaPs_getBlockTransSize
+              definition:  FDmaPs_getBurstTransLength
+              definition:  FDmaPs_getChannelConfig
+              definition:  FDmaPs_getChannelEnableReg
+              definition:  FDmaPs_getChannelFifoDepth
+              definition:  FDmaPs_getChannelIndex
+              definition:  FDmaPs_getChannelPriority
+              definition:  FDmaPs_getFifoMode
+              definition:  FDmaPs_getFlowCtlMode
+              definition:  FDmaPs_getFreeChannel
+              definition:  FDmaPs_getGatherEnable
+              definition:  FDmaPs_getGatherParam
+              definition:  FDmaPs_getHandshakingMode
+              definition:  FDmaPs_getHsInterface
+              definition:  FDmaPs_getHsPolarity
+              definition:  FDmaPs_getListMstSelect
+              definition:  FDmaPs_getListPointerAddress
+              definition:  FDmaPs_getLlpEnable
+              definition:  FDmaPs_getLockEnable
+              definition:  FDmaPs_getLockLevel
+              definition:  FDmaPs_getMaxAmbaBurstLength
+              definition:  FDmaPs_getMemPeriphFlowCtl
+              definition:  FDmaPs_getMstSelect
+              definition:  FDmaPs_getNumChannels
+              definition:  FDmaPs_getProtCtl
+              definition:  FDmaPs_getReload
+              definition:  FDmaPs_getScatterEnable
+              definition:  FDmaPs_getScatterParam
+              definition:  FDmaPs_getSoftwareRequest
+              definition:  FDmaPs_getStatUpdate
+              definition:  FDmaPs_getStatus
+              definition:  FDmaPs_getStatusAddress
+              definition:  FDmaPs_getTestMode
+              definition:  FDmaPs_getTransWidth
+              definition:  FDmaPs_getTransferType
+              definition:  FDmaPs_init
+              definition:  FDmaPs_initDev
+              definition:  FDmaPs_irqHandler
+              definition:  FDmaPs_isBlockTransDone
+              definition:  FDmaPs_isChannelEnabled
+              definition:  FDmaPs_isChannelIrqEnabled
+              definition:  FDmaPs_isChannelSuspended
+              definition:  FDmaPs_isEnabled
+              definition:  FDmaPs_isFifoEmpty
+              definition:  FDmaPs_isIrqActive
+              definition:  FDmaPs_isIrqMasked
+              definition:  FDmaPs_isRawIrqActive
+              definition:  FDmaPs_maskIrq
+              definition:  FDmaPs_nextBlockIsLast
+              definition:  FDmaPs_resetController
+              definition:  FDmaPs_resetInstance
+              definition:  FDmaPs_resumeChannel
+              definition:  FDmaPs_setAddress
+              definition:  FDmaPs_setAddressInc
+              definition:  FDmaPs_setBlockTransSize
+              definition:  FDmaPs_setBurstTransLength
+              definition:  FDmaPs_setChannelConfig
+              definition:  FDmaPs_setChannelPriority
+              definition:  FDmaPs_setChannelPriorityOrder
+              definition:  FDmaPs_setFifoMode
+              definition:  FDmaPs_setFlowCtlMode
+              definition:  FDmaPs_setGatherEnable
+              definition:  FDmaPs_setGatherParam
+              definition:  FDmaPs_setHandshakingMode
+              definition:  FDmaPs_setHsInterface
+              definition:  FDmaPs_setHsPolarity
+              definition:  FDmaPs_setListMstSelect
+              definition:  FDmaPs_setListPointerAddress
+              definition:  FDmaPs_setListener
+              definition:  FDmaPs_setLlpEnable
+              definition:  FDmaPs_setLockEnable
+              definition:  FDmaPs_setLockLevel
+              definition:  FDmaPs_setMaxAmbaBurstLength
+              definition:  FDmaPs_setMemPeriphFlowCtl
+              definition:  FDmaPs_setMstSelect
+              definition:  FDmaPs_setProtCtl
+              definition:  FDmaPs_setReload
+              definition:  FDmaPs_setScatterEnable
+              definition:  FDmaPs_setScatterParam
+              definition:  FDmaPs_setSingleRegion
+              definition:  FDmaPs_setSoftwareRequest
+              definition:  FDmaPs_setStatUpdate
+              definition:  FDmaPs_setStatus
+              definition:  FDmaPs_setStatusAddress
+              definition:  FDmaPs_setTestMode
+              definition:  FDmaPs_setTransWidth
+              definition:  FDmaPs_setTransferType
+              definition:  FDmaPs_sourceReady
+              definition:  FDmaPs_startTransfer
+              definition:  FDmaPs_suspendChannel
+              definition:  FDmaPs_unmaskIrq
+              definition:  FDmaPs_userIrqHandler
+              definition:  __iar_cc.FDmaPs_channelNumber.0x7c6998c2 bad6ea23
+              definition:  __iar_cc.FDmaPs_transferType.0x00113ca8 02271821
+              definition:  __iar_cc.FMSH_compType.0x40784f90 385be9f1
+              definition:  __iar_cc.FDmaPs_hsInterface.0xb5f37170 a3d4ecd6
+              definition:  __iar_cc.FDmaPs_protLevel.0xf2f06869 a0923b57
+Loading object D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_dmac_g.o.
+              definition:  FDmaPs_ConfigTable
+Loading object D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_dmac_sinit.o.
+              reference :  FDmaPs_ConfigTable
+              definition:  FDmaPs_LookupConfig
+Loading object D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_gic.o.
+              reference :  FGicPs_LookupConfig
+              reference :  onAssert__
+              definition:  FGicPs_CfgInitialize
+              definition:  FGicPs_Connect
+              definition:  FGicPs_Disable
+              definition:  FGicPs_Disconnect
+              definition:  FGicPs_Enable
+              definition:  FGicPs_EnableSelGroup
+              definition:  FGicPs_GetPriorityTriggerType
+              definition:  FGicPs_InterruptMaptoCpu
+              definition:  FGicPs_SetGroup
+              definition:  FGicPs_SetPriorityTriggerType
+              definition:  FGicPs_SetupInterruptSystem
+              definition:  FGicPs_SoftwareIntr
+              definition:  FGicPs_registerInt
+              definition:  FMSH_In32
+              definition:  FMSH_Out32
+              definition:  IntcInstance
+Loading object D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_gic_intr.o.
+              reference :  FMSH_In32
+              reference :  FMSH_Out32
+              reference :  onAssert__
+              definition:  FGicPs_InterruptHandler_FIQ
+              definition:  FGicPs_InterruptHandler_IRQ
+Loading object D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_gic_sinit.o.
+              definition:  FGicPs_ConfigTable
+              definition:  FGicPs_LookupConfig
+Loading object D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_gmac_g.o.
+              definition:  FGmacPs_ConfigTable
+Loading object D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_gmac_hw.o.
+              definition:  FGmac_Ps_EnFwErrFrame
+              definition:  FGmac_Ps_EnRxFwUnderSizeGoodFrame
+              definition:  FGmac_Ps_EnTxJabber
+              definition:  FGmac_Ps_EnTxOsf
+              definition:  FGmac_Ps_Enable2k
+              definition:  FGmac_Ps_EnableJumbo
+              definition:  FGmac_Ps_FlCtrl_EnHwFlc
+              definition:  FGmac_Ps_FlCtrl_EnRx
+              definition:  FGmac_Ps_FlCtrl_EnTx
+              definition:  FGmac_Ps_FlCtrl_EnUniPauseFraDetect
+              definition:  FGmac_Ps_FlCtrl_EnZeroQuatPause
+              definition:  FGmac_Ps_FlwCtrlSetup
+              definition:  FGmac_Ps_InterFrameGap
+              definition:  FGmac_Ps_LoopbackMode
+              definition:  FGmac_Ps_PadCrcStrip
+              definition:  FGmac_Ps_RxFilt_CtrlFrame
+              definition:  FGmac_Ps_RxFilt_EnDaInvF
+              definition:  FGmac_Ps_RxFilt_EnFwAllMultiCast
+              definition:  FGmac_Ps_RxFilt_EnFwBroadCast
+              definition:  FGmac_Ps_RxFilt_EnPmsMode
+              definition:  FGmac_Ps_RxFilt_EnRcvAll
+              definition:  FGmac_Ps_RxFilt_EnSaF
+              definition:  FGmac_Ps_RxFilt_EnSaInvF
+              definition:  FGmac_Ps_RxFilt_SetupVlan
+              definition:  FGmac_Ps_SendPauseFrame
+              definition:  FGmac_Ps_SetupIntr
+              definition:  FGmac_Ps_SetupMacAddr
+              definition:  FGmac_Ps_SetupRxMode
+              definition:  FGmac_Ps_SetupRxWatchDog
+              definition:  FGmac_Ps_SetupSpeed
+              definition:  FGmac_Ps_SetupTxMode
+              definition:  FGmac_Ps_TxPreamLeng
+              definition:  FGmac_Ps_TypeCrcStrip
+              definition:  gmac0_bus_rst
+              definition:  gmac1_bus_rst
+              definition:  gmac_DmaTxPollDemand
+              definition:  gmac_dma_enable_rcv
+              definition:  gmac_dma_enable_tsv
+              definition:  gmac_enable_rcv
+              definition:  gmac_enable_tsv
+              definition:  __iar_cc._FGmacPs_DmaIrq_T.0xa0ac8705 b2e457e5
+Loading object D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_gmac_lib.o.
+              reference :  FGmac_Ps_FlwCtrlSetup
+              reference :  FGmac_Ps_SetupIntr
+              reference :  FGmac_Ps_SetupMacAddr
+              reference :  FGmac_Ps_SetupSpeed
+              reference :  FSlcrPs_lock
+              reference :  FSlcrPs_unlock
+              reference :  __aeabi_memcpy
+              reference :  delay_1us
+              reference :  flush_dcache_range
+              reference :  fmsh_mdio_init
+              reference :  fmsh_mdio_reg_dump
+              reference :  fmsh_mdio_reset
+              reference :  g_link_speed_neg_en
+              reference :  gmac0_bus_rst
+              reference :  gmac1_bus_rst
+              reference :  gmac_DmaTxPollDemand
+              reference :  gmac_dma_enable_rcv
+              reference :  gmac_dma_enable_tsv
+              reference :  gmac_enable_rcv
+              reference :  gmac_enable_tsv
+              reference :  invalidate_dcache_range
+              reference :  mic9031RNX_cfg
+              reference :  mic9031RNX_init
+              reference :  mic9031RNX_reg_dump
+              reference :  mic9031RNX_reset
+              reference :  mvl88e1111_cfg
+              reference :  mvl88e1111_init
+              reference :  mvl88e1111_reg_dump
+              reference :  mvl88e1111_reset
+              reference :  mvl88e1116r_cfg
+              reference :  mvl88e1116r_init
+              reference :  mvl88e1116r_reg_dump
+              reference :  mvl88e1116r_reset
+              reference :  onAssert__
+              reference :  printf
+              definition:  FGmac_Ps_ClearIrq
+              definition:  FGmac_Ps_DeviceReset
+              definition:  FGmac_Ps_DmaInit
+              definition:  FGmac_Ps_DmaInit_for_loop_pro
+              definition:  FGmac_Ps_GetHwFeature
+              definition:  FGmac_Ps_GetLinkStatus
+              definition:  FGmac_Ps_InitRxDes
+              definition:  FGmac_Ps_InitTxDes
+              definition:  FGmac_Ps_MacInit
+              definition:  FGmac_Ps_PreSendCopy
+              definition:  FGmac_Ps_PreSendNoCopy
+              definition:  FGmac_Ps_RcvPoll
+              definition:  FGmac_Ps_RcvPollEFrame
+              definition:  FGmac_Ps_ResetCurRxDES
+              definition:  FGmac_Ps_Send
+              definition:  FGmac_Ps_SetListener
+              definition:  FGmac_Ps_SetRxCallback
+              definition:  FGmac_Ps_SetRxState
+              definition:  FGmac_Ps_SetTxCallback
+              definition:  FGmac_Ps_SetTxState
+              definition:  FGmac_Ps_Set_Gem_Rate
+              definition:  FGmac_Ps_StructInit
+              definition:  fmsh_clk_get_peripheral_pllout_rate
+              definition:  fmsh_clk_get_pll_rate
+              definition:  __iar_cc._FGmacPs_DmaIrq_T.0xa0ac8705 b2e457e5
+Loading object D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_gmac_sinit.o.
+              reference :  FGmacPs_ConfigTable
+              definition:  FGmacPs_LookupConfig
+Loading object D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_gpio.o.
+              reference :  onAssert__
+              definition:  FGpioPs_clearIrq
+              definition:  FGpioPs_disableDebounce
+              definition:  FGpioPs_disableIrq
+              definition:  FGpioPs_disableIrqBothEdge
+              definition:  FGpioPs_disableSync
+              definition:  FGpioPs_enableDebounce
+              definition:  FGpioPs_enableIrq
+              definition:  FGpioPs_enableIrqBothEdge
+              definition:  FGpioPs_enableSync
+              definition:  FGpioPs_getActiveIrq
+              definition:  FGpioPs_getBit
+              definition:  FGpioPs_getBitDirection
+              definition:  FGpioPs_getBothEdgeInt
+              definition:  FGpioPs_getDirection
+              definition:  FGpioPs_getEnabledIrq
+              definition:  FGpioPs_getExtPort
+              definition:  FGpioPs_getIdCode
+              definition:  FGpioPs_getIrqMask
+              definition:  FGpioPs_getIrqPolarity
+              definition:  FGpioPs_getVerIdCode
+              definition:  FGpioPs_init
+              definition:  FGpioPs_isDebounceEnabled
+              definition:  FGpioPs_isIrqEnabled
+              definition:  FGpioPs_isIrqMasked
+              definition:  FGpioPs_isSynced
+              definition:  FGpioPs_maskIrq
+              definition:  FGpioPs_readData
+              definition:  FGpioPs_setBitDirection
+              definition:  FGpioPs_setDirection
+              definition:  FGpioPs_setIrqPolarity
+              definition:  FGpioPs_setIrqType
+              definition:  FGpioPs_unmaskIrq
+              definition:  FGpioPs_writeBit
+              definition:  FGpioPs_writeData
+              definition:  dw_gpio_getIrqType
+              definition:  __iar_cc.FGpioPs_bit.0x74bcee14 7a1f16e4
+Loading object D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_gpio_g.o.
+              definition:  FGpioPs_ConfigTable
+Loading object D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_gpio_sinit.o.
+              reference :  FGpioPs_ConfigTable
+              definition:  FGpioPs_LookupConfig
+Loading object D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_gtc.o.
+              definition:  FGtcPs_disableCounter
+              definition:  FGtcPs_enableCounter
+              definition:  FGtcPs_getConuterH
+              definition:  FGtcPs_getConuterL
+              definition:  FGtcPs_haltCounter
+              definition:  FGtcPs_init
+              definition:  FGtcPs_isstop
+Loading object D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_gtc_g.o.
+              definition:  FGtcPs_ConfigTable
+Loading object D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_gtc_sinit.o.
+              reference :  FGtcPs_ConfigTable
+              definition:  FGtcPs_LookupConfig
+Loading object D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_i2c.o.
+              reference :  onAssert__
+              reference :  printf
+              definition:  FI2cPs_ClockSetup
+              definition:  FI2cPs_autoCompParams
+              definition:  FI2cPs_clearIrq
+              definition:  FI2cPs_clearTxAbrt
+              definition:  FI2cPs_clrDeviceID
+              definition:  FI2cPs_config
+              definition:  FI2cPs_disable
+              definition:  FI2cPs_disableMaster
+              definition:  FI2cPs_disableRestart
+              definition:  FI2cPs_disableSlave
+              definition:  FI2cPs_enable
+              definition:  FI2cPs_enableBusClear
+              definition:  FI2cPs_enableMaster
+              definition:  FI2cPs_enableRestart
+              definition:  FI2cPs_enableSlave
+              definition:  FI2cPs_flushRxHold
+              definition:  FI2cPs_getDmaRxLevel
+              definition:  FI2cPs_getDmaRxMode
+              definition:  FI2cPs_getDmaTxLevel
+              definition:  FI2cPs_getDmaTxMode
+              definition:  FI2cPs_getIrqMask
+              definition:  FI2cPs_getMasterAddressMode
+              definition:  FI2cPs_getMasterCode
+              definition:  FI2cPs_getRawIntrStat
+              definition:  FI2cPs_getRxFifoDepth
+              definition:  FI2cPs_getRxFifoLevel
+              definition:  FI2cPs_getRxThreshold
+              definition:  FI2cPs_getSclCount
+              definition:  FI2cPs_getSlaveAddress
+              definition:  FI2cPs_getSlaveAddressMode
+              definition:  FI2cPs_getSpeedMode
+              definition:  FI2cPs_getTargetAddress
+              definition:  FI2cPs_getTxAbortSource
+              definition:  FI2cPs_getTxFifoDepth
+              definition:  FI2cPs_getTxFifoLevel
+              definition:  FI2cPs_getTxMode
+              definition:  FI2cPs_getTxThreshold
+              definition:  FI2cPs_init
+              definition:  FI2cPs_irqHandler
+              definition:  FI2cPs_isBusy
+              definition:  FI2cPs_isEnabled
+              definition:  FI2cPs_isIrqActive
+              definition:  FI2cPs_isIrqMasked
+              definition:  FI2cPs_isMasterEnabled
+              definition:  FI2cPs_isRawIrqActive
+              definition:  FI2cPs_isRestartEnabled
+              definition:  FI2cPs_isRxFifoEmpty
+              definition:  FI2cPs_isRxFifoFull
+              definition:  FI2cPs_isSdaStuckNotRecovery
+              definition:  FI2cPs_isSlaveEnabled
+              definition:  FI2cPs_isTxFifoEmpty
+              definition:  FI2cPs_isTxFifoFull
+              definition:  FI2cPs_issueRESTART
+              definition:  FI2cPs_issueRead
+              definition:  FI2cPs_issueSTOP
+              definition:  FI2cPs_issueSTOPRead
+              definition:  FI2cPs_maskIrq
+              definition:  FI2cPs_masterAbort
+              definition:  FI2cPs_masterBack2Back
+              definition:  FI2cPs_masterReceive
+              definition:  FI2cPs_masterTransmit
+              definition:  FI2cPs_read
+              definition:  FI2cPs_resetInstance
+              definition:  FI2cPs_resetRxInstance
+              definition:  FI2cPs_sdaStuckRecoveryEnable
+              definition:  FI2cPs_setACK_GenCall
+              definition:  FI2cPs_setDeviceID
+              definition:  FI2cPs_setDmaRxLevel
+              definition:  FI2cPs_setDmaRxMode
+              definition:  FI2cPs_setDmaTxLevel
+              definition:  FI2cPs_setDmaTxMode
+              definition:  FI2cPs_setListener
+              definition:  FI2cPs_setMasterAddressMode
+              definition:  FI2cPs_setMasterCode
+              definition:  FI2cPs_setNotifier_destinationReady
+              definition:  FI2cPs_setNotifier_sourceReady
+              definition:  FI2cPs_setRxThreshold
+              definition:  FI2cPs_setSCLTimeout
+              definition:  FI2cPs_setSDAHold
+              definition:  FI2cPs_setSDATimeout
+              definition:  FI2cPs_setSclCount
+              definition:  FI2cPs_setSlaveAddress
+              definition:  FI2cPs_setSlaveAddressMode
+              definition:  FI2cPs_setSpeedMode
+              definition:  FI2cPs_setTargetAddress
+              definition:  FI2cPs_setTxMode
+              definition:  FI2cPs_setTxThreshold
+              definition:  FI2cPs_slaveBulkTransmit
+              definition:  FI2cPs_slaveReceive
+              definition:  FI2cPs_slaveTransmit
+              definition:  FI2cPs_terminate
+              definition:  FI2cPs_unmaskIrq
+              definition:  FI2cPs_userIrqHandler
+              definition:  FI2cPs_write
+              definition:  __iar_cc.FMSH_compType.0x40784f90 385be9f1
+              definition:  __iar_cc.FI2cPs_tx_abort.0x730e5e5b 57007680
+              definition:  __iar_cc.FMSH_i2c_state.0xa401b52e a0e2322e
+              definition:  __iar_cc.FI2cPs_irq.0xb01709c7 2fb62f07
+Loading object D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_i2c_g.o.
+              definition:  FI2cPs_ConfigTable
+Loading object D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_i2c_sinit.o.
+              reference :  FI2cPs_ConfigTable
+              definition:  FI2cPs_LookupConfig
+Loading object D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_mdio.o.
+              reference :  delay_ms
+              reference :  g_GmacLinkStatus
+              reference :  printf
+              definition:  fmsh_mdio_device_detect
+              definition:  fmsh_mdio_idle
+              definition:  fmsh_mdio_init
+              definition:  fmsh_mdio_read
+              definition:  fmsh_mdio_reg_dump
+              definition:  fmsh_mdio_reset
+              definition:  fmsh_mdio_write
+Loading object D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_nfcps.o.
+              reference :  FNfcPs_ClearIntrStatus
+              reference :  FNfcPs_GetEccOffset
+              reference :  FNfcPs_GetIntrMask
+              reference :  FNfcPs_GetIntrStatus
+              reference :  FNfcPs_SetEccOffset
+              reference :  FSlcrPs_ipReleaseRst
+              reference :  FSlcrPs_ipSetRst
+              reference :  onAssert__
+              definition:  FNfcPs_CfgInitialize
+              definition:  FNfcPs_InterruptHandler
+              definition:  FNfcPs_Reset
+              definition:  FNfcPs_SelfTest
+              definition:  FNfcPs_SetStatusHandler
+Loading object D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_nfcps_bbm.o.
+              reference :  FNfcPs_GetBlockSizeInBytes
+              reference :  FNfcPs_GetPageSizeInBytes
+              reference :  FNfcPs_Read
+              reference :  FNfcPs_Write
+              reference :  Nandflash_EraseBlock
+              reference :  Nandflash_ReadPage
+              reference :  Nandflash_WritePage
+              reference :  __aeabi_memcpy
+              reference :  __aeabi_memcpy4
+              reference :  __aeabi_memset
+              reference :  onAssert__
+              reference :  strcpy
+              definition:  FNfcPs_CheckBlock
+              definition:  FNfcPs_InitBadBlockTableDesc
+              definition:  FNfcPs_IsBlockBad
+              definition:  FNfcPs_MarkBlockBad
+              definition:  FNfcPs_ScanBadBlockTable
+Loading object D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_nfcps_flash.o.
+              reference :  FNfcPs_ClearEccStat
+              reference :  FNfcPs_ClearFIFO
+              reference :  FNfcPs_GetDMAStatus
+              reference :  FNfcPs_GetEccStat
+              reference :  FNfcPs_ReadFIFO
+              reference :  FNfcPs_SetDMAAddr
+              reference :  FNfcPs_SetDMACnt
+              reference :  FNfcPs_SetDMACtrl
+              reference :  FNfcPs_SetDMATrigLvl
+              reference :  FNfcPs_WaitForBit
+              reference :  __aeabi_memcpy4
+              reference :  invalidate_dcache_range
+              reference :  onAssert__
+              definition:  FNfcPs_FindInstruction
+              definition:  Nandflash_ChangeReadColumn
+              definition:  Nandflash_ChangeWriteColumn
+              definition:  Nandflash_EraseBlock
+              definition:  Nandflash_GetFeature
+              definition:  Nandflash_GetFlashInfo
+              definition:  Nandflash_IntDataMove
+              definition:  Nandflash_ProgramPage
+              definition:  Nandflash_ProgramPage1
+              definition:  Nandflash_ReadId
+              definition:  Nandflash_ReadOnfiId
+              definition:  Nandflash_ReadPage
+              definition:  Nandflash_ReadPageCacheLast
+              definition:  Nandflash_ReadParaPage
+              definition:  Nandflash_ReadStatus
+              definition:  Nandflash_Reset
+              definition:  Nandflash_SetFeature
+              definition:  Nandflash_WritePage
+Loading object D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_nfcps_g.o.
+              definition:  FNfcPs_ConfigTable
+Loading object D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_nfcps_hw.o.
+              reference :  delay_1us
+              definition:  FNfcPs_ClearEccStat
+              definition:  FNfcPs_ClearFIFO
+              definition:  FNfcPs_ClearIntrStatus
+              definition:  FNfcPs_DisableAddr0AutoIncr
+              definition:  FNfcPs_DisableAddr1AutoIncr
+              definition:  FNfcPs_DisableAutoReadStatus
+              definition:  FNfcPs_DisableBbm
+              definition:  FNfcPs_DisableEcc
+              definition:  FNfcPs_DisableHwProt
+              definition:  FNfcPs_DisableIntr
+              definition:  FNfcPs_DisableMLun
+              definition:  FNfcPs_DisableProt
+              definition:  FNfcPs_DisableRetry
+              definition:  FNfcPs_DisableSmallBlock
+              definition:  FNfcPs_EnableAddr0AutoIncr
+              definition:  FNfcPs_EnableAddr1AutoIncr
+              definition:  FNfcPs_EnableAutoReadStatus
+              definition:  FNfcPs_EnableBbm
+              definition:  FNfcPs_EnableEcc
+              definition:  FNfcPs_EnableHwProt
+              definition:  FNfcPs_EnableIntr
+              definition:  FNfcPs_EnableMLun
+              definition:  FNfcPs_EnableProt
+              definition:  FNfcPs_EnableReadRNB
+              definition:  FNfcPs_EnableReadStatus
+              definition:  FNfcPs_EnableRetry
+              definition:  FNfcPs_EnableSmallBlock
+              definition:  FNfcPs_GetCtrl
+              definition:  FNfcPs_GetDMAStatus
+              definition:  FNfcPs_GetDataReg
+              definition:  FNfcPs_GetEccOffset
+              definition:  FNfcPs_GetEccStat
+              definition:  FNfcPs_GetHwProt
+              definition:  FNfcPs_GetIntrMask
+              definition:  FNfcPs_GetIntrStatus
+              definition:  FNfcPs_InitRemap
+              definition:  FNfcPs_ReadFIFO
+              definition:  FNfcPs_SetBlockSize
+              definition:  FNfcPs_SetCtrl
+              definition:  FNfcPs_SetDMAAddr
+              definition:  FNfcPs_SetDMACnt
+              definition:  FNfcPs_SetDMACtrl
+              definition:  FNfcPs_SetDMATrigLvl
+              definition:  FNfcPs_SetDataRegSize
+              definition:  FNfcPs_SetDataSizeInBytes
+              definition:  FNfcPs_SetDevPtr
+              definition:  FNfcPs_SetDevSize
+              definition:  FNfcPs_SetEccBlockSize
+              definition:  FNfcPs_SetEccCtrl
+              definition:  FNfcPs_SetEccOffset
+              definition:  FNfcPs_SetIOWidth
+              definition:  FNfcPs_SetIntrMask
+              definition:  FNfcPs_SetProtArea
+              definition:  FNfcPs_SetStatusMask
+              definition:  FNfcPs_SetTiming
+              definition:  FNfcPs_WaitForBit
+              definition:  FNfcPs_WriteFIFO
+Loading object D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_nfcps_model.o.
+              reference :  __aeabi_memcpy4
+              reference :  __aeabi_uldivmod
+              definition:  FNfcPs_GetBlockSizeInBytes
+              definition:  FNfcPs_GetBlockSizeInKBytes
+              definition:  FNfcPs_GetBlockSizeInPages
+              definition:  FNfcPs_GetColAddrCycle
+              definition:  FNfcPs_GetDataBusWidth
+              definition:  FNfcPs_GetDeviceId
+              definition:  FNfcPs_GetDeviceSizeInBlocks
+              definition:  FNfcPs_GetDeviceSizeInBytes
+              definition:  FNfcPs_GetDeviceSizeInMegaBytes
+              definition:  FNfcPs_GetDeviceSizeInPages
+              definition:  FNfcPs_GetNumLun
+              definition:  FNfcPs_GetPageSizeInBytes
+              definition:  FNfcPs_GetPageSpareSize
+              definition:  FNfcPs_GetRowAddrCycle
+              definition:  FNfcPs_HasSmallBlocks
+              definition:  FNfcPs_TranslateFlashAddress
+Loading object D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_nfcps_sinit.o.
+              reference :  FNfcPs_ConfigTable
+              definition:  FNfcPs_LookupConfig
+Loading object D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_nfcps_skipblock.o.
+              reference :  FNfcPs_GetBlockSizeInBytes
+              reference :  FNfcPs_GetDeviceSizeInBytes
+              reference :  FNfcPs_IsBlockBad
+              reference :  FNfcPs_MarkBlockBad
+              reference :  FNfcPs_Read
+              reference :  FNfcPs_Write
+              reference :  Nandflash_EraseBlock
+              reference :  __aeabi_memcpy4
+              reference :  __aeabi_uldivmod
+              reference :  onAssert__
+              definition:  SkipBlockNandflash_EraseBlock
+              definition:  SkipBlockNandflash_Read
+              definition:  SkipBlockNandflash_Write
+Loading object D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_nfcps_sw.o.
+              reference :  FNfcPs_CfgInitialize
+              reference :  FNfcPs_DisableEcc
+              reference :  FNfcPs_EnableEcc
+              reference :  FNfcPs_EnableSmallBlock
+              reference :  FNfcPs_GetBlockSizeInBytes
+              reference :  FNfcPs_InitBadBlockTableDesc
+              reference :  FNfcPs_InitRemap
+              reference :  FNfcPs_LookupConfig
+              reference :  FNfcPs_ScanBadBlockTable
+              reference :  FNfcPs_SetBlockSize
+              reference :  FNfcPs_SetCtrl
+              reference :  FNfcPs_SetDevPtr
+              reference :  FNfcPs_SetDevSize
+              reference :  FNfcPs_SetEccBlockSize
+              reference :  FNfcPs_SetEccCtrl
+              reference :  FNfcPs_SetEccOffset
+              reference :  FNfcPs_SetIOWidth
+              reference :  FNfcPs_SetIntrMask
+              reference :  FNfcPs_SetStatusMask
+              reference :  FNfcPs_TranslateFlashAddress
+              reference :  Nandflash_EraseBlock
+              reference :  Nandflash_GetFlashInfo
+              reference :  Nandflash_ReadPage
+              reference :  Nandflash_WritePage
+              reference :  __aeabi_memcpy
+              reference :  __aeabi_memcpy4
+              reference :  __aeabi_memset
+              reference :  free
+              reference :  malloc
+              reference :  onAssert__
+              definition:  FNfcPs_EccMode
+              definition:  FNfcPs_EraseBlock
+              definition:  FNfcPs_InitController
+              definition:  FNfcPs_Initialize
+              definition:  FNfcPs_Read
+              definition:  FNfcPs_ReadSpareData
+              definition:  FNfcPs_Write
+              definition:  FNfcPs_WriteSpareData
+Loading object D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_print.o.
+              reference :  FUartPs_getLineStatus
+              reference :  FUartPs_write
+              reference :  strlen
+              reference :  vsnprintf
+              definition:  fmsh_print
+              definition:  g_UART
+Loading object D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_qspips.o.
+              reference :  FQspiPs_CmdExecute
+              reference :  FQspiPs_Disable
+              reference :  FQspiPs_DisableDMA
+              reference :  FQspiPs_Enable
+              reference :  FQspiPs_EnableDMA
+              reference :  FQspiPs_GetDelays
+              reference :  FQspiPs_LookupConfig
+              reference :  FQspiPs_Nand_EnableQuad
+              reference :  FQspiPs_Nand_Erase
+              reference :  FQspiPs_Nand_GetFlashInfo
+              reference :  FQspiPs_Nand_Initr
+              reference :  FQspiPs_Nand_Lock
+              reference :  FQspiPs_Nand_Read
+              reference :  FQspiPs_Nand_Reset
+              reference :  FQspiPs_Nand_SetFlashMode
+              reference :  FQspiPs_Nand_Unlock
+              reference :  FQspiPs_Nand_Write
+              reference :  FQspiPs_Nor_EnableQuad
+              reference :  FQspiPs_Nor_Erase
+              reference :  FQspiPs_Nor_GetFlashInfo
+              reference :  FQspiPs_Nor_Initr
+              reference :  FQspiPs_Nor_IsFlashQuad
+              reference :  FQspiPs_Nor_Lock
+              reference :  FQspiPs_Nor_Read
+              reference :  FQspiPs_Nor_Reset
+              reference :  FQspiPs_Nor_SetFlashMode
+              reference :  FQspiPs_Nor_Unlock
+              reference :  FQspiPs_Nor_Write
+              reference :  FQspiPs_SetBaudRate
+              reference :  FQspiPs_SetCaptureDelay
+              reference :  FQspiPs_SetDelays
+              reference :  FSlcrPs_ipReleaseRst
+              reference :  FSlcrPs_ipSetRst
+              reference :  __aeabi_memcpy
+              reference :  __aeabi_memset
+              reference :  delay_us
+              reference :  onAssert__
+              reference :  printf
+              reference :  qspi_nand_caps_default
+              reference :  qspi_nor_caps_default
+              reference :  strcmp
+              definition:  FQspiPs_CfgInitialize
+              definition:  FQspiPs_EnableQuad
+              definition:  FQspiPs_Erase
+              definition:  FQspiPs_FastRecvBytes
+              definition:  FQspiPs_FastSendBytes
+              definition:  FQspiPs_GetFlashInfo
+              definition:  FQspiPs_InitHw
+              definition:  FQspiPs_Initialize
+              definition:  FQspiPs_InterruptHandler
+              definition:  FQspiPs_IsFlashQuad
+              definition:  FQspiPs_Lock
+              definition:  FQspiPs_Read
+              definition:  FQspiPs_ReadId
+              definition:  FQspiPs_RecvBytes
+              definition:  FQspiPs_Reset
+              definition:  FQspiPs_ResetFlash
+              definition:  FQspiPs_SelfTest
+              definition:  FQspiPs_SendBytes
+              definition:  FQspiPs_SetFlashMode
+              definition:  FQspiPs_SetStatusHandler
+              definition:  FQspiPs_Unlock
+              definition:  FQspiPs_Write
+Loading object D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_qspips_g.o.
+              definition:  FQspiPs_ConfigTable
+Loading object D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_qspips_hw.o.
+              reference :  delay_1us
+              definition:  FQspiPs_ClearIntr
+              definition:  FQspiPs_CmdExecute
+              definition:  FQspiPs_Disable
+              definition:  FQspiPs_DisableDAC
+              definition:  FQspiPs_DisableDMA
+              definition:  FQspiPs_DisableIntr
+              definition:  FQspiPs_DisableLegacy
+              definition:  FQspiPs_DisablePoll
+              definition:  FQspiPs_DisableProtect
+              definition:  FQspiPs_DisableRemap
+              definition:  FQspiPs_DisableXip
+              definition:  FQspiPs_Enable
+              definition:  FQspiPs_EnableDAC
+              definition:  FQspiPs_EnableDMA
+              definition:  FQspiPs_EnableIntr
+              definition:  FQspiPs_EnableLegacy
+              definition:  FQspiPs_EnableProtect
+              definition:  FQspiPs_EnableRemap
+              definition:  FQspiPs_EnableXip
+              definition:  FQspiPs_GetDelays
+              definition:  FQspiPs_IntrEnabled
+              definition:  FQspiPs_SetAddrBytesNum
+              definition:  FQspiPs_SetBaudRate
+              definition:  FQspiPs_SetBlockSize
+              definition:  FQspiPs_SetCaptureDelay
+              definition:  FQspiPs_SetClockFormat
+              definition:  FQspiPs_SetDelays
+              definition:  FQspiPs_SetHighBlock
+              definition:  FQspiPs_SetLowBlock
+              definition:  FQspiPs_SetModeBits
+              definition:  FQspiPs_SetPageSize
+              definition:  FQspiPs_SetPoll
+              definition:  FQspiPs_SetRemap
+              definition:  FQspiPs_SetRxNotEmptyLvl
+              definition:  FQspiPs_SetTxNotFullLvl
+              definition:  FQspiPs_WaitForBit
+              definition:  FQspiPs_WaitIdle
+Loading object D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_qspips_nand.o.
+              reference :  FQspiPs_CmdExecute
+              reference :  FQspiPs_DisablePoll
+              reference :  FQspiPs_SetAddrBytesNum
+              reference :  FQspiPs_SetPageSize
+              reference :  __aeabi_memcpy
+              reference :  __aeabi_memset
+              reference :  __aeabi_uldivmod
+              reference :  delay_1ms
+              reference :  delay_ms
+              reference :  delay_us
+              reference :  onAssert__
+              definition:  FQspiPs_Nand_DisableECC
+              definition:  FQspiPs_Nand_DisableOtp
+              definition:  FQspiPs_Nand_DisableQuad
+              definition:  FQspiPs_Nand_EnableECC
+              definition:  FQspiPs_Nand_EnableOtp
+              definition:  FQspiPs_Nand_EnableQuad
+              definition:  FQspiPs_Nand_Erase
+              definition:  FQspiPs_Nand_EraseBlock
+              definition:  FQspiPs_Nand_GetFeature
+              definition:  FQspiPs_Nand_GetFlashInfo
+              definition:  FQspiPs_Nand_Initr
+              definition:  FQspiPs_Nand_IsBlockBad
+              definition:  FQspiPs_Nand_Lock
+              definition:  FQspiPs_Nand_MarkBlockBad
+              definition:  FQspiPs_Nand_OtpPage
+              definition:  FQspiPs_Nand_ProgramPage
+              definition:  FQspiPs_Nand_Read
+              definition:  FQspiPs_Nand_ReadPage
+              definition:  FQspiPs_Nand_ReadParaPage
+              definition:  FQspiPs_Nand_ReadSpareBytes
+              definition:  FQspiPs_Nand_ReadUniqueID
+              definition:  FQspiPs_Nand_Reset
+              definition:  FQspiPs_Nand_SetFeature
+              definition:  FQspiPs_Nand_SetFlashMode
+              definition:  FQspiPs_Nand_SkipRead
+              definition:  FQspiPs_Nand_SkipWrite
+              definition:  FQspiPs_Nand_Unlock
+              definition:  FQspiPs_Nand_WRDI
+              definition:  FQspiPs_Nand_WREN
+              definition:  FQspiPs_Nand_WaitReady
+              definition:  FQspiPs_Nand_Write
+              definition:  FQspiPs_Nand_WriteSpareBytes
+              definition:  FQspiPsu_Nand_SkipErase
+              definition:  qspi_nand_caps_default
+              definition:  qspi_nand_dev
+Loading object D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_qspips_nor.o.
+              reference :  FQspiPs_CmdExecute
+              reference :  FQspiPs_DisableDAC
+              reference :  FQspiPs_EnableDAC
+              reference :  FQspiPs_EnableXip
+              reference :  FQspiPs_SetAddrBytesNum
+              reference :  FQspiPs_SetModeBits
+              reference :  __aeabi_memcpy
+              reference :  delay_1us
+              reference :  delay_ms
+              reference :  onAssert__
+              definition:  FQspiPs_Nor_ChipErase
+              definition:  FQspiPs_Nor_ClearFlagStatus
+              definition:  FQspiPs_Nor_EnableQuad
+              definition:  FQspiPs_Nor_Enter4B
+              definition:  FQspiPs_Nor_EnterXIP
+              definition:  FQspiPs_Nor_Erase
+              definition:  FQspiPs_Nor_Exit4B
+              definition:  FQspiPs_Nor_GetBankReg
+              definition:  FQspiPs_Nor_GetFlagStatus
+              definition:  FQspiPs_Nor_GetFlashInfo
+              definition:  FQspiPs_Nor_GetReg16
+              definition:  FQspiPs_Nor_GetReg8
+              definition:  FQspiPs_Nor_GetStatus1
+              definition:  FQspiPs_Nor_Initr
+              definition:  FQspiPs_Nor_IsFlashQuad
+              definition:  FQspiPs_Nor_Lock
+              definition:  FQspiPs_Nor_Read
+              definition:  FQspiPs_Nor_Reset
+              definition:  FQspiPs_Nor_SectorErase
+              definition:  FQspiPs_Nor_SetFlashMode
+              definition:  FQspiPs_Nor_SetReg16
+              definition:  FQspiPs_Nor_SetReg8
+              definition:  FQspiPs_Nor_SetSegment
+              definition:  FQspiPs_Nor_Unlock
+              definition:  FQspiPs_Nor_WRDI
+              definition:  FQspiPs_Nor_WREN
+              definition:  FQspiPs_Nor_WaitForFSR
+              definition:  FQspiPs_Nor_WaitForReady
+              definition:  FQspiPs_Nor_WaitForWIP
+              definition:  FQspiPs_Nor_Write
+              definition:  qspi_nor_caps_default
+              definition:  qspi_nor_dev
+Loading object D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_qspips_sinit.o.
+              reference :  FQspiPs_ConfigTable
+              definition:  FQspiPs_LookupConfig
+Loading object D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_qspips_sw.o.
+Loading object D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_sdmmc.o.
+              reference :  FDmaPs_clearIrq
+              reference :  FDmaPs_disableChannel
+              reference :  FDmaPs_enable
+              reference :  FDmaPs_enableChannelIrq
+              reference :  FDmaPs_getChannelConfig
+              reference :  FDmaPs_getFreeChannel
+              reference :  FDmaPs_init
+              reference :  FDmaPs_setChannelConfig
+              reference :  FDmaPs_setTransferType
+              reference :  FDmaPs_startTransfer
+              reference :  SDMMC_decodeCID
+              reference :  SDMMC_decodeCSD
+              reference :  SDMMC_getCSDInfo
+              reference :  __aeabi_memclr4
+              reference :  __aeabi_memcpy
+              reference :  __aeabi_memset
+              reference :  delay_1us
+              reference :  delay_ms
+              reference :  delay_us
+              reference :  flush_dcache_range
+              reference :  invalidate_dcache_range
+              reference :  onAssert__
+              reference :  printf
+              definition:  FSdmmcPs_addSdDevice
+              definition:  FSdmmcPs_cardDetect
+              definition:  FSdmmcPs_cardIdentify
+              definition:  FSdmmcPs_cfgInitialize
+              definition:  FSdmmcPs_changeBusSpeed
+              definition:  FSdmmcPs_disableIntMask
+              definition:  FSdmmcPs_doTransfer
+              definition:  FSdmmcPs_enableDMA
+              definition:  FSdmmcPs_enableInt
+              definition:  FSdmmcPs_getBlockNumbers
+              definition:  FSdmmcPs_getBusSpeed
+              definition:  FSdmmcPs_getCardSizeKB
+              definition:  FSdmmcPs_getCardStatus
+              definition:  FSdmmcPs_getIntMask
+              definition:  FSdmmcPs_getMaskIntStat
+              definition:  FSdmmcPs_getMmcExtCsd
+              definition:  FSdmmcPs_getRawIntStat
+              definition:  FSdmmcPs_getSdSCR
+              definition:  FSdmmcPs_getTransferMode
+              definition:  FSdmmcPs_initCard
+              definition:  FSdmmcPs_initDev
+              definition:  FSdmmcPs_instanceReset
+              definition:  FSdmmcPs_mmcEnumerate
+              definition:  FSdmmcPs_powerDown
+              definition:  FSdmmcPs_powerUp
+              definition:  FSdmmcPs_prepareCmd
+              definition:  FSdmmcPs_readFun
+              definition:  FSdmmcPs_removeSdDevice
+              definition:  FSdmmcPs_resetController
+              definition:  FSdmmcPs_sdControllerReset
+              definition:  FSdmmcPs_sdDmaReset
+              definition:  FSdmmcPs_sdEnumerate
+              definition:  FSdmmcPs_sdFifoReset
+              definition:  FSdmmcPs_sendCmd
+              definition:  FSdmmcPs_setBlockLen
+              definition:  FSdmmcPs_setCardBusWidth
+              definition:  FSdmmcPs_setCardVoltage
+              definition:  FSdmmcPs_setClock
+              definition:  FSdmmcPs_setCtrlBuswidth
+              definition:  FSdmmcPs_setDmaMsize
+              definition:  FSdmmcPs_setIntMask
+              definition:  FSdmmcPs_setRXwmark
+              definition:  FSdmmcPs_setRawIntStat
+              definition:  FSdmmcPs_setTXwmark
+              definition:  FSdmmcPs_stopTransfer
+              definition:  FSdmmcPs_writeFun
+              definition:  sdmmc_res_len
+              definition:  __iar_cc.FMSH_compType.0x40784f90 385be9f1
+              definition:  __iar_cc.FDmaPs_channelNumber.0x7c6998c2 bad6ea23
+              definition:  __iar_cc.FDmaPs_hsInterface.0xb5f37170 a3d4ecd6
+              definition:  __iar_cc.FDmaPs_protLevel.0xf2f06869 a0923b57
+Loading object D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_sdmmc_g.o.
+              definition:  FSdmmcPs_ConfigTable
+Loading object D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_sdmmc_protocol.o.
+              reference :  __aeabi_memcpy4
+              reference :  onAssert__
+              definition:  SDMMC_decodeCID
+              definition:  SDMMC_decodeCSD
+              definition:  SDMMC_getCSDInfo
+              definition:  __iar_cc.FMSH_compType.0x40784f90 385be9f1
+Loading object D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_sdmmc_sinit.o.
+              reference :  FSdmmcPs_ConfigTable
+              definition:  FSdmmcPs_LookupConfig
+Loading object D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_slcr.o.
+              reference :  printf
+              definition:  FSlcrPS_regRead
+              definition:  FSlcrPS_rsvRegPrint
+              definition:  FSlcrPS_setCanLoop
+              definition:  FSlcrPS_setI2cLoop
+              definition:  FSlcrPS_setSpiLoop
+              definition:  FSlcrPS_setUartLoop
+              definition:  FSlcrPs_ipReleaseRst
+              definition:  FSlcrPs_ipSetRst
+              definition:  FSlcrPs_lock
+              definition:  FSlcrPs_setBitTo0
+              definition:  FSlcrPs_setBitTo1
+              definition:  FSlcrPs_softRst
+              definition:  FSlcrPs_unlock
+Loading object D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_smc.o.
+              reference :  __aeabi_memset
+              reference :  onAssert__
+              definition:  FSmcPs_getCtlRegs
+              definition:  FSmcPs_getMaskRegs
+              definition:  FSmcPs_getTimingRegs
+              definition:  FSmcPs_initDev
+              definition:  FSmcPs_resetController
+              definition:  FSmcPs_resetInstance
+              definition:  FSmcPs_setCtlRegs
+              definition:  FSmcPs_setMaskRegs
+              definition:  FSmcPs_setTimingRegs
+              definition:  __iar_cc.FMSH_compType.0x40784f90 385be9f1
+Loading object D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_smc_amd.o.
+              reference :  ReadRawData
+              reference :  WriteCommand
+              reference :  WriteRawData
+              definition:  AMD_EraseChip
+              definition:  AMD_EraseSector
+              definition:  AMD_ReadDeviceID
+              definition:  AMD_Reset
+              definition:  AMD_Write_Data
+Loading object D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_smc_api.o.
+              reference :  AMD_EraseChip
+              reference :  AMD_EraseSector
+              reference :  AMD_ReadDeviceID
+              reference :  AMD_Reset
+              reference :  AMD_Write_Data
+              reference :  INTEL_EraseChip
+              reference :  INTEL_EraseSector
+              reference :  INTEL_ReadDeviceID
+              reference :  INTEL_Reset
+              reference :  INTEL_Write_Data
+              reference :  ReadRawData
+              definition:  NORFLASH_EraseChip
+              definition:  NORFLASH_EraseSector
+              definition:  NORFLASH_ReadData
+              definition:  NORFLASH_ReadDeviceID
+              definition:  NORFLASH_Reset
+              definition:  NORFLASH_WriteData
+Loading object D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_smc_cfi.o.
+              reference :  NORFLASH_Reset
+              reference :  ReadRawData
+              reference :  printf
+              definition:  NorFlash_CFI_Detect
+              definition:  NorFlash_GetAddressInChip
+              definition:  NorFlash_GetByteAddress
+              definition:  NorFlash_GetByteAddressInChip
+              definition:  NorFlash_GetDataBusWidth
+              definition:  NorFlash_GetDeviceBlockSize
+              definition:  NorFlash_GetDeviceMaxBlockSize
+              definition:  NorFlash_GetDeviceMinBlockSize
+              definition:  NorFlash_GetDeviceNumOfBlocks
+              definition:  NorFlash_GetDeviceSectorAddress
+              definition:  NorFlash_GetDeviceSectorInRegion
+              definition:  NorFlash_GetDeviceSizeInBytes
+Loading object D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_smc_common.o.
+              definition:  ReadRawData
+              definition:  WriteCommand
+              definition:  WriteRawData
+Loading object D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_smc_intel.o.
+              reference :  NorFlash_GetDeviceNumOfBlocks
+              reference :  NorFlash_GetDeviceSectorAddress
+              reference :  ReadRawData
+              reference :  WriteRawData
+              definition:  INTEL_EraseChip
+              definition:  INTEL_EraseSector
+              definition:  INTEL_ReadDeviceID
+              definition:  INTEL_Reset
+              definition:  INTEL_Write_Data
+Loading object D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_spips.o.
+              reference :  FSlcrPs_ipReleaseRst
+              reference :  FSlcrPs_ipSetRst
+              reference :  FSpiPs_Disable
+              reference :  FSpiPs_GetTxLevel
+              reference :  FSpiPs_SetTxEmptyLvl
+              reference :  onAssert__
+              definition:  FSpiPs_CfgInitialize
+              definition:  FSpiPs_InterruptHandler
+              definition:  FSpiPs_Reset
+              definition:  FSpiPs_SelfTest
+              definition:  FSpiPs_SetStatusHandler
+Loading object D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_spips_g.o.
+              definition:  FSpiPs_ConfigTable
+Loading object D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_spips_hw.o.
+              reference :  delay_us
+              definition:  FSpiPs_ClearIntrStatus
+              definition:  FSpiPs_Disable
+              definition:  FSpiPs_DisableDMA
+              definition:  FSpiPs_DisableIntr
+              definition:  FSpiPs_Enable
+              definition:  FSpiPs_EnableDMARx
+              definition:  FSpiPs_EnableDMATx
+              definition:  FSpiPs_EnableIntr
+              definition:  FSpiPs_GetRxLevel
+              definition:  FSpiPs_GetStatus
+              definition:  FSpiPs_GetTxLevel
+              definition:  FSpiPs_Mst
+              definition:  FSpiPs_Recv
+              definition:  FSpiPs_Send
+              definition:  FSpiPs_SetDFNum
+              definition:  FSpiPs_SetDFS32
+              definition:  FSpiPs_SetDMARLvl
+              definition:  FSpiPs_SetDMATLvl
+              definition:  FSpiPs_SetLoopBack
+              definition:  FSpiPs_SetRxFullLvl
+              definition:  FSpiPs_SetSckDv
+              definition:  FSpiPs_SetSckMode
+              definition:  FSpiPs_SetSlave
+              definition:  FSpiPs_SetSlvOut
+              definition:  FSpiPs_SetTMod
+              definition:  FSpiPs_SetTxEmptyLvl
+              definition:  FSpiPs_Slv
+Loading object D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_spips_sinit.o.
+              reference :  FSpiPs_ConfigTable
+              definition:  FSpiPs_LookupConfig
+Loading object D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_spips_sw.o.
+              reference :  FSpiPs_CfgInitialize
+              reference :  FSpiPs_Disable
+              reference :  FSpiPs_DisableIntr
+              reference :  FSpiPs_Enable
+              reference :  FSpiPs_EnableIntr
+              reference :  FSpiPs_LookupConfig
+              reference :  FSpiPs_Mst
+              reference :  FSpiPs_Recv
+              reference :  FSpiPs_Send
+              reference :  FSpiPs_SetDFNum
+              reference :  FSpiPs_SetDFS32
+              reference :  FSpiPs_SetDMARLvl
+              reference :  FSpiPs_SetDMATLvl
+              reference :  FSpiPs_SetLoopBack
+              reference :  FSpiPs_SetRxFullLvl
+              reference :  FSpiPs_SetSckDv
+              reference :  FSpiPs_SetSckMode
+              reference :  FSpiPs_SetSlave
+              reference :  FSpiPs_SetSlvOut
+              reference :  FSpiPs_SetTMod
+              reference :  FSpiPs_SetTxEmptyLvl
+              reference :  FSpiPs_Slv
+              reference :  onAssert__
+              definition:  FSpiPs_Initialize
+              definition:  FSpiPs_Initialize_Master
+              definition:  FSpiPs_Initialize_Slave
+              definition:  FSpiPs_PolledTransfer
+              definition:  FSpiPs_Transfer
+Loading object D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_testmem.o.
+              reference :  onAssert__
+              definition:  Fmsh_TestMem16
+              definition:  Fmsh_TestMem32
+              definition:  Fmsh_TestMem8
+Loading object D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_ttc.o.
+              reference :  onAssert__
+              definition:  FTtcPs_ClearAllInterrupt
+              definition:  FTtcPs_ClearTimerNInterrupt
+              definition:  FTtcPs_TimerNLoadCount
+              definition:  FTtcPs_TimerNLoadCount2
+              definition:  FTtcPs_getTimerNStatus
+              definition:  FTtcPs_init
+              definition:  FTtcPs_setTIMERPWM
+              definition:  FTtcPs_setTimerEnble
+              definition:  FTtcPs_setTimerInterruptMask
+              definition:  FTtcPs_setTimerMode
+Loading object D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_ttc_g.o.
+              definition:  FTtcPs_ConfigTable
+Loading object D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_ttc_sinit.o.
+              reference :  FTtcPs_ConfigTable
+              definition:  FTtcPs_LookupConfig
+Loading object D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_uart.o.
+              reference :  __aeabi_memcpy
+              reference :  onAssert__
+              reference :  round
+              definition:  FUartPs_areFifosEnabled
+              definition:  FUartPs_autoCompParams
+              definition:  FUartPs_burstRead
+              definition:  FUartPs_burstWrite
+              definition:  FUartPs_clearModemLine
+              definition:  FUartPs_disableAfc
+              definition:  FUartPs_disableFifos
+              definition:  FUartPs_disableIrq
+              definition:  FUartPs_disableLoopback
+              definition:  FUartPs_disablePtime
+              definition:  FUartPs_enableAfc
+              definition:  FUartPs_enableFifos
+              definition:  FUartPs_enableIrq
+              definition:  FUartPs_enableLoopback
+              definition:  FUartPs_enablePtime
+              definition:  FUartPs_flushRxFifo
+              definition:  FUartPs_flushRxHold
+              definition:  FUartPs_getActiveIrq
+              definition:  FUartPs_getBreak
+              definition:  FUartPs_getClockDivisor
+              definition:  FUartPs_getDataBits
+              definition:  FUartPs_getFifoDepth
+              definition:  FUartPs_getIrqMask
+              definition:  FUartPs_getLineControl
+              definition:  FUartPs_getLineStatus
+              definition:  FUartPs_getModemLine
+              definition:  FUartPs_getModemStatus
+              definition:  FUartPs_getParity
+              definition:  FUartPs_getRxFifoLevel
+              definition:  FUartPs_getRxTrigger
+              definition:  FUartPs_getScratchpad
+              definition:  FUartPs_getStopBits
+              definition:  FUartPs_getTxFifoLevel
+              definition:  FUartPs_getTxTrigger
+              definition:  FUartPs_init
+              definition:  FUartPs_irqHandler
+              definition:  FUartPs_isAfcEnabled
+              definition:  FUartPs_isBusy
+              definition:  FUartPs_isIrqEnabled
+              definition:  FUartPs_isLoopbackEnabled
+              definition:  FUartPs_isPtimeEnabled
+              definition:  FUartPs_isRxFifoEmpty
+              definition:  FUartPs_isRxFifoFull
+              definition:  FUartPs_isTxFifoEmpty
+              definition:  FUartPs_isTxFifoFull
+              definition:  FUartPs_read
+              definition:  FUartPs_receive
+              definition:  FUartPs_reset
+              definition:  FUartPs_resetInstance
+              definition:  FUartPs_resetRxFifo
+              definition:  FUartPs_resetTxFifo
+              definition:  FUartPs_setBaudRate
+              definition:  FUartPs_setBreak
+              definition:  FUartPs_setClockDivisor
+              definition:  FUartPs_setDataBits
+              definition:  FUartPs_setLineControl
+              definition:  FUartPs_setListener
+              definition:  FUartPs_setModemLine
+              definition:  FUartPs_setParity
+              definition:  FUartPs_setRxTrigger
+              definition:  FUartPs_setScratchpad
+              definition:  FUartPs_setStick
+              definition:  FUartPs_setStopBits
+              definition:  FUartPs_setTxTrigger
+              definition:  FUartPs_transmit
+              definition:  FUartPs_userIrqHandler
+              definition:  FUartPs_write
+              definition:  __iar_cc.FUartPs_line_control.0x70147aca a8063274
+Loading object D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_uart_g.o.
+              definition:  FUartPs_ConfigTable
+Loading object D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_uart_sinit.o.
+              reference :  FUartPs_ConfigTable
+              definition:  FUartPs_LookupConfig
+Loading object D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_wdt.o.
+              reference :  onAssert__
+              definition:  FWdtPs_clearInterruptStatus
+              definition:  FWdtPs_getCurrentCounterValue
+              definition:  FWdtPs_getInterruptStatus
+              definition:  FWdtPs_init
+              definition:  FWdtPs_restart
+              definition:  FWdtPs_setRMOD
+              definition:  FWdtPs_setRPL
+              definition:  FWdtPs_setTOP
+              definition:  FWdtPs_setTOP_INIT
+              definition:  FWdtPs_setWDT_EN
+Loading object D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_wdt_g.o.
+              definition:  FWdtPs_ConfigTable
+Loading object D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_wdt_sinit.o.
+              reference :  FWdtPs_ConfigTable
+              definition:  FWdtPs_LookupConfig
+Loading object D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\marvell_88e1116r.o.
+              reference :  delay_ms
+              reference :  fmsh_mdio_idle
+              reference :  g_GmacLinkStatus
+              reference :  printf
+              definition:  mvl88e1116r_MDIautoX
+              definition:  mvl88e1116r_cfg
+              definition:  mvl88e1116r_detect
+              definition:  mvl88e1116r_init
+              definition:  mvl88e1116r_line_lpbk
+              definition:  mvl88e1116r_pcs_lpbk
+              definition:  mvl88e1116r_reg_dump
+              definition:  mvl88e1116r_reg_read
+              definition:  mvl88e1116r_reg_write
+              definition:  mvl88e1116r_reset
+              definition:  mvl88e1116r_restart_AN
+              definition:  mvl88e1116r_timing_ctrl
+Loading object D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\microchip_ksz9031RNX.o.
+              reference :  delay_ms
+              reference :  fmsh_mdio_init
+              reference :  fmsh_mdio_read
+              reference :  fmsh_mdio_reg_dump
+              reference :  fmsh_mdio_reset
+              reference :  fmsh_mdio_write
+              reference :  printf
+              definition:  mic9031RNX_AN_cfg
+              definition:  mic9031RNX_MDIautoX
+              definition:  mic9031RNX_analog_loopback
+              definition:  mic9031RNX_cfg
+              definition:  mic9031RNX_clk_pad_skew
+              definition:  mic9031RNX_ctrl_pad_skew
+              definition:  mic9031RNX_digital_loopback
+              definition:  mic9031RNX_init
+              definition:  mic9031RNX_read_MMD
+              definition:  mic9031RNX_reg_dump
+              definition:  mic9031RNX_reset
+              definition:  mic9031RNX_rx_data_pad_skew
+              definition:  mic9031RNX_tx_data_pad_skew
+              definition:  mic9031RNX_write_MMD
+Loading object D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\mmu_table.o.
+              definition:  MMUTable
+Loading object D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\platform.o.
+              reference :  FUartPs_LookupConfig
+              reference :  FUartPs_enableFifos
+              reference :  FUartPs_init
+              reference :  FUartPs_setBaudRate
+              reference :  FUartPs_setLineControl
+              reference :  fmsh_print
+              reference :  g_UART
+              reference :  ps_init
+              definition:  cleanup_platform
+              definition:  init_platform
+              definition:  init_uart
+Loading object D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\ps_init.o.
+              definition:  getPSMessageInfo
+              definition:  mask_copy
+              definition:  mask_poll
+              definition:  mask_read
+              definition:  mask_write
+              definition:  ps_clock_init_data
+              definition:  ps_config
+              definition:  ps_ddr_init_data
+              definition:  ps_debug
+              definition:  ps_debug_init_data
+              definition:  ps_init
+              definition:  ps_mio_init_data
+              definition:  ps_peripherals_init_data
+              definition:  ps_pll_init_data
+              definition:  ps_post_config
+              definition:  ps_post_config_init_data
+              definition:  ps_post_init_data
+Applying system library config.
+              reference :  __iar_init_vfp_v6
+Selecting member abort.o(dl7Sx_tlf.a) to define abort.
+              reference :  __exit
+              definition:  abort
+Selecting member printf.o(dl7Sx_tlf.a) to define printf.
+              reference :  _Printf
+              reference :  _Prout
+              definition:  printf
+Selecting member cmain.o(rt7Sx_tl.a) to define ?main.
+              weak ref  :  __iar_data_init3
+              weak ref  :  __iar_argc_argv
+              reference :  __low_level_init
+              reference :  main
+              reference :  exit
+              reference :  __exit
+              definition:  __cmain
+              definition:  ?main
+              definition:  _main
+              definition:  _call_main
+Selecting member ABImemcpy.o(rt7Sx_tl.a) to define __aeabi_memcpy4.
+              definition:  __aeabi_memcpy
+              definition:  __aeabi_memcpy4
+              definition:  __aeabi_memcpy8
+Selecting member abs.o(dl7Sx_tlf.a) to define abs.
+              definition:  abs
+Selecting member DblToU64.o(m7Sx_tlv.a) to define __aeabi_d2ulz.
+              definition:  __aeabi_d2ulz
+Selecting member U64ToDbl.o(m7Sx_tlv.a) to define __aeabi_ul2d.
+              definition:  __aeabi_ul2d
+Selecting member ABImemclr4.o(rt7Sx_tl.a) to define __aeabi_memclr4.
+              reference :  __iar_Memset4_word
+              definition:  __aeabi_memclr4
+Selecting member heaptramp0.o(dl7Sx_tlf.a) to define free.
+              reference :  __iar_dlfree
+              reference :  __iar_dlrealloc
+              definition:  free
+              definition:  realloc
+Selecting member ABImemset.o(rt7Sx_tl.a) to define __aeabi_memset.
+              definition:  __iar_Memset
+              definition:  __iar_Memset_word
+              definition:  __aeabi_memset
+Selecting member strcpy.o(rt7Sx_tl.a) to define strcpy.
+              definition:  strcpy
+Selecting member I64DivMod.o(rt7Sx_tl.a) to define __aeabi_uldivmod.
+              reference :  __aeabi_uidivmod
+              reference :  __aeabi_ldiv0
+              definition:  __aeabi_ldivmod
+              definition:  __aeabi_uldivmod
+Selecting member strlen.o(rt7Sx_tl.a) to define strlen.
+              definition:  strlen
+Selecting member vsnprint.o(dl7Sx_tlf.a) to define vsnprintf.
+              reference :  _Printf
+              reference :  _SNProut
+              definition:  vsnprintf
+Selecting member strcmp.o(rt7Sx_tl.a) to define strcmp.
+              definition:  strcmp
+Selecting member round.o(m7Sx_tlv.a) to define __iar_vfp_round.
+              definition:  __iar_vfp_round
+              definition:  __iar_vfp___iar_round64
+              definition:  __iar_vfp_roundl
+              definition:  round
+              definition:  __iar_round64
+              definition:  roundl
+Selecting member fpinit.o(m7Sx_tlv.a) to define __iar_init_vfp_v6.
+              definition:  __iar_init_vfp
+              definition:  __iar_init_vfp_v6
+Selecting member exit.o(sh7Sxi_l.a) to define __exit.
+              weak ref  :  __iar_close_ttio
+              reference :  __iar_semihosting
+              definition:  __exit
+Selecting member xprout.o(dl7Sx_tlf.a) to define _Prout.
+              reference :  putchar
+              definition:  _Prout
+Selecting member low_level_init.o(dl7Sx_tlf.a) to define __low_level_init.
+              definition:  __low_level_init
+Selecting member exit.o(dl7Sx_tlf.a) to define exit.
+              reference :  _exit
+              definition:  exit
+Selecting member ABImemset48.o(rt7Sx_tl.a) to define __iar_Memset4_word.
+              definition:  __aeabi_memset4
+              definition:  __aeabi_memset8
+              definition:  __iar_Memset4_word
+              definition:  __iar_Memset8_word
+Selecting member dlmalloc.o(dl7Sx_tlf.a) to define __iar_dlfree.
+              reference :  __aeabi_memclr
+              reference :  __aeabi_memclr4
+              reference :  __aeabi_memcpy
+              reference :  __aeabi_memcpy4
+              reference :  __aeabi_uidiv
+              reference :  __data_GetMemChunk
+              weak ref  :  __iar_Locksyslock_Malloc
+              weak ref  :  __iar_Unlocksyslock_Malloc
+              reference :  abort
+              definition:  __iar_dlaligned_alloc
+              definition:  __iar_dlbulk_free
+              definition:  __iar_dlcalloc
+              definition:  __iar_dlfree
+              definition:  __iar_dlindependent_calloc
+              definition:  __iar_dlindependent_comalloc
+              definition:  __iar_dlmallinfo
+              definition:  __iar_dlmalloc
+              definition:  __iar_dlmalloc_footprint
+              definition:  __iar_dlmalloc_footprint_limit
+              definition:  __iar_dlmalloc_inspect_all
+              definition:  __iar_dlmalloc_max_footprint
+              definition:  __iar_dlmalloc_set_footprint_limit
+              definition:  __iar_dlmalloc_trim
+              definition:  __iar_dlmalloc_usable_size
+              definition:  __iar_dlmallopt
+              definition:  __iar_dlmemalign
+              definition:  __iar_dlpvalloc
+              definition:  __iar_dlrealloc
+              definition:  __iar_dlrealloc_in_place
+              definition:  __iar_dlvalloc
+              definition:  __iar_internal_malloc_stats
+Selecting member I32DivMod.o(rt7Sx_tl.a) to define __aeabi_uidivmod.
+              reference :  __aeabi_idiv0
+              definition:  __aeabi_idiv
+              definition:  __aeabi_uidiv
+              definition:  __aeabi_idivmod
+              definition:  __aeabi_uidivmod
+Selecting member I64DivZer.o(rt7Sx_tl.a) to define __aeabi_ldiv0.
+              definition:  __aeabi_ldiv0
+Selecting member xsnprout.o(dl7Sx_tlf.a) to define _SNProut.
+              definition:  _SNProut
+Selecting member iar_semihosting.o(sh7Sxi_l.a) to define __iar_semihosting.
+              definition:  __iar_semihosting
+Selecting member putchar.o(dl7Sx_tlf.a) to define putchar.
+              reference :  __iar_Stdout
+              reference :  fputc
+              definition:  putchar
+Selecting member cexit.o(rt7Sx_tl.a) to define _exit.
+              weak ref  :  __call_dtors
+              weak ref  :  _Close_all
+              weak ref  :  __iar_clearlocks
+              reference :  __exit
+              definition:  _exit
+              definition:  __cexit_call_dtors
+              definition:  __cexit_closeall
+              definition:  __cexit_clearlocks
+Selecting member ABImemclr.o(rt7Sx_tl.a) to define __aeabi_memclr.
+              reference :  __iar_Memset_word
+              definition:  __aeabi_memclr
+Selecting member xgetmemchunk.o(dl7Sx_tlf.a) to define __data_GetMemChunk.
+              definition:  __data_GetMemChunk
+              reference :  HEAP$$Base
+              reference :  HEAP$$Limit
+Selecting member IntDivZer.o(rt7Sx_tl.a) to define __aeabi_idiv0.
+              definition:  __aeabi_idiv0
+Selecting member xfiles.o(dl7Sx_tlf.a) to define __iar_Stdout.
+              definition:  _Files
+              definition:  _PJP_C_Copyright
+              definition:  __aeabi_BUFSIZ
+              definition:  __aeabi_FILENAME_MAX
+              definition:  __aeabi_FOPEN_MAX
+              definition:  __aeabi_IOFBF
+              definition:  __aeabi_IOLBF
+              definition:  __aeabi_IONBF
+              definition:  __aeabi_L_tmpnam
+              definition:  __aeabi_TMP_MAX
+              definition:  __aeabi_stderr
+              definition:  __aeabi_stdin
+              definition:  __aeabi_stdout
+              definition:  __iar_Stderr
+              definition:  __iar_Stdin
+              definition:  __iar_Stdout
+              definition:  __iar_file_FOPEN_MAX
+              definition:  __iar_file_LockRef
+Selecting member fputc.o(dl7Sx_tlf.a) to define fputc.
+              reference :  _Fwprep
+              weak ref  :  __iar_Lockfilelock
+              weak ref  :  __iar_Unlockfilelock
+              reference :  fflush
+              definition:  fputc
+Selecting member xfwprep.o(dl7Sx_tlf.a) to define _Fwprep.
+              reference :  __cstart_closeall
+              reference :  fflush
+              reference :  fseek
+              reference :  malloc
+              definition:  _Fwprep
+Selecting member fflush.o(dl7Sx_tlf.a) to define fflush.
+              reference :  _Files
+              weak ref  :  __iar_Lockfilelock
+              weak ref  :  __iar_Locksyslock_Stream
+              weak ref  :  __iar_Unlockfilelock
+              weak ref  :  __iar_Unlocksyslock_Stream
+              reference :  __write_buffered
+              definition:  fflush
+Selecting member cstart_closeall.o(rt7Sx_tl.a) to define __cstart_closeall.
+              reference :  __cexit_closeall
+              reference :  _Close_all
+              definition:  __cstart_closeall
+Selecting member fseek.o(dl7Sx_tlf.a) to define fseek.
+              reference :  _Fspos
+              weak ref  :  __iar_Lockfilelock
+              weak ref  :  __iar_Unlockfilelock
+              definition:  fseek
+Selecting member xxwritebuffered.o(dl7Sx_tlf.a) to define __write_buffered.
+              reference :  __cstart_closeall
+              reference :  __dwrite
+              definition:  __write_buffered
+Selecting member xcloseall.o(dl7Sx_tlf.a) to define _Close_all.
+              reference :  _Files
+              reference :  __write_buffered
+              reference :  fclose
+              definition:  _Close_all
+Selecting member xfspos.o(dl7Sx_tlf.a) to define _Fspos.
+              reference :  _Nnl
+              weak ref  :  __iar_errno_set
+              reference :  __lseek
+              reference :  fflush
+              definition:  _Fspos
+Selecting member dwrite.o(sh7Sxi_l.a) to define __dwrite.
+              reference :  __iar_sh_stdout
+              reference :  __iar_sh_write
+              definition:  __dwrite
+Selecting member fclose.o(dl7Sx_tlf.a) to define fclose.
+              reference :  _Fofree
+              reference :  __close
+              weak ref  :  __iar_Locksyslock_Stream
+              weak ref  :  __iar_Unlocksyslock_Stream
+              reference :  fflush
+              reference :  free
+              reference :  remove
+              definition:  fclose
+Selecting member xfgpos.o(dl7Sx_tlf.a) to define _Nnl.
+              weak ref  :  __iar_errno_set
+              reference :  __lseek
+              definition:  _Fgpos
+              definition:  _Nnl
+Selecting member lseek.o(sh7Sxi_l.a) to define __lseek.
+              reference :  __iar_semihosting
+              weak ref  :  __iar_sh_Move
+              reference :  __iar_sh_Pos
+              definition:  __lseek
+Selecting member iarwstd.o(sh7Sxi_l.a) to define __iar_sh_stdout.
+              reference :  __iar_get_ttio
+              reference :  __iar_semihosting
+              definition:  __iar_sh_stdout
+Selecting member iarwrite.o(sh7Sxi_l.a) to define __iar_sh_write.
+              reference :  __iar_semihosting
+              weak ref  :  __iar_sh_Move
+              definition:  __iar_sh_write
+Selecting member xfofind.o(dl7Sx_tlf.a) to define _Fofree.
+              reference :  _Files
+              reference :  free
+              reference :  malloc
+              definition:  _Fofind
+              definition:  _Fofree
+Selecting member close.o(sh7Sxi_l.a) to define __close.
+              reference :  __iar_semihosting
+              weak ref  :  __iar_sh_Discard
+              definition:  __close
+Selecting member remove.o(sh7Sxi_l.a) to define remove.
+              reference :  __iar_semihosting
+              reference :  strlen
+              definition:  remove
+Selecting member XShHandles.o(dl7Sx_tlf.a) to define __iar_sh_Pos.
+              definition:  __iar_sh_Discard
+              definition:  __iar_sh_Init
+              definition:  __iar_sh_Move
+              definition:  __iar_sh_Pos
+Selecting member iarttio.o(sh7Sxi_l.a) to define __iar_get_ttio.
+              reference :  __iar_lookup_ttioh
+              reference :  __iar_semihosting
+              definition:  __iar_close_ttio
+              definition:  __iar_get_ttio
+Selecting member XShttio.o(dl7Sx_tlf.a) to define __iar_lookup_ttioh.
+              definition:  __iar_lookup_ttioh
+Selecting member xprintffuller_nomb.o(dl7Sx_tlf.a) to define _PrintfFullerNoMb.
+              reference :  __aeabi_cdcmple
+              reference :  __aeabi_cdrcmple
+              reference :  __aeabi_d2iz
+              reference :  __aeabi_d2uiz
+              reference :  __aeabi_ddiv
+              reference :  __aeabi_dmul
+              reference :  __aeabi_dsub
+              reference :  __aeabi_i2d
+              reference :  __aeabi_idivmod
+              reference :  __aeabi_memcpy
+              reference :  __aeabi_ui2d
+              reference :  __aeabi_uldivmod
+              reference :  __iar_Fail_s
+              reference :  __iar_Mbcurmax
+              reference :  _gLocale_wctomb
+              reference :  frexp
+              reference :  localeconv
+              reference :  memchr
+              reference :  scalbn
+              reference :  strchr
+              reference :  strlen
+              definition:  _PrintfFullerNoMb
+Selecting member DblCmpLe.o(m7Sx_tlv.a) to define __aeabi_cdcmple.
+              definition:  __aeabi_cdcmple
+Selecting member DblCmpGe.o(m7Sx_tlv.a) to define __aeabi_cdrcmple.
+              definition:  __aeabi_cdrcmple
+Selecting member DblToS32.o(m7Sx_tlv.a) to define __aeabi_d2iz.
+              definition:  __aeabi_d2iz
+Selecting member DblToU32.o(m7Sx_tlv.a) to define __aeabi_d2uiz.
+              definition:  __aeabi_d2uiz
+Selecting member DblDiv.o(m7Sx_tlv.a) to define __aeabi_ddiv.
+              definition:  __aeabi_ddiv
+Selecting member DblMul.o(m7Sx_tlv.a) to define __aeabi_dmul.
+              definition:  __aeabi_dmul
+Selecting member DblSub.o(m7Sx_tlv.a) to define __aeabi_dsub.
+              definition:  __aeabi_dsub
+Selecting member S32ToDbl.o(m7Sx_tlv.a) to define __aeabi_i2d.
+              definition:  __aeabi_i2d
+Selecting member U32ToDbl.o(m7Sx_tlv.a) to define __aeabi_ui2d.
+              definition:  __aeabi_ui2d
+Selecting member xfail_s.o(dl7Sx_tlf.a) to define __iar_Fail_s.
+              weak ref  :  __iar_Locksyslock_Malloc
+              weak ref  :  __iar_Unlocksyslock_Malloc
+              reference :  abort
+              definition:  __iar_Fail_s
+              definition:  ignore_handler_s
+              definition:  set_constraint_handler_s
+Selecting member xmbcurmax.o(dl7Sx_tlf.a) to define __iar_Mbcurmax.
+              reference :  __iar_global_Locale
+              definition:  __iar_Mbcurmax
+Selecting member xlocale_c.o(dl7Sx_tlf.a) to define _gLocale_wctomb.
+              reference :  _Encoding_8859_1_Mbrlen
+              reference :  _Encoding_8859_1_Mbtowc
+              reference :  _Encoding_8859_1_Wctomb
+              reference :  _Encoding_8859_1_name
+              reference :  __iar_CStrxfrm
+              definition:  _LocaleC
+              definition:  _LocaleC_isalpha
+              definition:  _LocaleC_iscntrl
+              definition:  _LocaleC_islower
+              definition:  _LocaleC_ispunct
+              definition:  _LocaleC_isspace
+              definition:  _LocaleC_isupper
+              definition:  _LocaleC_tolower
+              definition:  _LocaleC_toupper
+              definition:  __iar_global_Locale
+              definition:  __iar_global_Profile
+              definition:  __iar_localeC_Tinfo
+              definition:  _gLocale_mblen
+              definition:  _gLocale_mblenInt
+              definition:  _gLocale_mbtowc
+              definition:  _gLocale_mbtowcInt
+              definition:  _gLocale_wctomb
+              definition:  _gLocale_wctombInt
+              definition:  localeconv
+Selecting member frexp.o(m7Sx_tlv.a) to define __iar_softfp_frexp.
+              definition:  frexp
+              definition:  __iar_frexp64
+              definition:  __iar_frexp
+              definition:  __iar_softfp_frexp
+              definition:  __iar_softfp___iar_frexp64
+              definition:  frexpl
+              definition:  __iar_softfp_frexpl
+              definition:  __iar_frexpl
+Selecting member memchr.o(rt7Sx_tl.a) to define memchr.
+              definition:  memchr
+              definition:  __iar_Memchr
+Selecting member ldexp.o(m7Sx_tlv.a) to define __iar_softfp_scalbn.
+              weak ref  :  __iar_errno_set_ERANGE
+              definition:  __iar_softfp_ldexp
+              definition:  __iar_softfp___iar_ldexp64
+              definition:  __iar_softfp_scalbn
+              definition:  __iar_softfp___iar_scalbn64
+              definition:  __iar_softfp_scalbln
+              definition:  __iar_softfp___iar_scalbln64
+              definition:  __iar_softfp_ldexpl
+              definition:  __iar_softfp_scalbnl
+              definition:  __iar_softfp_scalblnl
+              definition:  ldexp
+              definition:  __iar_ldexp64
+              definition:  scalbn
+              definition:  __iar_scalbn64
+              definition:  scalbln
+              definition:  __iar_scalbln64
+              definition:  ldexpl
+              definition:  scalbnl
+              definition:  scalblnl
+Selecting member strchr.o(rt7Sx_tl.a) to define strchr.
+              definition:  strchr
+              definition:  __iar_Strchr
+Selecting member xencoding_8859_1.o(dl7Sx_tlf.a) to define _Encoding_8859_1_Mbrlen.
+              definition:  _Encoding_8859_1_Mbrlen
+              definition:  _Encoding_8859_1_Mbtowc
+              definition:  _Encoding_8859_1_Wctomb
+              definition:  _Encoding_8859_1_name
+Selecting member xstrxfrm.o(dl7Sx_tlf.a) to define __iar_CStrxfrm.
+              definition:  __iar_CStrxfrm
+Selecting member data_init.o(rt7Sx_tl.a) to define __iar_data_init3 (optional).
+              definition:  __iar_data_init3
+              reference :  Region$$Table$$Base
+              reference :  Region$$Table$$Limit
+Selecting member zero_init3.o(rt7Sx_tl.a) to define __iar_zero_init3.
+              definition:  __iar_zero_init3
+Selecting member copy_init3.o(rt7Sx_tl.a) to define __iar_copy_init3.
+              definition:  __iar_copy_init3
+Selecting member rle_init_single.o(rt7Sx_tl.a) to define __iar_rle_init_single3.
+              definition:  __iar_rle_init_single3
+Selecting member rle_init.o(rt7Sx_tl.a) to define __iar_rle_init3.
+              reference :  abort
+              definition:  __iar_rle_init3
+Selecting member packbits_init_single.o(rt7Sx_tl.a) to define __iar_packbits_init_single3.
+              definition:  __iar_packbits_init_single3
+Selecting member packbits_init.o(rt7Sx_tl.a) to define __iar_packbits_init3.
+              reference :  abort
+              definition:  __iar_packbits_init3
+Selecting member lz77_init_single.o(rt7Sx_tl.a) to define __iar_lz77_init_single3.
+              definition:  __iar_lz77_init_single3
+Selecting member lz77_init.o(rt7Sx_tl.a) to define __iar_lz77_init3.
+              reference :  abort
+              definition:  __iar_lz77_init3
+Resolving duplicate symbol definitions
+  Picking __iar_cc.FDmaPs_protLevel.0xf2f06869 a0923b57 [s458 D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_sdmmc.o]
+    Suppressing __iar_cc.FDmaPs_protLevel.0xf2f06869 a0923b57 [s579 D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_dmac.o]
+  Picking __iar_cc._FGmacPs_DmaIrq_T.0xa0ac8705 b2e457e5 [s139 D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_gmac_lib.o]
+    Suppressing __iar_cc._FGmacPs_DmaIrq_T.0xa0ac8705 b2e457e5 [s214 D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_gmac_hw.o]
+  Picking __iar_cc.FMSH_compType.0x40784f90 385be9f1 [s60 D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_smc.o]
+    Suppressing __iar_cc.FMSH_compType.0x40784f90 385be9f1 [s573 D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_dmac.o]
+    Suppressing __iar_cc.FMSH_compType.0x40784f90 385be9f1 [s391 D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_i2c.o]
+    Suppressing __iar_cc.FMSH_compType.0x40784f90 385be9f1 [s86 D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_sdmmc.o]
+    Suppressing __iar_cc.FMSH_compType.0x40784f90 385be9f1 [s43 D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_sdmmc_protocol.o]
+  Picking __iar_cc.FDmaPs_channelNumber.0x7c6998c2 bad6ea23 [s452 D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_sdmmc.o]
+    Suppressing __iar_cc.FDmaPs_channelNumber.0x7c6998c2 bad6ea23 [s565 D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_dmac.o]
+  Picking __iar_cc.FDmaPs_hsInterface.0xb5f37170 a3d4ecd6 [s455 D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_sdmmc.o]
+    Suppressing __iar_cc.FDmaPs_hsInterface.0xb5f37170 a3d4ecd6 [s576 D:\FMQL\FSBL\src\fsbl-v1.0\SDK\fsbl_platform\Empty\Debug\Obj\fmsh_dmac.o]

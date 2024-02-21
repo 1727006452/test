@@ -1,0 +1,7 @@
+//arch = fmql; split = false; format = BIN
+the_ROM_image:
+{
+	[bootloader, destination_device = ps]D:/FMQL/FSBL/src/fsbl-v1.0/SDK/fsbl_platform/FreeRTOS/BOOT/FSBL.out
+	[destination_cpu = apu_0, destination_device = ps]D:/FMQL/FSBL/src/fsbl-v1.0/SDK/fsbl_platform/FreeRTOS/BOOT/FreeRTOS.out
+	[fsbl_config]apu_x32
+}

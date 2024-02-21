@@ -1,0 +1,9 @@
+2024-01-25 10:24:24 [Debug]: running thread:1
+ [Context]: ((null):0, (null))
+2024-01-25 10:24:27 [Debug]: running thread:-1
+ [Context]: ((null):0, (null))
+2024-01-25 10:24:27 [Debug]: running thread:1
+ [Context]: ((null):0, (null))
+2024-01-25 10:24:27 [Debug]: running thread:-1
+ [Context]: ((null):0, (null))
+2024-01-25 10:24:47 [Warning]: QWaitCondition: Destroyed while threads are still waiting [Context]:((null):0, (null))
