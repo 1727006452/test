@@ -1,10 +1,10 @@
 Procise 2022.1
 SVN Version : 26989
 Build  time : 2022/06/24 09:06:18
-Start  time : 2023-08-31 16:57:52
+Start  time : 2023-09-01 09:01:41
 >>set_device fmql20s400
-  set_device elapsed_time 2.29 seconds, cpu_time 2.34 seconds
-  set_device used memory 555MB, procise used peak memory 618MB, current used memory 498MB
+  set_device elapsed_time 2.38 seconds, cpu_time 2.33 seconds
+  set_device used memory 555MB, procise used peak memory 618MB, current used memory 493MB
 >>load_design -stage_elaborate -no_hier
   load block design D:/FMQL/FSBL/src/fsbl-v1.0/bd/fsbl/fsbl.bd
   load ip D:/FMQL/FSBL/src/fsbl-v1.0/bd/fsbl/ip/fsbl_processing_system7_0/fsbl_processing_system7_0.fmi
@@ -12,24 +12,5 @@ Start  time : 2023-08-31 16:57:52
   load_design elapsed_time 0.21 seconds, cpu_time 0.22 seconds
   load_design used memory 8MB, procise used peak memory 618MB, current used memory 500MB
 >>create_boot_image D:/FMQL/FSBL/src/fsbl-v1.0/SDK/fsbl_platform/FreeRTOS/BOOT/output.bif D:/FMQL/FSBL/src/fsbl-v1.0/SDK/fsbl_platform/FreeRTOS/BOOT/BOOT.bin
-  create_boot_image elapsed_time 0.01 seconds, cpu_time 0.03 seconds
-  create_boot_image used memory 3MB, procise used peak memory 861MB, current used memory 861MB
->>create_boot_image D:/FMQL/FSBL/src/fsbl-v1.0/SDK/fsbl_platform/FreeRTOS/BOOT/output.bif D:/FMQL/FSBL/src/fsbl-v1.0/SDK/fsbl_platform/FreeRTOS/BOOT/BOOT.bin
-  create_boot_image elapsed_time 0.01 seconds, cpu_time 0.03 seconds
-  create_boot_image used memory 2MB, procise used peak memory 864MB, current used memory 864MB
->>create_boot_image D:/FMQL/FSBL/src/fsbl-v1.0/SDK/fsbl_platform/FreeRTOS/BOOT/output.bif D:/FMQL/FSBL/src/fsbl-v1.0/SDK/fsbl_platform/FreeRTOS/BOOT/BOOT.bin
-  create_boot_image used memory 2MB, procise used peak memory 866MB, current used memory 866MB
->>create_boot_image C:/Users/Administrator/Desktop/RTOS-demos/led_flash/project/SDK/fsbl_platform/FreeRTOS/BOOT/output.bif C:/Users/Administrator/Desktop/RTOS-demos/led_flash/project/SDK/fsbl_platform/FreeRTOS/BOOT/BOOT.bin
   create_boot_image elapsed_time 0.01 seconds, cpu_time 0.02 seconds
-  create_boot_image used memory 3MB, procise used peak memory 870MB, current used memory 870MB
->>create_boot_image C:/Users/Administrator/Desktop/RTOS-demos/led_flash/project/SDK/fsbl_platform/FreeRTOS/BOOT/output.bif C:/Users/Administrator/Desktop/RTOS-demos/led_flash/project/SDK/fsbl_platform/FreeRTOS/BOOT/BOOT.bin
-  create_boot_image elapsed_time 0.01 seconds, cpu_time 0.03 seconds
-  create_boot_image used memory 3MB, procise used peak memory 872MB, current used memory 872MB
->>create_boot_image C:/Users/Administrator/Desktop/RTOS-demos/led_flash/project/SDK/fsbl_platform/FreeRTOS/BOOT/output.bif C:/Users/Administrator/Desktop/RTOS-demos/led_flash/project/SDK/fsbl_platform/FreeRTOS/BOOT/BOOT.bin
-  create_boot_image elapsed_time 0.01 seconds, cpu_time 0.00 seconds
-  create_boot_image used memory 0MB, procise used peak memory 872MB, current used memory 871MB
->>create_boot_image C:/Users/Administrator/Desktop/RTOS-demos/led_flash/project/SDK/fsbl_platform/FreeRTOS/BOOT/output.bif C:/Users/Administrator/Desktop/RTOS-demos/led_flash/project/SDK/fsbl_platform/FreeRTOS/BOOT/BOOT.bin
-  create_boot_image elapsed_time 0.01 seconds, cpu_time 0.00 seconds
-  create_boot_image used memory 3MB, procise used peak memory 876MB, current used memory 876MB
->>create_boot_image C:/Users/Administrator/Desktop/RTOS-demos/led_flash/project/SDK/fsbl_platform/FreeRTOS/BOOT/output.bif C:/Users/Administrator/Desktop/RTOS-demos/led_flash/project/SDK/fsbl_platform/FreeRTOS/BOOT/BOOT.bin
-  create_boot_image used memory 0MB, procise used peak memory 876MB, current used memory 875MB
+  create_boot_image used memory 0MB, procise used peak memory 861MB, current used memory 859MB

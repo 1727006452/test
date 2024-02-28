@@ -1,61 +1,13 @@
 Procise 2022.1
 SVN Version : 26989
 Build  time : 2022/06/24 09:06:18
-Start  time : 2022-08-29 18:15:42
+Start  time : 2022-12-02 14:40:42
 >>set_device fmql45t900
-  set_device elapsed_time 5.39 seconds, cpu_time 5.52 seconds
-  set_device used memory 890MB, procise used peak memory 956MB, current used memory 691MB
+  set_device elapsed_time 5.31 seconds, cpu_time 5.36 seconds
+  set_device used memory 889MB, procise used peak memory 974MB, current used memory 725MB
 >>load_design -stage_elaborate -no_hier
-  load block design E:/workspace/zynq/7045M/svn/7045MRS/4-Software/linux-system/fsbl/src/fsbl-v1.1/fsbl/bd/fsbl/fsbl.bd
-  load ip E:/workspace/zynq/7045M/svn/7045MRS/4-Software/linux-system/fsbl/src/fsbl-v1.1/fsbl/bd/fsbl/ip/fsbl_processing_system7_0/fsbl_processing_system7_0.fmi
-  -- Analyzing Verilog file 'E:/workspace/zynq/7045M/svn/7045MRS/4-Software/linux-system/fsbl/src/fsbl-v1.1/fsbl/bd/fsbl/hdl/fsbl.v' (VERI-1482)
-  load_design elapsed_time 0.29 seconds, cpu_time 0.31 seconds
-  load_design used memory 8MB, procise used peak memory 956MB, current used memory 711MB
-Begin to run IP fsbl_processing_system7_0 coregen
-Coregen finished
-WARNING: The following pins are not connected!
-/fsbl/processing_system7_0/PJTAG_TD_T
-/fsbl/processing_system7_0/TTC0_WAVE0_OUT
-/fsbl/processing_system7_0/TTC0_WAVE1_OUT
-/fsbl/processing_system7_0/TTC0_WAVE2_OUT
-/fsbl/processing_system7_0/TTC1_WAVE0_OUT
-....
-
-Block Design generate files successfully.
-"E:/workspace/zynq/7045M/svn/7045MRS/4-Software/linux-system/fsbl/src/fsbl-v1.1/fsbl/bd/fsbl/hdl/fsbl.v" is already in project.
->>load_design -stage_elaborate -no_hier
-  load block design E:/workspace/zynq/7045M/svn/7045MRS/4-Software/linux-system/fsbl/src/fsbl-v1.1/fsbl/bd/fsbl/fsbl.bd
-  load ip E:/workspace/zynq/7045M/svn/7045MRS/4-Software/linux-system/fsbl/src/fsbl-v1.1/fsbl/bd/fsbl/ip/fsbl_processing_system7_0/fsbl_processing_system7_0.fmi
-  -- Analyzing Verilog file 'E:/workspace/zynq/7045M/svn/7045MRS/4-Software/linux-system/fsbl/src/fsbl-v1.1/fsbl/bd/fsbl/hdl/fsbl.v' (VERI-1482)
-  load_design elapsed_time 0.28 seconds, cpu_time 0.31 seconds
-  load_design used memory 0MB, procise used peak memory 1179MB, current used memory 1163MB
-generate IAR example designes successfully.
->>>Launching IAR...
->>create_boot_image ./output.bif ./BOOT.bin
-  create_boot_image elapsed_time 0.10 seconds, cpu_time 0.08 seconds
-  create_boot_image used memory 0MB, procise used peak memory 1229MB, current used memory 1223MB
->>>IAR closed.
-Begin to run IP fsbl_processing_system7_0 coregen
-Coregen finished
-WARNING: The following pins are not connected!
-/fsbl/processing_system7_0/PJTAG_TD_T
-/fsbl/processing_system7_0/TTC0_WAVE0_OUT
-/fsbl/processing_system7_0/TTC0_WAVE1_OUT
-/fsbl/processing_system7_0/TTC0_WAVE2_OUT
-/fsbl/processing_system7_0/TTC1_WAVE0_OUT
-....
-
-Block Design generate files successfully.
-"E:/workspace/zynq/7045M/svn/7045MRS/4-Software/linux-system/fsbl/src/fsbl-v1.1/fsbl/bd/fsbl/hdl/fsbl.v" is already in project.
->>load_design -stage_elaborate -no_hier
-  load block design E:/workspace/zynq/7045M/svn/7045MRS/4-Software/linux-system/fsbl/src/fsbl-v1.1/fsbl/bd/fsbl/fsbl.bd
-  load ip E:/workspace/zynq/7045M/svn/7045MRS/4-Software/linux-system/fsbl/src/fsbl-v1.1/fsbl/bd/fsbl/ip/fsbl_processing_system7_0/fsbl_processing_system7_0.fmi
-  -- Analyzing Verilog file 'E:/workspace/zynq/7045M/svn/7045MRS/4-Software/linux-system/fsbl/src/fsbl-v1.1/fsbl/bd/fsbl/hdl/fsbl.v' (VERI-1482)
-  load_design elapsed_time 0.28 seconds, cpu_time 0.30 seconds
-  load_design used memory 0MB, procise used peak memory 1233MB, current used memory 1203MB
-generate IAR example designes successfully.
->>>Launching IAR...
->>>IAR closed.
->>create_boot_image E:/workspace/zynq/7045M/svn/7045MRS/4-Software/linux-system/fsbl/src/fsbl-v1.1/fsbl/output.bif E:/workspace/zynq/7045M/svn/7045MRS/4-Software/linux-system/fsbl/src/fsbl-v1.1/fsbl/BOOT.bin
-  create_boot_image elapsed_time 0.07 seconds, cpu_time 0.09 seconds
-  create_boot_image used memory 1MB, procise used peak memory 1254MB, current used memory 1235MB
+  load block design C:/Users/Administrator/Desktop/MY7020/fsbl_7045/fsbl/bd/fsbl/fsbl.bd
+  load ip C:/Users/Administrator/Desktop/MY7020/fsbl_7045/fsbl/bd/fsbl/ip/fsbl_processing_system7_0/fsbl_processing_system7_0.fmi
+  -- Analyzing Verilog file 'C:/Users/Administrator/Desktop/MY7020/fsbl_7045/fsbl/bd/fsbl/hdl/fsbl.v' (VERI-1482)
+  load_design elapsed_time 0.26 seconds, cpu_time 0.27 seconds
+  load_design used memory 8MB, procise used peak memory 974MB, current used memory 733MB

@@ -28,6 +28,8 @@ C:\Users\Administrator\Desktop\amp_freertos_test\fsbl-v1.0\SDK\fsbl_platform\Fre
 -I
 C:\Users\Administrator\Desktop\amp_freertos_test\fsbl-v1.0\SDK\fsbl_platform\FreeRTOS\..\FM_QL_bsp\libsrc\uartps_v1_0
 -I
+C:\Users\Administrator\Desktop\amp_freertos_test\fsbl-v1.0\SDK\fsbl_platform\FreeRTOS\..\FM_QL_bsp\libsrc\dmaps_v1_0
+-I
 D:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\arm\inc
 -I
 D:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\arm\inc\c
@@ -57,6 +59,8 @@ C:\Users\Administrator\Desktop\amp_freertos_test\fsbl-v1.0\SDK\fsbl_platform\FM_
 C:\Users\Administrator\Desktop\amp_freertos_test\fsbl-v1.0\SDK\fsbl_platform\FM_QL_bsp\libsrc\ttcps_v1_0
 -I
 C:\Users\Administrator\Desktop\amp_freertos_test\fsbl-v1.0\SDK\fsbl_platform\FM_QL_bsp\libsrc\uartps_v1_0
+-I
+C:\Users\Administrator\Desktop\amp_freertos_test\fsbl-v1.0\SDK\fsbl_platform\FM_QL_bsp\libsrc\dmaps_v1_0
 -D__CHAR_BITS__=8
 -D__CHAR_MAX__=0xff
 -D__CHAR_MIN__=0

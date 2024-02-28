@@ -1,13 +1,13 @@
 Procise 2022.1
 SVN Version : 26989
 Build  time : 2022/06/24 09:06:18
-Start  time : 2024-01-25 10:24:24
+Start  time : 2024-02-22 08:35:53
 >>set_device fmql20s400
-  set_device elapsed_time 2.48 seconds, cpu_time 2.47 seconds
-  set_device used memory 558MB, procise used peak memory 636MB, current used memory 516MB
+  set_device elapsed_time 2.48 seconds, cpu_time 2.45 seconds
+  set_device used memory 557MB, procise used peak memory 635MB, current used memory 511MB
 >>load_design -stage_elaborate -no_hier
   load block design C:/Users/Administrator/Desktop/amp_freertos_test/fsbl-v1.0/bd/fsbl/fsbl.bd
   load ip C:/Users/Administrator/Desktop/amp_freertos_test/fsbl-v1.0/bd/fsbl/ip/fsbl_processing_system7_0/fsbl_processing_system7_0.fmi
   -- Analyzing Verilog file 'C:/Users/Administrator/Desktop/amp_freertos_test/fsbl-v1.0/bd/fsbl/hdl/fsbl.v' (VERI-1482)
-  load_design elapsed_time 0.22 seconds, cpu_time 0.22 seconds
-  load_design used memory 7MB, procise used peak memory 636MB, current used memory 518MB
+  load_design elapsed_time 0.21 seconds, cpu_time 0.23 seconds
+  load_design used memory 7MB, procise used peak memory 635MB, current used memory 517MB

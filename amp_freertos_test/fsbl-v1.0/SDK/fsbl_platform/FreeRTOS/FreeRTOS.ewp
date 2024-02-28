@@ -2110,6 +2110,39 @@
                 </file>
             </group>
             <group>
+                <name>ddr3ps_v1_0</name>
+                <file>
+                    <name>$PROJ_DIR$\..\FM_QL_bsp\libsrc\ddr3ps_v1_0\fmsh_testmem.c</name>
+                </file>
+                <file>
+                    <name>$PROJ_DIR$\..\FM_QL_bsp\libsrc\ddr3ps_v1_0\fmsh_testmem.h</name>
+                </file>
+            </group>
+            <group>
+                <name>dmaps_v1_0</name>
+                <file>
+                    <name>$PROJ_DIR$\..\FM_QL_bsp\libsrc\dmaps_v1_0\fmsh_dmac.c</name>
+                </file>
+                <file>
+                    <name>$PROJ_DIR$\..\FM_QL_bsp\libsrc\dmaps_v1_0\fmsh_dmac.h</name>
+                </file>
+                <file>
+                    <name>$PROJ_DIR$\..\FM_QL_bsp\libsrc\dmaps_v1_0\fmsh_dmac_g.c</name>
+                </file>
+                <file>
+                    <name>$PROJ_DIR$\..\FM_QL_bsp\libsrc\dmaps_v1_0\fmsh_dmac_hw.h</name>
+                </file>
+                <file>
+                    <name>$PROJ_DIR$\..\FM_QL_bsp\libsrc\dmaps_v1_0\fmsh_dmac_lib.h</name>
+                </file>
+                <file>
+                    <name>$PROJ_DIR$\..\FM_QL_bsp\libsrc\dmaps_v1_0\fmsh_dmac_private.h</name>
+                </file>
+                <file>
+                    <name>$PROJ_DIR$\..\FM_QL_bsp\libsrc\dmaps_v1_0\fmsh_dmac_sinit.c</name>
+                </file>
+            </group>
+            <group>
                 <name>gicps_v1_0</name>
                 <file>
                     <name>$PROJ_DIR$\..\FM_QL_bsp\libsrc\gicps_v1_0\fmsh_gic.c</name>
@@ -2273,12 +2306,6 @@
             <name>$PROJ_DIR$\Demo\RTOSDemo\fmsh_print.h</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\Demo\RTOSDemo\fmsh_uart_example.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\Demo\RTOSDemo\fmsh_uart_example.h</name>
-        </file>
-        <file>
             <name>$PROJ_DIR$\Demo\RTOSDemo\FreeRTOS_asm_vectors.S</name>
         </file>
         <file>
@@ -2291,13 +2318,16 @@
             <name>$PROJ_DIR$\Demo\RTOSDemo\main.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\Demo\RTOSDemo\main_blinky.c</name>
-        </file>
-        <file>
             <name>$PROJ_DIR$\Demo\RTOSDemo\ParTest.c</name>
         </file>
         <file>
             <name>$PROJ_DIR$\Demo\RTOSDemo\platform.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Demo\RTOSDemo\platform.h</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Demo\RTOSDemo\platform_config.h</name>
         </file>
     </group>
 </project>

@@ -1,33 +1,16 @@
 Procise 2022.1
 SVN Version : 26989
 Build  time : 2022/06/24 09:06:18
-Start  time : 2023-09-01 09:20:47
+Start  time : 2023-09-14 08:54:09
 >>set_device fmql20s400
-  set_device elapsed_time 2.28 seconds, cpu_time 2.33 seconds
-  set_device used memory 555MB, procise used peak memory 618MB, current used memory 493MB
+  set_device elapsed_time 2.44 seconds, cpu_time 2.41 seconds
+  set_device used memory 554MB, procise used peak memory 618MB, current used memory 486MB
 >>load_design -stage_elaborate -no_hier
-  load block design D:/FMQL/FSBL/src/fsbl-v1.0/bd/fsbl/fsbl.bd
-  load ip D:/FMQL/FSBL/src/fsbl-v1.0/bd/fsbl/ip/fsbl_processing_system7_0/fsbl_processing_system7_0.fmi
-  -- Analyzing Verilog file 'D:/FMQL/FSBL/src/fsbl-v1.0/bd/fsbl/hdl/fsbl.v' (VERI-1482)
-  load_design elapsed_time 0.21 seconds, cpu_time 0.22 seconds
-  load_design used memory 8MB, procise used peak memory 618MB, current used memory 492MB
->>create_boot_image D:/FMQL/FSBL/src/fsbl-v1.0/SDK/fsbl_platform/FreeRTOS/BOOT/output.bif D:/FMQL/FSBL/src/fsbl-v1.0/SDK/fsbl_platform/FreeRTOS/BOOT/BOOT.bin
-  create_boot_image elapsed_time 0.01 seconds, cpu_time 0.03 seconds
-  create_boot_image used memory 0MB, procise used peak memory 861MB, current used memory 859MB
+  load block design C:/Users/Administrator/Desktop/amp_freertos_test/fsbl-v1.0/bd/fsbl/fsbl.bd
+  load ip C:/Users/Administrator/Desktop/amp_freertos_test/fsbl-v1.0/bd/fsbl/ip/fsbl_processing_system7_0/fsbl_processing_system7_0.fmi
+  -- Analyzing Verilog file 'C:/Users/Administrator/Desktop/amp_freertos_test/fsbl-v1.0/bd/fsbl/hdl/fsbl.v' (VERI-1482)
+  load_design elapsed_time 0.21 seconds, cpu_time 0.23 seconds
+  load_design used memory 7MB, procise used peak memory 618MB, current used memory 500MB
 generate IAR example designes successfully.
 >>>Launching IAR...
 >>>IAR closed.
-generate IAR example designes successfully.
->>>Launching IAR...
->>create_boot_image D:/FMQL/FSBL/src/fsbl-v1.0/SDK/fsbl_platform/FreeRTOS/BOOT/outout.bif D:/FMQL/FSBL/src/fsbl-v1.0/SDK/fsbl_platform/FreeRTOS/BOOT/BOOT.bin
-  create_boot_image elapsed_time 0.01 seconds, cpu_time 0.03 seconds
-  create_boot_image used memory 0MB, procise used peak memory 931MB, current used memory 929MB
->>>IAR closed.
->>create_boot_image D:/FMQL/FSBL/src/fsbl-v1.0/SDK/fsbl_platform/FreeRTOS/BOOT/output.bif D:/FMQL/FSBL/src/fsbl-v1.0/SDK/fsbl_platform/FreeRTOS/BOOT/BOOT.bin
-  create_boot_image used memory 0MB, procise used peak memory 931MB, current used memory 883MB
->>create_boot_image D:/FMQL/FSBL/src/fsbl-v1.0/SDK/fsbl_platform/FreeRTOS/BOOT/output.bif D:/FMQL/FSBL/src/fsbl-v1.0/SDK/fsbl_platform/FreeRTOS/BOOT/BOOT.bin
-  create_boot_image elapsed_time 0.01 seconds, cpu_time 0.03 seconds
-  create_boot_image used memory 0MB, procise used peak memory 931MB, current used memory 884MB
->>create_boot_image D:/FMQL/FSBL/src/fsbl-v1.0/SDK/fsbl_platform/FreeRTOS/BOOT/output.bif D:/FMQL/FSBL/src/fsbl-v1.0/SDK/fsbl_platform/FreeRTOS/BOOT/BOOT.bin
-  create_boot_image elapsed_time 0.01 seconds, cpu_time 0.00 seconds
-  create_boot_image used memory 0MB, procise used peak memory 931MB, current used memory 886MB

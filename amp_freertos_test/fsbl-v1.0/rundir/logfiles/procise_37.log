@@ -1,0 +1,53 @@
+Procise 2022.1
+SVN Version : 26989
+Build  time : 2022/06/24 09:06:18
+Start  time : 2022-08-03 11:29:39
+>>set_device fmql45t900
+  set_device elapsed_time 5.38 seconds, cpu_time 5.42 seconds
+  set_device used memory 886MB, procise used peak memory 992MB, current used memory 734MB
+Block Design Name fsbl
+add_design_file -file E:/workspace/zynq/7045M/work/procise_project/procese_2022/fsbl/bd/fsbl/fsbl.bd 
+There is no avaible top module in current design!
+>>load_design -stage_elaborate -no_hier
+  load block design E:/workspace/zynq/7045M/work/procise_project/procese_2022/fsbl/bd/fsbl/fsbl.bd
+  There is no avaible top module in current design!
+  load_design used memory 0MB, procise used peak memory 1105MB, current used memory 1104MB
+Begin to run IP fsbl_processing_system7_0 coregen
+Coregen finished
+ERROR:Coregen failed, please refer E:\workspace\zynq\7045M\work\procise_project\procese_2022\fsbl\bd\fsbl\ip\fsbl_processing_system7_0\fsbl_processing_system7_0.log to fix coregen error
+ERROR:Generate IP core failure !
+WARNING: The following pins are not connected!
+/fsbl/processing_system7_0/PJTAG_TD_T
+/fsbl/processing_system7_0/TTC0_WAVE0_OUT
+/fsbl/processing_system7_0/TTC0_WAVE1_OUT
+/fsbl/processing_system7_0/TTC0_WAVE2_OUT
+/fsbl/processing_system7_0/TTC1_WAVE0_OUT
+....
+
+ERROR:Block Design Dump file failed !
+ERROR:Block Design generate files failed.
+There is no avaible top module in current design!
+>>load_design -stage_elaborate -no_hier
+  load block design E:/workspace/zynq/7045M/work/procise_project/procese_2022/fsbl/bd/fsbl/fsbl.bd
+  load ip E:/workspace/zynq/7045M/work/procise_project/procese_2022/fsbl/bd/fsbl/ip/fsbl_processing_system7_0/fsbl_processing_system7_0.fmi
+  There is no avaible top module in current design!
+  load_design used memory 0MB, procise used peak memory 1209MB, current used memory 1209MB
+Begin to run IP fsbl_processing_system7_0 coregen
+Coregen finished
+WARNING: The following pins are not connected!
+/fsbl/processing_system7_0/PJTAG_TD_T
+/fsbl/processing_system7_0/TTC0_WAVE0_OUT
+/fsbl/processing_system7_0/TTC0_WAVE1_OUT
+/fsbl/processing_system7_0/TTC0_WAVE2_OUT
+/fsbl/processing_system7_0/TTC1_WAVE0_OUT
+....
+
+Block Design generate files successfully.
+>>load_design -stage_elaborate -no_hier
+  load block design E:/workspace/zynq/7045M/work/procise_project/procese_2022/fsbl/bd/fsbl/fsbl.bd
+  load ip E:/workspace/zynq/7045M/work/procise_project/procese_2022/fsbl/bd/fsbl/ip/fsbl_processing_system7_0/fsbl_processing_system7_0.fmi
+  -- Analyzing Verilog file 'E:/workspace/zynq/7045M/work/procise_project/procese_2022/fsbl/bd/fsbl/hdl/fsbl.v' (VERI-1482)
+  load_design elapsed_time 0.27 seconds, cpu_time 0.28 seconds
+  load_design used memory 1MB, procise used peak memory 1220MB, current used memory 1220MB
+generate IAR example designes successfully.
+>>>Launching IAR...
